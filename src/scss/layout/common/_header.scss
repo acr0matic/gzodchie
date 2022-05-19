@@ -3,9 +3,48 @@
 // -----------------------------------------------------------------------------
 
 #header {
-
+  padding: 25px 0;
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
+  &--inverted {
+    .logo path {
+      fill: $palette-white;
+    }
+
+    .nav__link {
+      color: $color-text__white;
+    }
+  }
+
+  &__logo {
+    @include breakpoint($breakpoint-laptop--medium) {
+      width: 80px;
+    }
+
+    width: 290px;
+
+    .logo {
+      @include first-child {
+        @include breakpoint($breakpoint-laptop--medium) {
+          display: none;
+        }
+      }
+
+      @include last-child {
+        @include breakpoint($breakpoint-laptop--medium) {
+          display: block;
+        }
+
+        display: none;
+      }
+    }
+  }
+
+  &__nav {
+  }
 }

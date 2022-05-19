@@ -3,12 +3,28 @@
 // -----------------------------------------------------------------------------
 
 .nav {
+  &--header {
+    align-items: center;
+
+    .nav__item {
+      &:not(:last-child) {
+        margin-right: 30px;
+      }
+    }
+
+    .nav__link {
+      font-weight: $weight-Bold;
+    }
+  }
+
   &__list {
+    display: flex;
   }
 
   &__item {
   }
 
   &__link {
+    padding: 5px 0;
   }
 }

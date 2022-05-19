@@ -3,6 +3,11 @@
 
   @media (hover: hover) {
     &:hover {
+      color: $color-text__blue !important;
     }
+  }
+
+  &--bold {
+    font-weight: $weight-Bold;
   }
 }
