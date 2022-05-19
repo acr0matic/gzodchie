@@ -4,7 +4,9 @@
 
 .nav {
   &--header {
-    align-items: center;
+    .nav__list {
+      align-items: center;
+    }
 
     .nav__item {
       &:not(:last-child) {
@@ -14,6 +16,23 @@
 
     .nav__link {
       font-weight: $weight-Bold;
+    }
+  }
+
+  &--footer {
+    .nav__list {
+      flex-direction: column;
+    }
+
+    .nav__item {
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+
+    .nav__link {
+      color: $palette-white;
+      font-size: $font-size__text--large;
     }
   }
 

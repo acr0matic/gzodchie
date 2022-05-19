@@ -3,9 +3,88 @@
 // -----------------------------------------------------------------------------
 
 #footer {
+  padding: 50px 0 40px;
 
+  background-color: $palette-black;
+  color: $color-text__white;
 }
 
 .footer {
+  .link {
+    color: $color-text__white;
+  }
 
+  &__company {
+  }
+
+  &__logo {
+    width: 140px;
+    margin-bottom: 30px;
+  }
+
+  &__legal {
+
+  }
+
+  &__about {
+    font-size: $font-size__text--regular;
+
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+
+    span {
+    }
+
+    div {
+      font-family: Namu, sans-serif;
+    }
+  }
+
+  &__contact {
+    display: flex;
+    flex-direction: column;
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+
+    span {
+      font-size: $font-size__text--regular;
+    }
+
+    .link {
+      font-size: $font-size__text--huge;
+      font-family: Namu, sans-serif;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    height: 100%;
+
+    text-align: right;
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    margin-right: 8px;
+  }
+
+  &__privacy {
+    margin-top: auto;
+
+    font-size: $font-size__text--regular;
+
+    .link {
+      color: $color-text__gray;
+    }
+  }
 }
