@@ -23,7 +23,6 @@
   }
 
   &__legal {
-
   }
 
   &__about {
@@ -37,6 +36,7 @@
     }
 
     div {
+      font-weight: $weight-ExtraBold;
       font-family: Namu, sans-serif;
     }
   }
@@ -54,6 +54,7 @@
     }
 
     .link {
+      font-weight: $weight-ExtraBold;
       font-size: $font-size__text--huge;
       font-family: Namu, sans-serif;
     }
