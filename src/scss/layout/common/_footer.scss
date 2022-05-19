@@ -31,14 +31,6 @@
     &:not(:last-child) {
       margin-bottom: 20px;
     }
-
-    span {
-    }
-
-    div {
-      font-weight: $weight-ExtraBold;
-      font-family: Namu, sans-serif;
-    }
   }
 
   &__contact {
@@ -54,9 +46,7 @@
     }
 
     .link {
-      font-weight: $weight-ExtraBold;
       font-size: $font-size__text--huge;
-      font-family: Namu, sans-serif;
     }
   }
 
