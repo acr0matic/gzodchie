@@ -1,0 +1,11 @@
+.lazy {
+  transition: $transition ease;
+}
+
+.loading {
+  opacity: 0;
+}
+
+.loaded {
+  visibility: visible !important;
+}
