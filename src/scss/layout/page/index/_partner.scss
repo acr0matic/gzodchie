@@ -1,0 +1,23 @@
+// -----------------------------------------------------------------------------
+// Фрагмент стилизации какой-то секции
+// -----------------------------------------------------------------------------
+
+section#partner {
+  .section__header {
+    margin-bottom: 50px;
+  }
+}
+
+.partner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__picture {
+    width: 320px;
+
+    &:not(:last-child) {
+      margin-right: 65px;
+    }
+  }
+}
