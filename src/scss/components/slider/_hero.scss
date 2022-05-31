@@ -1,0 +1,11 @@
+.swiper__hero {
+  .swiper-pagination {
+    @include breakpoint(max-height 670px) {
+      bottom: 16px;
+    }
+
+    position: absolute;
+    bottom: 48px;
+    left: 0;
+  }
+}

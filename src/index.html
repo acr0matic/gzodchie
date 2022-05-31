@@ -61,7 +61,7 @@
   <!-- Шапка -->
   <header id="header">
     <div class="container">
-      <div class="header">
+      <div class="header header--inverted">
         <div class="header__logo">
           <a href="">
             <svg class="svg logo" width="100%" height="100%" viewBox="0 0 290 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -172,6 +172,126 @@
 
   <!-- Основной контент -->
   <main id="home">
+    <section id="hero" class="section">
+      <div class="hero">
+        <div class="swiper swiper__hero hero__slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="hero__item">
+                <div class="hero__content">
+                  <div class="container">
+                    <h2 class="section__title hero__subtitle">Общественные пространства</h2>
+                    <h1 class="section__title hero__title">
+                      Создание проектов
+                      <br>
+                      благоустройства
+                      <br>
+                      городской среды
+                    </h1>
+                  </div>
+                  <!-- /.container -->
+                </div>
+                <!-- /.hero__content -->
+
+                <picture class="hero__background lazy">
+                  <img class="hero__image image image--cover lazy__item lazy__item--blur" data-src="img/layout/page/index/hero/1.jpg" src="img/layout/page/index/hero/thumb/1.jpg" alt="">
+                </picture>
+              </div>
+              <!-- /.hero__item -->
+            </div>
+            <!-- /.swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="hero__item">
+                <div class="hero__content">
+                  <div class="container">
+                    <h2 class="section__title hero__subtitle">Доступное жилье</h2>
+                    <h1 class="section__title hero__title">
+                      Решения для создания
+                      <br>
+                      качественного и
+                      <br>
+                      доступного жилья
+                    </h1>
+                  </div>
+                  <!-- /.container -->
+                </div>
+                <!-- /.hero__content -->
+
+                <picture class="hero__background lazy">
+                  <img class="hero__image image image--cover lazy__item lazy__item--blur" data-src="img/layout/page/index/hero/2.jpg" src="img/layout/page/index/hero/thumb/2.jpg" alt="">
+                </picture>
+              </div>
+              <!-- /.hero__item -->
+            </div>
+            <!-- /.swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="hero__item">
+                <div class="hero__content">
+                  <div class="container">
+                    <h2 class="section__title hero__subtitle">Инфраструктура и городской консалтинг</h2>
+                    <h1 class="section__title hero__title">
+                      Повышение
+                      <br>
+                      эффективности городских
+                      <br>
+                      систем и качества
+                      <br>
+                      городских сервисов
+                    </h1>
+                  </div>
+                  <!-- /.container -->
+                </div>
+                <!-- /.hero__content -->
+
+                <picture class="hero__background lazy">
+                  <img class="hero__image image image--cover lazy__item lazy__item--blur" data-src="img/layout/page/index/hero/3.jpg" src="img/layout/page/index/hero/thumb/3.jpg" alt="">
+                </picture>
+              </div>
+              <!-- /.hero__item -->
+            </div>
+            <!-- /.swiper-slide -->
+
+            <div class="swiper-slide">
+              <div class="hero__item">
+                <div class="hero__content">
+                  <div class="container">
+                    <h2 class="section__title hero__subtitle">Туризм, культура и креативные индустрии</h2>
+                    <h1 class="section__title hero__title">
+                      Повышение
+                      <br>
+                      привлекательности
+                      <br>
+                      городов для российских и
+                      <br>
+                      иностранных туристов
+                    </h1>
+                  </div>
+                  <!-- /.container -->
+                </div>
+                <!-- /.hero__content -->
+
+                <picture class="hero__background lazy">
+                  <img class="hero__image image image--cover lazy__item lazy__item--blur" data-src="img/layout/page/index/hero/4.jpg" src="img/layout/page/index/hero/thumb/4.jpg" alt="">
+                </picture>
+              </div>
+              <!-- /.hero__item -->
+            </div>
+            <!-- /.swiper-slide -->
+          </div>
+          <!-- /.swiper-wrapper -->
+
+          <div class="container position-relative">
+            <div class="swiper-pagination"></div>
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- /.swiper hero__slider -->
+      </div>
+      <!-- /.hero -->
+    </section>
+
     <section id="about" class="section">
       <div class="container">
         <div class="about">
@@ -638,8 +758,10 @@
   <script src="scripts/libraries/lazyload.js"></script>
   <script src="scripts/libraries/lodash.js"></script>
   <script src="scripts/libraries/countUp.min.js"></script>
+  <script src="scripts/libraries/swiper-bundle.min.js"></script>
 
   <script src="scripts/init.js"></script>
+  <script src="scripts/hero.js"></script>
   <!-- endbuild -->
 </body>
 
