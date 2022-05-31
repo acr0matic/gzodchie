@@ -1,0 +1,19 @@
+section#about {
+  padding-top: 72px;
+  padding-bottom: 78px;
+}
+
+.about {
+  &__title {
+    font-weight: $weight-SemiBold;
+    font-size: $font-size__display--small;
+
+    line-height: $line-height--secondary;
+  }
+
+  &__text {
+    &--big {
+      font-size: $font-size__text--huge + 4px;
+    }
+  }
+}

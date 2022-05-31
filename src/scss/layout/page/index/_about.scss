@@ -1,0 +1,33 @@
+main#home section#about {
+  @include breakpoint($breakpoint-laptop--medium) {
+    padding: 144px 0;
+  }
+
+  position: relative;
+  background-color: $palette-white--pale;
+
+  &::before,
+  &::after {
+    position: absolute;
+  }
+
+  &::before {
+    @include breakpoint($breakpoint-laptop--medium) {
+      left: 16px;
+    }
+
+    content: url("../img/layout/page/about/left-bottom.svg");
+    bottom: 32px;
+    left: 32px;
+  }
+
+  &::after {
+    @include breakpoint($breakpoint-laptop--medium) {
+      right: 16px;
+    }
+
+    content: url("../img/layout/page/about/right-top.svg");
+    top: 32px;
+    right: 32px;
+  }
+}
