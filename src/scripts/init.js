@@ -8,3 +8,18 @@ const lazyLoadInstance = new LazyLoad({
     if (loader) loader.classList.add('preloader--hide');
   },
 });
+
+const digit = document.querySelectorAll('.digit .digit__number');
+_.forEach(digit, (item) => {
+  const value = item.dataset.value;
+  const suffix = item.dataset.suffix || '';
+  const decimal = item.dataset.decimal || 0;
+
+  const options = {
+    decimalPlaces: decimal,
+    separator: ' ',
+    suffix: suffix,
+  };
+
+  new countUp.CountUp(item, value, options).start();
+})

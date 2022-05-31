@@ -1,0 +1,7 @@
+section#work {
+  @include breakpoint($breakpoint-laptop--medium) {
+    padding-bottom: 208px;
+  }
+
+  padding-bottom: 168px;
+}

@@ -1,0 +1,17 @@
+.digit {
+  &__number {
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: $font-size__display--medium;
+    }
+
+    margin-bottom: 12px;
+
+    font-weight: $weight-SemiBold;
+    font-size: $font-size__display--large;
+    font-family: Namu, sans-serif;
+  }
+
+  &__text {
+    font-size: $font-size__text--large;
+  }
+}
