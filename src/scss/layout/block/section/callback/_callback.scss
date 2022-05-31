@@ -1,4 +1,8 @@
 section#callback {
+  @include breakpoint($breakpoint-laptop--medium) {
+    padding: 56px 0;
+  }
+
   padding-top: 110px;
   padding-bottom: 95px;
   background-color: $palette-white--pale;
@@ -17,6 +21,11 @@ section#callback {
 }
 
 .callback {
+  &__info {
+    position: sticky;
+    top: 15px;
+  }
+
   &__map {
     @include breakpoint($breakpoint-laptop--medium) {
       margin-top: 0;

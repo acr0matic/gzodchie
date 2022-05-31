@@ -1,5 +1,9 @@
 .section {
   &:not(:first-child) {
+    @include breakpoint($breakpoint-laptop--medium) {
+      padding-top: 56px;
+    }
+
     padding-top: 72px;
   }
 
@@ -9,7 +13,10 @@
 
   &__title {
     margin-bottom: 15px;
+
+    font-weight: $weight-ExtraBold;
     font-size: $font-size__title--big;
+    font-family: Namu, sans-serif;
   }
 
   &__text {
