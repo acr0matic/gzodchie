@@ -1,2 +1,19 @@
 .form {
+  &__action {
+    display: flex;
+    align-items: center;
+
+    .button {
+      margin-right: 24px;
+    }
+
+    .link {
+      color: $color-text__blue;
+    }
+  }
+
+  &__privacy {
+    color: $color-text__gray;
+    font-size: $font-size__text--regular;
+  }
 }

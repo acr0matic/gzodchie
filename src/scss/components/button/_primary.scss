@@ -1,0 +1,13 @@
+.button-primary {
+  background-color: $component-color__blue;
+
+  @media (hover: hover) {
+    &:hover {
+      background-color: #1165c8;
+    }
+  }
+
+  &:focus {
+    background-color: #2478db;
+  }
+}
