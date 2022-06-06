@@ -57,7 +57,7 @@
   <!-- endbuild -->
 </head>
 
-<body>
+<body class="page">
   <!-- Шапка -->
   <header id="header">
     <div class="container">

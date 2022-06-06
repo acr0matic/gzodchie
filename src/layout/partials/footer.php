@@ -134,6 +134,8 @@
 
   <script src="scripts/init.js"></script>
   <script src="scripts/hero.js"></script>
+  <script src="scripts/header.js"></script>
+  <script src="scripts/service.js"></script>
   <!-- endbuild -->
   </body>
 

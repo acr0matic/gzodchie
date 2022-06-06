@@ -3,5 +3,12 @@
 // -----------------------------------------------------------------------------
 
 .page {
+  &__title {
+    font-size: $font-size__display--medium;
+    line-height: $line-height--secondary;
+  }
 
+  &__text {
+    font-size: $font-size__text--large;
+  }
 }
