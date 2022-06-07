@@ -1,7 +1,7 @@
 <?php include_once('layout/partials/header.php') ?>
 
 <!-- Основной контент -->
-<main id="service">
+<main id="service" class="attach-footer">
   <section id="service" class="section">
     <div class="container">
       <div class="section__header">

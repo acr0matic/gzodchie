@@ -1,0 +1,46 @@
+.projects-item {
+  position: relative;
+
+  &__background {
+    overflow: hidden;
+    height: 100vh;
+    max-height: 810px;
+  }
+
+  &__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    color: $color-text__white;
+    text-align: center;
+
+    transform: translate(-50%, -40%);
+  }
+
+  &__title {
+    margin-bottom: 24px;
+
+    font-size: $font-size__display--medium;
+    line-height: $line-height--secondary;
+  }
+
+  &__geo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: $color-text__white--pale;
+    font-size: $font-size__text--huge;
+  }
+
+  &__icon {
+    margin-right: 8px;
+  }
+
+  &__description {
+    width: 726px;
+    margin-bottom: 56px;
+    font-weight: $weight-Bold;
+  }
+}
