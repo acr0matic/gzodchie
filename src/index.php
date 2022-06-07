@@ -1,7 +1,7 @@
 <?php include_once('layout/partials/header.php') ?>
 
 <!-- Основной контент -->
-<main id="home">
+<main id="home" class="attach-footer">
   <section id="hero" class="section">
     <div class="hero">
       <div class="swiper swiper__hero hero__slider">
