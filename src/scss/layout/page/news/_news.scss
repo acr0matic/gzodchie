@@ -1,0 +1,41 @@
+section#news {
+}
+
+.news {
+  &__pagination {
+    @include breakpoint($breakpoint-laptop--medium) {
+      margin-top: 56px;
+    }
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 72px;
+
+    color: #cfd2dd;
+
+    font-weight: $weight-Medium;
+    font-size: $font-size__text--large;
+
+    .current {
+      border-radius: 50%;
+      background-color: $component-color__blue;
+      color: $color-text__white;
+    }
+
+    & > * {
+      display: flex;
+      flex-shrink: 0;
+      align-items: center;
+      justify-content: center;
+
+      width: 32px;
+      height: 32px;
+    }
+
+    & > *:not(:last-child) {
+      margin-right: 12px;
+    }
+  }
+}

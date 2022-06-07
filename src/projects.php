@@ -6,7 +6,7 @@
     <div class="projects">
       <div class="container">
         <div class="section__header text-center">
-          <h2 class="page__title section__title">Проекты</h2>
+          <h1 class="page__title section__title">Проекты</h1>
           <p class="section__text">
             Наша команда проводит комплексную работу с амбициозными и сложными
             <br>
