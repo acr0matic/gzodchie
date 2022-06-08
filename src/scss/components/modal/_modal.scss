@@ -33,17 +33,26 @@ $transition-time: 0.2s;
     right: 5px;
 
     border: none;
+    border-radius: 4px;
     outline: none;
     background-color: transparent;
 
     cursor: pointer;
 
-    transition: opacity 0.15s ease;
+    transition: $transition ease;
 
     @media (hover: hover) {
       &:hover {
-        opacity: 0.5;
+        background-color: $color-text__blue;
+
+        path {
+          fill: #ffffff;
+        }
       }
+    }
+
+    path {
+      fill: #888eaa;
     }
 
     &::before {

@@ -1,0 +1,62 @@
+.modal-job {
+  .modal__container {
+    display: flex;
+    overflow: hidden;
+
+    height: 90vh;
+
+    border-radius: $border-radius;
+  }
+
+  .modal__col {
+    width: 795px;
+    padding: 24px;
+    background-color: $palette-white;
+
+    &--gray {
+      width: 420px;
+      background-color: $palette-gray;
+
+      .modal__content {
+        margin-top: 0;
+        padding: 0;
+      }
+
+      .modal__description {
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+  .modal__header {
+    position: relative;
+  }
+
+  .modal__title {
+    font-size: $font-size__title--small;
+  }
+
+  .modal__close {
+    top: 12px;
+    right: 0;
+  }
+
+  .modal__content {
+    overflow: auto;
+    height: 88%;
+
+    margin-top: 24px;
+    padding-right: 52px;
+  }
+
+  .modal__form {
+    .form__button {
+      width: 100%;
+      margin-right: 0;
+    }
+
+    .form__privacy {
+      text-align: left;
+    }
+  }
+}

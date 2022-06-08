@@ -26,3 +26,15 @@ _.forEach(digit, (item) => {
 
 const forms = document.querySelectorAll('form');
 _.forEach(forms, (form) => new Form(form));
+
+MicroModal.init(modalParams);
+const modalTrigger = document.querySelectorAll('[data-micromodal-trigger]');
+_.forEach(modalTrigger, modal => {
+  modal.addEventListener('click', () => {
+    currentModal = modal.dataset.micromodalTrigger;
+
+    const triggered = document.getElementById(currentModal);
+    const overflowContainer = triggered.querySelector(".overflow__container");
+    if (overflowContainer) overflowContainer.scroll({ top: 0 });
+  })
+});
