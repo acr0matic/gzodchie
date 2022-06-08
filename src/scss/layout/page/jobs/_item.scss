@@ -1,0 +1,21 @@
+.jobs-item {
+  padding: 32px 48px;
+  border: 1px solid #cfd2dd;
+  border-radius: $border-radius + 4px;
+
+  &__geo {
+    display: inline-block;
+  }
+
+  &__title {
+    margin-bottom: 58px;
+    font-size: $font-size__title--big;
+  }
+
+  &__action {
+  }
+
+  &__content {
+    display: none;
+  }
+}

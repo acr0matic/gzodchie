@@ -131,6 +131,11 @@
   <script src="scripts/libraries/lodash.js"></script>
   <script src="scripts/libraries/countUp.min.js"></script>
   <script src="scripts/libraries/swiper-bundle.min.js"></script>
+  <script src="scripts/libraries/datepicker-full.min.js"></script>
+  <script src="scripts/libraries/datepicker-ru.js"></script>
+  <script src="scripts/libraries/dropzone.js"></script>
+  <script src="scripts/libraries/imask.js"></script>
+  <script src="scripts/libraries/forms.js"></script>
 
   <script src="scripts/init.js"></script>
   <script src="scripts/hero.js"></script>

@@ -1,6 +1,28 @@
 .input {
   position: relative;
 
+  &--focus {
+    .input__label {
+      top: 10px;
+      font-size: $font-size__text--small - 2px;
+      transform: none;
+    }
+  }
+
+  &--drop {
+    .input__field {
+      padding: 0;
+      border: 2px dashed #cfd2dd;
+      background-color: transparent;
+
+      @media (hover: hover) {
+        &:hover {
+          box-shadow: none;
+        }
+      }
+    }
+  }
+
   &--box {
     .input__field {
       min-height: 188px;
@@ -50,13 +72,6 @@
     &:focus {
       border-width: $component-color__blue;
       box-shadow: inset 0 0 0 1px $component-color__blue;
-    }
-
-    &:focus ~ .input__label,
-    &:not(:focus):valid ~ .input__label {
-      top: 10px;
-      font-size: $font-size__text--small - 2px;
-      transform: none;
     }
   }
 

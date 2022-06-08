@@ -23,3 +23,6 @@ _.forEach(digit, (item) => {
 
   new countUp.CountUp(item, value, options).start();
 })
+
+const forms = document.querySelectorAll('form');
+_.forEach(forms, (form) => new Form(form));
