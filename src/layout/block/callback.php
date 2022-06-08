@@ -15,14 +15,14 @@
 
           <form action="" class="callback__form form">
             <div class="input mb-3">
-              <input autocomplete="off" type="text" name="user_name" class="input__field" required>
+              <input autocomplete="off" type="text" name="user_name" class="input__field">
               <label class="input__label">Фамилия, имя, отчество</label>
               <img data-tippy-content="" class="input__warning" src="" alt="">
             </div>
             <!-- /.input -->
 
             <div class="input mb-3">
-              <input autocomplete="off" type="email" name="user_email" class="input__field" required>
+              <input autocomplete="off" type="email" name="user_email" class="input__field">
               <label class="input__label">Email</label>
               <img data-tippy-content="" class="input__warning" src="" alt="">
             </div>
@@ -36,21 +36,21 @@
             <!-- /.input -->
 
             <div class="input mb-3">
-              <input autocomplete="off" type="text" name="user_company" class="input__field" required>
+              <input autocomplete="off" type="text" name="user_company" class="input__field">
               <label class="input__label">Компания</label>
               <img data-tippy-content="" class="input__warning" src="" alt="">
             </div>
             <!-- /.input -->
 
             <div class="input input--box">
-              <textarea autocomplete="off" type="text" name="user_company" class="input__field" required></textarea>
+              <textarea autocomplete="off" type="text" name="user_company" class="input__field"></textarea>
               <label class="input__label">Поделитесь вашим запросом</label>
               <img data-tippy-content="" class="input__warning" src="" alt="">
             </div>
             <!-- /.input -->
 
             <div class="form__action mt-3">
-              <button class="button button-primary">Отправить</button>
+              <button data-sending="Отправка" type="submit" class="button button-primary">Отправить</button>
               <div class="form__privacy">
                 Нажимая кнопку отправить вы соглашаетесь
                 <br>
