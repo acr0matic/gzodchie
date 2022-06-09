@@ -1,4 +1,6 @@
 .svg {
+  transition: $transition ease;
+
   path,
   circle,
   rect {
