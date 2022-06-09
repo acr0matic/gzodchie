@@ -11,9 +11,13 @@ if (hero) {
     },
 
     pagination: {
-      el: '.swiper-pagination',
+      el: '.hero__slider .swiper-pagination',
       clickable: true,
+    },
 
+    navigation: {
+      nextEl: '.hero__slider .swiper-button-next',
+      prevEl: '.hero__slider .swiper-button-prev',
     },
   });
 }

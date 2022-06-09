@@ -8,4 +8,17 @@
     bottom: 48px;
     left: 0;
   }
+
+  .swiper-control {
+    .swiper-button-prev,
+    .swiper-button-next {
+      top: 0;
+      width: 60px;
+      height: 100%;
+
+      &::after {
+        content: none;
+      }
+    }
+  }
 }

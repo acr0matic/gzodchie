@@ -1,4 +1,12 @@
 .digit {
+  @media (hover: hover) {
+    &:hover {
+      .digit__number {
+        color: $color-text__blue;
+      }
+    }
+  }
+
   &__number {
     @include breakpoint($breakpoint-laptop--medium) {
       font-size: $font-size__display--medium;
@@ -9,6 +17,8 @@
     font-weight: $weight-SemiBold;
     font-size: $font-size__display--large;
     font-family: Namu, sans-serif;
+
+    transition: $transition ease;
   }
 
   &__text {

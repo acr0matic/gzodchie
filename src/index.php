@@ -116,6 +116,12 @@
           <div class="swiper-pagination"></div>
         </div>
         <!-- /.container -->
+
+        <div class="swiper-control">
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+        <!-- /.swiper-control -->
       </div>
       <!-- /.swiper hero__slider -->
     </div>
