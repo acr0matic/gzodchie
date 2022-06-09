@@ -1,0 +1,28 @@
+.modal-success {
+  .modal__container {
+    max-width: 536px;
+    border-radius: $border-radius;
+  }
+
+  .modal__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 52px;
+  }
+
+  .modal__icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 8px;
+  }
+
+  .modal__title {
+    font-size: $font-size__display--small;
+  }
+
+  .modal__text {
+    font-size: $font-size__text--large;
+  }
+}

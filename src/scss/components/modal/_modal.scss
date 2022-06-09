@@ -18,6 +18,8 @@ $transition-time: 0.2s;
 
   &__container {
     position: relative;
+    width: 100%;
+    background-color: $palette-white;
   }
 
   &__header {
