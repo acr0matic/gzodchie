@@ -57,7 +57,7 @@
         <div class="col-6">
           <a href="img/layout/page/case/gubinskiy/about/1.jpg" data-gallery="about" class="glightbox">
             <picture class="project__picture lazy">
-              <img data-src="img/layout/page/case/gubinskiy/about/1.jpg" src="img/layout/page/case/gubinskiy/about/thumb/1.jpg" alt="" class="project__picture image image--cover lazy__item">
+              <img data-src="img/layout/page/case/gubinskiy/about/1.jpg" src="img/layout/page/case/gubinskiy/about/thumb/1.jpg" alt="" class="project__image image image--cover lazy__item">
               <img src="img/misc/preloader.svg" alt="" class="preloader">
             </picture>
             <!-- /.single-news__picture -->
@@ -77,6 +77,113 @@
         <!-- /.col-6 -->
       </div>
       <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+
+  <section id="research" class="section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-8">
+          <div class="section__header">
+            <h2 class="section__title">
+              Предпроектное исследование
+            </h2>
+          </div>
+          <!-- /.section__header -->
+
+          <p class="section__text mb-5">
+            В ходе работы над задачей провели комплексное предпроектное исследование: организовали кабинетные и натурные исследования, изучили историю и культуру города, пообщались с жителями, экспертами и предпринимателями, организовали топосъемку.
+            <br>
+            <br>
+            По результатам исследования выявили основные проблемы и пользователей территории, выдвинули гипотезы для дальнейшего развития сквера.
+          </p>
+
+          <a href="img/layout/page/case/gubinskiy/research/1.jpg" data-gallery="research" class="glightbox">
+            <picture class="project__picture lazy">
+              <img data-src="img/layout/page/case/gubinskiy/research/1.jpg" src="img/layout/page/case/gubinskiy/research/thumb/1.jpg" alt="" class="project__image image image--cover lazy__item">
+              <img src="img/misc/preloader.svg" alt="" class="preloader">
+            </picture>
+            <!-- /.single-news__picture -->
+          </a>
+
+          <div class="research mt-5">
+            <div class="row justify-content-center">
+              <div class="col-5">
+                <h3 class="research__title">Инфраструктурные проблемы</h3>
+                <ul class="research__list research__list--red">
+                  <li class="research__item">
+                    <div class="research__number">1</div>
+                    <p class="research__text">Отсутствие укрытый от непогоды</p>
+                  </li>
+
+                  <li class="research__item">
+                    <div class="research__number">2</div>
+                    <p class="research__text">Отсутствие функционального наполнения линейной площади</p>
+                  </li>
+
+                  <li class="research__item">
+                    <div class="research__number">3</div>
+                    <p class="research__text">Отсутствие освещения на значительной части территории</p>
+                  </li>
+
+                  <li class="research__item">
+                    <div class="research__number">4</div>
+                    <p class="research__text">Нет туалетов</p>
+                  </li>
+
+                  <li class="research__item">
+                    <div class="research__number">5</div>
+                    <p class="research__text">Заболоченный, не благоустроенный водоем</p>
+                  </li>
+
+                  <li class="research__item">
+                    <div class="research__number">6</div>
+                    <p class="research__text">Часть территории не благоустроена</p>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.col-5 -->
+
+              <div class="col-5">
+                <h3 class="research__title">Проблемы связности территорий</h3>
+                <ul class="research__list research__list--blue">
+                  <li class="research__item">
+                    <div class="research__number">7</div>
+                    <p class="research__text">Нет перехода через пруд со стороны Парковой улицы</p>
+                  </li>
+
+                  <li class="research__item">
+                    <div class="research__number">8</div>
+                    <p class="research__text">Отсутствие остановки и пешеходного перехода</p>
+                  </li>
+
+                  <li class="research__item">
+                    <div class="research__number">9</div>
+                    <p class="research__text">Конфликт гуляющих со спортсменами и велосипедистами</p>
+                  </li>
+
+                  <li class="research__item">
+                    <div class="research__number">10</div>
+                    <p class="research__text">Нет навигации</p>
+                  </li>
+
+                  <li class="research__item">
+                    <div class="research__number">11</div>
+                    <p class="research__text">Короткие прогулочные маршруты</p>
+                  </li>
+                </ul>
+              </div>
+              <!-- /.col-5 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.research -->
+        </div>
+        <!-- /.col-8 -->
+      </div>
+      <!-- /.row -->
+
     </div>
     <!-- /.container -->
   </section>

@@ -1,0 +1,51 @@
+section#research {
+}
+
+.research {
+  &__title {
+    margin-bottom: 24px;
+    font-size: $font-size__text--large;
+  }
+
+  &__list {
+    &--red {
+      .research__number {
+        background-color: $component-color__red;
+      }
+    }
+
+    &--blue {
+      .research__number {
+        background-color: $component-color__blue;
+      }
+    }
+  }
+
+  &__item {
+    display: flex;
+    align-items: flex-start;
+
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+
+  &__number {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+
+    width: 25px;
+    height: 25px;
+
+    margin-top: 2px;
+    margin-right: 10px;
+
+    border-radius: 50%;
+
+    color: $color-text__white;
+    font-weight: $weight-Bold;
+    font-size: $font-size__text--regular;
+  }
+}
