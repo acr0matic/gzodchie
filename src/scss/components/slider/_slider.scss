@@ -11,10 +11,37 @@
     overflow: hidden;
   }
 
+  &-button-prev,
+  &-button-next {
+    transition: $transition ease;
+  }
+
+  &-button-prev {
+    left: -80px;
+
+    &::after {
+      content: url("../img/icons/control/arrow-left.svg");
+    }
+  }
+
+  &-button-next {
+    right: -80px;
+
+    &::after {
+      content: url("../img/icons/control/arrow-right.svg");
+    }
+  }
+
   &-pagination {
     position: static;
     display: inline-block;
     width: initial !important;
+
+    &--inner {
+      position: absolute;
+      bottom: 18px !important;
+      left: 18px !important;
+    }
 
     &-bullet {
       width: 12px;

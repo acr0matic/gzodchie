@@ -302,7 +302,85 @@
         <!-- /.swiper solution__slider -->
       </div>
       <!-- /.solution -->
+    </div>
+    <!-- /.container -->
+  </section>
 
+  <section id="visualization" class="section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-8">
+          <div class="section__header">
+            <h2 class="section__title section__title--small">
+              Визуализации
+            </h2>
+          </div>
+          <!-- /.section__header -->
+
+          <div class="visualization__slider">
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <picture class="visualization__picture lazy">
+                    <img data-src="img/layout/page/case/gubinskiy/visualization/1.jpg" src="img/layout/page/case/gubinskiy/visualization/1.jpg" alt="" class="visualization__image image image--cover lazy__item">
+                    <img src="img/misc/preloader.svg" alt="" class="preloader">
+                  </picture>
+                  <!-- /.single-news__picture -->
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide">
+                  <picture class="visualization__picture lazy">
+                    <img data-src="img/layout/page/case/gubinskiy/visualization/2.jpg" src="img/layout/page/case/gubinskiy/visualization/2.jpg" alt="" class="visualization__image image image--cover lazy__item">
+                    <img src="img/misc/preloader.svg" alt="" class="preloader">
+                  </picture>
+                  <!-- /.single-news__picture -->
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide">
+                  <picture class="visualization__picture lazy">
+                    <img data-src="img/layout/page/case/gubinskiy/visualization/3.jpg" src="img/layout/page/case/gubinskiy/visualization/3.jpg" alt="" class="visualization__image image image--cover lazy__item">
+                    <img src="img/misc/preloader.svg" alt="" class="preloader">
+                  </picture>
+                  <!-- /.single-news__picture -->
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide">
+                  <picture class="visualization__picture lazy">
+                    <img data-src="img/layout/page/case/gubinskiy/visualization/4.jpg" src="img/layout/page/case/gubinskiy/visualization/4.jpg" alt="" class="visualization__image image image--cover lazy__item">
+                    <img src="img/misc/preloader.svg" alt="" class="preloader">
+                  </picture>
+                  <!-- /.single-news__picture -->
+                </div>
+                <!-- /.swiper-slide -->
+
+                <div class="swiper-slide">
+                  <picture class="visualization__picture lazy">
+                    <img data-src="img/layout/page/case/gubinskiy/visualization/5.jpg" src="img/layout/page/case/gubinskiy/visualization/5.jpg" alt="" class="visualization__image image image--cover lazy__item">
+                    <img src="img/misc/preloader.svg" alt="" class="preloader">
+                  </picture>
+                  <!-- /.single-news__picture -->
+                </div>
+                <!-- /.swiper-slide -->
+              </div>
+              <!-- /.swiper-wrapper -->
+              <div class="swiper-pagination swiper-pagination--inner"></div>
+            </div>
+            <!-- /.swiper visualization__slider -->
+
+            <div class="swiper-control">
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+            <!-- /.swiper-control -->
+          </div>
+          <!-- /.visualization__slider -->
+        </div>
+        <!-- /.col-8 -->
+      </div>
+      <!-- /.row -->
     </div>
     <!-- /.container -->
   </section>
