@@ -1,0 +1,21 @@
+section#info {
+  position: relative;
+}
+
+.info {
+  &__title,
+  &__text {
+    font-size: $font-size__title--big;
+  }
+
+  &__title {
+    margin-bottom: 48px;
+    color: $color-text__gray;
+    text-align: center;
+  }
+
+  &__text {
+    margin-bottom: 96px;
+    line-height: $line-height--secondary;
+  }
+}

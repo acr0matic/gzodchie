@@ -99,12 +99,14 @@ class Form {
 
       if (input.name === 'user_date')
         window.addEventListener('click', (e) => {
-          if (!input.value && !e.target.closest('.datepicker-input'))
+          if (!input.value && !e.target.closest('.datepicker') && e.target !== input)
             input.parentNode.classList.remove('input--focus')
         });
 
       else
-        input.addEventListener('blur', () => input.parentNode.classList.remove('input--focus'));
+        input.addEventListener('blur', () => {
+          if (!input.value) input.parentNode.classList.remove('input--focus')
+        });
     });
   }
 

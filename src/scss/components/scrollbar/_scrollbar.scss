@@ -21,6 +21,12 @@
       height: 4px;
     }
   }
+
+  &--transparent {
+    &::-webkit-scrollbar-track {
+      background: transparent;
+    }
+  }
 }
 
 /* purgecss end ignore */

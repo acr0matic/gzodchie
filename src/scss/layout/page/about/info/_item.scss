@@ -1,0 +1,45 @@
+.info-item {
+  position: relative;
+  margin-bottom: 100px;
+
+  &::before {
+    content: "";
+    display: block;
+
+    width: 17px;
+    height: 17px;
+    margin-bottom: 16px;
+    margin-left: -3px;
+
+    border: 3px solid $palette-white;
+    border-radius: 50%;
+
+    background-color: $color-text__gray;
+  }
+
+  &--line {
+    &::after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 8px;
+      left: 5px;
+      display: block;
+
+      width: 300%;
+      height: 1px;
+
+      background-color: $color-text__gray;
+    }
+  }
+
+  &--reverse {
+    &::after {
+      left: -300%;
+    }
+  }
+
+  &__title {
+    margin-bottom: 16px;
+  }
+}

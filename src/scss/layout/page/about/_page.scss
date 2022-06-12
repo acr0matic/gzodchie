@@ -1,0 +1,15 @@
+@import "info/main";
+@import "team/main";
+
+main#about {
+  .about-background {
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    left: 50%;
+
+    width: 100%;
+
+    transform: translateX(-50%);
+  }
+}
