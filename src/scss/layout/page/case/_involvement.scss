@@ -1,0 +1,13 @@
+section#involvement {
+  overflow: hidden;
+}
+
+.involvement {
+  .digit__text {
+    @include breakpoint($breakpoint-laptop) {
+      br {
+        display: none;
+      }
+    }
+  }
+}

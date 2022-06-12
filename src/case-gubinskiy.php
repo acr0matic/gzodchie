@@ -246,7 +246,6 @@
         </div>
         <!-- /.swiper involvement__slider -->
 
-
         <div class="row justify-content-center">
           <div class="col-6 col-xxl-4">
             <p class="section__text mb-5 mt-5">
@@ -293,7 +292,7 @@
         <!-- /.swiper involvement__slider -->
 
         <div class="row justify-content-center mt-5">
-          <div class="col-3 ps-5">
+          <div class="col-4 col-xxl-3 ps-xxl-5">
             <div class="digit">
               <div data-value="13" class="digit__number">0</div>
               <p class="digit__text">
@@ -306,7 +305,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-3">
+          <div class="col-4 col-xxl-3">
             <div class="digit">
               <div data-value="1491" class="digit__number">0</div>
               <p class="digit__text">
@@ -319,7 +318,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-4">
+          <div class="col-4 col-xxl-4">
             <div class="digit">
               <div data-value="49349" class="digit__number">0</div>
               <p class="digit__text">
