@@ -1,4 +1,4 @@
-const hero = document.getElementById('hero');
+const hero = document.querySelector('main#home #hero')
 
 if (hero) {
   const slider = new Swiper('.hero__slider', {

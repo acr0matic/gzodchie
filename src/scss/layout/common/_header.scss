@@ -3,19 +3,21 @@
 // -----------------------------------------------------------------------------
 
 #header {
-  position: absolute;
+  position: sticky;
   z-index: $z-index-header;
   top: 0;
   left: 0;
 
   width: 100%;
-  padding: 25px 0;
+
+  background-color: $palette-white;
 }
 
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: $header-height;
 
   &--inverted {
     .logo path {
