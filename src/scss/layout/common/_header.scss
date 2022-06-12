@@ -13,21 +13,27 @@
   background-color: $palette-white;
 }
 
+.header-fixed {
+  position: fixed !important;
+}
+
+.header-inverted {
+  background-color: transparent !important;
+
+  .logo path {
+    fill: $palette-white;
+  }
+
+  .nav__link {
+    color: $color-text__white;
+  }
+}
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: $header-height;
-
-  &--inverted {
-    .logo path {
-      fill: $palette-white;
-    }
-
-    .nav__link {
-      color: $color-text__white;
-    }
-  }
 
   &__logo {
     @include breakpoint($breakpoint-laptop--medium) {

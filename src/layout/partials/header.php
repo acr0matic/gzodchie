@@ -61,7 +61,7 @@
   <!-- Шапка -->
   <header id="header">
     <div class="container">
-      <div class="header header--inverted">
+      <div class="header">
         <div class="header__logo">
           <a href="">
             <svg class="svg logo" width="100%" height="100%" viewBox="0 0 290 44" fill="none" xmlns="http://www.w3.org/2000/svg">
