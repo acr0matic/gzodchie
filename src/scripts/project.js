@@ -4,6 +4,7 @@ let slider = null;
 if (project) {
   const solution = project.querySelector('#solution');
   const visualization = project.querySelector('#visualization');
+  const usage = project.querySelector('#usage');
 
   if (solution) {
     const breakpoint = window.matchMedia('(max-width: 1640px)');
@@ -48,6 +49,18 @@ if (project) {
         nextEl: '.visualization__slider .swiper-button-next',
         prevEl: '.visualization__slider .swiper-button-prev',
       },
+    });
+  }
+
+  if (usage) {
+    const hidden = usage.querySelector('.usage__hidden');
+    const switcher = usage.querySelector('.switch');
+
+    switcher.addEventListener('click', () => {
+      switcher.classList.toggle('switch--left');
+      switcher.classList.toggle('switch--right');
+
+      hidden.classList.toggle('usage__hidden--show');
     });
   }
 }
