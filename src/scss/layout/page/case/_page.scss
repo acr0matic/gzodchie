@@ -6,6 +6,11 @@ main#project {
   .section__title {
     font-weight: 600;
     font-size: $font-size__display--small;
+
+    &--small {
+      font-weight: 800;
+      font-size: $font-size__title--big;
+    }
   }
 
   .section__text {

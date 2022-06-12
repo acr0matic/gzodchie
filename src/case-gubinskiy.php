@@ -187,6 +187,102 @@
     </div>
     <!-- /.container -->
   </section>
+
+  <section id="result" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 offset-1">
+          <div class="section__header">
+            <h2 class="section__title section__title--small">
+              Результаты
+            </h2>
+
+            <p class="section__text">
+              Результатом нашей работы совместно с жителями Губкинского стал финальный проект всесезонной территории, которая будет включать в себя развитую сеть пешеходных маршрутов, зоны отдыха и активности для разных целевых групп.
+            </p>
+          </div>
+          <!-- /.section__header -->
+        </div>
+        <!-- /.col-6 offset-1 -->
+      </div>
+      <!-- /.row -->
+
+      <div class="row">
+        <div class="col-4 offset-1 mb-5">
+          <div class="digit">
+            <div data-value="10.3" data-decimal="1" data-suffix=" Га" class="digit__number">0</div>
+            <p class="digit__text">
+              площадь проектирования
+            </p>
+          </div>
+          <!-- /.digit -->
+        </div>
+        <!-- /.col-4 -->
+
+        <div class="col-7 mb-5">
+          <div class="digit">
+            <div data-value="243.2" data-decimal="1" data-suffix=" млн руб." class="digit__number">0</div>
+            <p class="digit__text">
+              общий бюджет проекта согласно укрупненному сметному расчету
+            </p>
+          </div>
+          <!-- /.digit -->
+        </div>
+        <!-- /.col-7 -->
+
+        <div class="col-4 offset-1 mb-5">
+          <div class="digit">
+            <div data-value="1491" class="digit__number">0</div>
+            <p class="digit__text">
+              житель вовлечен в процесс разработки проекта
+            </p>
+          </div>
+          <!-- /.digit -->
+        </div>
+        <!-- /.col-4 -->
+
+        <div class="col-7 mb-5">
+          <div class="digit">
+            <div data-value="61" data-prefix="На " data-suffix="%" class="digit__number">0</div>
+            <p class="digit__text">
+              вырастет посещаемость территории после реализации проекта
+            </p>
+          </div>
+          <!-- /.digit -->
+        </div>
+        <!-- /.col-7 -->
+
+        <div class="offset-1 col-7">
+          <div class="digit">
+            <div data-value="3" data-suffix=" рабочих места" class="digit__number">0</div>
+            <p class="digit__text">
+              создается благодаря реализации проекта
+            </p>
+          </div>
+          <!-- /.digit -->
+        </div>
+        <!-- /.col-7 -->
+      </div>
+      <!-- /.row -->
+
+      <div class="result">
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <img src="img/layout/page/case/gubinskiy/result/picture.svg" class="mb-5 mx-auto" alt="">
+            <p class="section__text text-center">
+              Проект стал победителем Всероссийского конкурса лучших проектов создания комфортной городской среды в номинации «Малые города с численностью населения
+              <br>
+              от 20 000 до 50 000 человек»
+            </p>
+          </div>
+          <!-- /.col-6 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.result -->
+    </div>
+    <!-- /.container -->
+  </section>
 </main>
 
 <?php include_once('layout/partials/footer.php') ?>

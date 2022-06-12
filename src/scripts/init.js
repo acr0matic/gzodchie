@@ -13,12 +13,14 @@ const digit = document.querySelectorAll('.digit .digit__number');
 _.forEach(digit, (item) => {
   const value = item.dataset.value;
   const suffix = item.dataset.suffix || '';
+  const prefix = item.dataset.prefix || '';
   const decimal = item.dataset.decimal || 0;
 
   const options = {
     decimalPlaces: decimal,
     separator: ' ',
     suffix: suffix,
+    prefix: prefix,
   };
 
   new countUp.CountUp(item, value, options).start();
