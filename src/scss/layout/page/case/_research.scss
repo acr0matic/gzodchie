@@ -31,6 +31,10 @@ section#research {
   }
 
   &__number {
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size__text--small;
+    }
+
     display: flex;
     flex-shrink: 0;
     align-items: center;

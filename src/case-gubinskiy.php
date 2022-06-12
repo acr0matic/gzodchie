@@ -84,7 +84,7 @@
   <section id="research" class="section">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-8">
+        <div class="col-10 col-xxl-8">
           <div class="section__header">
             <h2 class="section__title">
               Предпроектное исследование
@@ -109,7 +109,7 @@
 
           <div class="research mt-5">
             <div class="row justify-content-center">
-              <div class="col-5">
+              <div class="col-6 col-xxl-5">
                 <h3 class="research__title">Инфраструктурные проблемы</h3>
                 <ul class="research__list research__list--red">
                   <li class="research__item">
@@ -145,7 +145,7 @@
               </div>
               <!-- /.col-5 -->
 
-              <div class="col-5">
+              <div class="col-6 col-xxl-5">
                 <h3 class="research__title">Проблемы связности территорий</h3>
                 <ul class="research__list research__list--blue">
                   <li class="research__item">
@@ -190,7 +190,7 @@
   <section id="solution" class="section">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-6">
+        <div class="col-10 col-xl-8 col-xxl-6">
           <div class="section__header text-center">
             <h2 class="section__title section__title--small">
               Архитектурные решения
@@ -388,7 +388,7 @@
   <section id="result" class="section">
     <div class="container">
       <div class="row">
-        <div class="col-6 offset-1">
+        <div class="col-8 col-xxl-6 offset-xxl-1">
           <div class="section__header">
             <h2 class="section__title section__title--small">
               Результаты
@@ -405,7 +405,7 @@
       <!-- /.row -->
 
       <div class="row">
-        <div class="col-4 offset-1 mb-5">
+        <div class="col-4 offset-xxl-1 mb-5">
           <div class="digit">
             <div data-value="10.3" data-decimal="1" data-suffix=" Га" class="digit__number">0</div>
             <p class="digit__text">
@@ -416,7 +416,7 @@
         </div>
         <!-- /.col-4 -->
 
-        <div class="col-7 mb-5">
+        <div class="col-8 col-xxl-7 mb-5">
           <div class="digit">
             <div data-value="243.2" data-decimal="1" data-suffix=" млн руб." class="digit__number">0</div>
             <p class="digit__text">
@@ -427,7 +427,7 @@
         </div>
         <!-- /.col-7 -->
 
-        <div class="col-4 offset-1 mb-5">
+        <div class="col-4 offset-xxl-1 mb-5">
           <div class="digit">
             <div data-value="1491" class="digit__number">0</div>
             <p class="digit__text">
@@ -438,7 +438,7 @@
         </div>
         <!-- /.col-4 -->
 
-        <div class="col-7 mb-5">
+        <div class="col-8 col-xxl-7 mb-5">
           <div class="digit">
             <div data-value="61" data-prefix="На " data-suffix="%" class="digit__number">0</div>
             <p class="digit__text">
@@ -449,7 +449,7 @@
         </div>
         <!-- /.col-7 -->
 
-        <div class="offset-1 col-7">
+        <div class="col-8 col-xxl-7 offset-xxl-1">
           <div class="digit">
             <div data-value="3" data-suffix=" рабочих места" class="digit__number">0</div>
             <p class="digit__text">
@@ -464,7 +464,7 @@
 
       <div class="result">
         <div class="row justify-content-center">
-          <div class="col-6">
+          <div class="col-8 col-xxl-6">
             <img src="img/layout/page/case/gubinskiy/result/picture.svg" class="mb-5 mx-auto" alt="">
             <p class="section__text text-center">
               Проект стал победителем Всероссийского конкурса лучших проектов создания комфортной городской среды в номинации «Малые города с численностью населения

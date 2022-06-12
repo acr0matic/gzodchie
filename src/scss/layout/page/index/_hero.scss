@@ -26,6 +26,10 @@ main#home {
         font-size: $font-size__display--medium;
       }
 
+      @include breakpoint($breakpoint-laptop) {
+        font-size: $font-size__display--small;
+      }
+
       font-weight: $weight-SemiBold;
       font-size: $font-size__display--big;
 
@@ -33,6 +37,10 @@ main#home {
     }
 
     &__subtitle {
+      @include breakpoint($breakpoint-laptop) {
+        font-size: $font-size__title--small;
+      }
+
       color: $palette-gray;
       font-size: $font-size__title--big;
     }

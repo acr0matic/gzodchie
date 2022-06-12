@@ -12,6 +12,10 @@
       font-size: $font-size__display--medium;
     }
 
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size__display--small;
+    }
+
     margin-bottom: 12px;
 
     font-weight: $weight-SemiBold;
@@ -22,6 +26,10 @@
   }
 
   &__text {
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size__text--big;
+    }
+
     font-size: $font-size__text--large;
   }
 }

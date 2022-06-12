@@ -5,6 +5,10 @@ section#about {
 
 .about {
   &__title {
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size__title--big;
+    }
+
     font-weight: $weight-SemiBold;
     font-size: $font-size__display--small;
 
@@ -13,6 +17,10 @@ section#about {
 
   &__text {
     &--big {
+      @include breakpoint($breakpoint-laptop) {
+        font-size: $font-size__text--huge;
+      }
+
       font-size: $font-size__text--huge + 4px;
     }
   }

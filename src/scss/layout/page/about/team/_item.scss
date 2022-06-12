@@ -3,17 +3,15 @@
     position: relative;
     margin-bottom: 12px;
 
-    @media (hover: hover) {
-      &:hover {
-        .team-item__content {
-          opacity: 1;
-          visibility: visible;
-        }
+    &:hover {
+      .team-item__content {
+        opacity: 1;
+        visibility: visible;
+      }
 
-        &::after {
-          opacity: 1;
-          visibility: visible;
-        }
+      &::after {
+        opacity: 1;
+        visibility: visible;
       }
     }
 
@@ -100,10 +98,18 @@
   }
 
   &__name {
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size__text--huge;
+    }
+
     font-size: $font-size__title--small;
   }
 
   &__role {
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size__text--big;
+    }
+
     color: $color-text__gray;
     font-size: $font-size__text--large;
   }

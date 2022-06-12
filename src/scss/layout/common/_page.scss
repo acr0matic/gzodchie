@@ -4,6 +4,10 @@
 
 .page {
   &__title {
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size__display--small;
+    }
+
     font-size: $font-size__display--medium;
     line-height: $line-height--secondary;
   }

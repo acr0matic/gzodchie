@@ -44,6 +44,10 @@
   }
 
   &__title {
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size__text--large;
+    }
+
     margin-bottom: 24px;
 
     font-weight: $weight-ExtraBold;
@@ -59,10 +63,18 @@
   }
 
   &__content {
+    @include breakpoint($breakpoint-laptop) {
+      width: 270px !important;
+    }
+
     width: 300px;
   }
 
   &__picture {
+    @include breakpoint($breakpoint-laptop) {
+      width: 120px !important;
+    }
+
     position: absolute;
     right: 0;
     bottom: 0;
@@ -73,6 +85,10 @@
   }
 
   &__text {
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size__text--regular;
+    }
+
     position: relative;
     overflow: hidden;
     max-height: 80px;

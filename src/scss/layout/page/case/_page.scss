@@ -1,13 +1,25 @@
 main#project {
   .section__header {
+    @include breakpoint($breakpoint-laptop) {
+      margin-bottom: 36px;
+    }
+
     margin-bottom: 56px;
   }
 
   .section__title {
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size__title--big;
+    }
+
     font-weight: 600;
     font-size: $font-size__display--small;
 
     &--small {
+      @include breakpoint($breakpoint-laptop) {
+        font-size: $font-size__title--small;
+      }
+
       font-weight: 800;
       font-size: $font-size__title--big;
     }

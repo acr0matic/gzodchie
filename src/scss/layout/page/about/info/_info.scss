@@ -5,6 +5,10 @@ section#info {
 .info {
   &__title,
   &__text {
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size__title--medium;
+    }
+
     font-size: $font-size__title--big;
   }
 

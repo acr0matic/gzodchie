@@ -42,4 +42,10 @@
   &__title {
     margin-bottom: 16px;
   }
+
+  &__text {
+    @include breakpoint($breakpoint-laptop) {
+      font-size: $font-size__text--regular;
+    }
+  }
 }
