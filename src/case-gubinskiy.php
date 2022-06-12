@@ -187,6 +187,158 @@
     <!-- /.container -->
   </section>
 
+  <section id="involvement" class="section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-10 col-xl-8 col-xxl-6">
+          <div class="section__header text-center">
+            <h2 class="section__title section__title--small">
+              Вовлечение жителей
+            </h2>
+
+            <p class="section__text mb-5">
+              Важной составляющей разработки конкурсной заявки стало участие жителей города в создании проекта. Для обеспечения качественного и разнообразного вовлечения приглашали жителей разных возрастов из разных целевых групп.
+            </p>
+          </div>
+          <!-- /.section__header -->
+        </div>
+        <!-- /.col-6 -->
+      </div>
+      <!-- /.row -->
+
+      <div class="involvement">
+        <div class="swiper involvement__slider">
+          <div class="row swiper-wrapper">
+            <div class="swiper-slide col-6 col-xxl-4">
+              <a class="glightbox" href="img/layout/page/case/gubinskiy/involvement/1.jpg" data-gallery="involvement">
+                <picture class="project__picture lazy">
+                  <img data-src="img/layout/page/case/gubinskiy/involvement/1.jpg" src="img/layout/page/case/gubinskiy/involvement/thumb/1.jpg" alt="" class="project__image image image--cover lazy__item">
+                  <img src="img/misc/preloader.svg" alt="" class="preloader">
+                </picture>
+                <!-- /.single-news__picture -->
+              </a>
+            </div>
+            <!-- /.col-4 -->
+
+            <div class="swiper-slide col-6 col-xxl-4">
+              <a class="glightbox" href="img/layout/page/case/gubinskiy/involvement/2.jpg" data-gallery="involvement">
+                <picture class="project__picture lazy">
+                  <img data-src="img/layout/page/case/gubinskiy/involvement/2.jpg" src="img/layout/page/case/gubinskiy/involvement/thumb/2.jpg" alt="" class="project__image image image--cover lazy__item">
+                  <img src="img/misc/preloader.svg" alt="" class="preloader">
+                </picture>
+                <!-- /.single-news__picture -->
+              </a>
+            </div>
+            <!-- /.col-4 -->
+
+            <div class="swiper-slide col-6 col-xxl-4">
+              <a class="glightbox" href="img/layout/page/case/gubinskiy/involvement/3.jpg" data-gallery="involvement">
+                <picture class="project__picture lazy">
+                  <img data-src="img/layout/page/case/gubinskiy/involvement/3.jpg" src="img/layout/page/case/gubinskiy/involvement/thumb/3.jpg" alt="" class="project__image image image--cover lazy__item">
+                  <img src="img/misc/preloader.svg" alt="" class="preloader">
+                </picture>
+                <!-- /.single-news__picture -->
+              </a>
+            </div>
+            <!-- /.col-4 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.swiper involvement__slider -->
+
+
+        <div class="row justify-content-center">
+          <div class="col-6 col-xxl-4">
+            <p class="section__text mb-5 mt-5">
+              За время проведения этапов соучаствующего проектирования организовали 13 мероприятий разных форматов: ZOOM-встречи, голосования в Google Формах, глубинные интервью, очные проектные семинары, фокус-группы.
+            </p>
+          </div>
+          <!-- /.col-4 -->
+
+          <div class="col-6 col-xxl-4">
+            <p class="section__text mb-5 mt-5">
+              В своей работе мы не только прислушивались к идеям горожан, но и тестировали идеи архитекторов, благодаря чему проект получил ряд важных правок в режиме реального времени
+            </p>
+          </div>
+          <!-- /.col-4 -->
+        </div>
+        <!-- /.row -->
+
+        <div class="swiper involvement__slider">
+          <div class="swiper-container row justify-content-center">
+            <div class="swiper-slide col-6 col-xxl-5">
+              <a class="glightbox" href="img/layout/page/case/gubinskiy/involvement/4.jpg" data-gallery="involvement">
+                <picture class="project__picture lazy">
+                  <img data-src="img/layout/page/case/gubinskiy/involvement/4.jpg" src="img/layout/page/case/gubinskiy/involvement/thumb/4.jpg" alt="" class="project__image image image--cover lazy__item">
+                  <img src="img/misc/preloader.svg" alt="" class="preloader">
+                </picture>
+                <!-- /.single-news__picture -->
+              </a>
+            </div>
+            <!-- /.col-5 -->
+
+            <div class="swiper-slide col-6 col-xxl-5">
+              <a class="glightbox" href="img/layout/page/case/gubinskiy/involvement/5.jpg" data-gallery="involvement">
+                <picture class="project__picture lazy">
+                  <img data-src="img/layout/page/case/gubinskiy/involvement/5.jpg" src="img/layout/page/case/gubinskiy/involvement/thumb/5.jpg" alt="" class="project__image image image--cover lazy__item">
+                  <img src="img/misc/preloader.svg" alt="" class="preloader">
+                </picture>
+                <!-- /.single-news__picture -->
+              </a>
+            </div>
+            <!-- /.col-5 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.swiper involvement__slider -->
+
+        <div class="row justify-content-center mt-5">
+          <div class="col-3 ps-5">
+            <div class="digit">
+              <div data-value="13" class="digit__number">0</div>
+              <p class="digit__text">
+                мероприятий по вовлечению
+                <br>
+                проведено
+              </p>
+            </div>
+            <!-- /.digit -->
+          </div>
+          <!-- /.col-3 -->
+
+          <div class="col-3">
+            <div class="digit">
+              <div data-value="1491" class="digit__number">0</div>
+              <p class="digit__text">
+                житель принял участие в разработке
+                <br>
+                проекта
+              </p>
+            </div>
+            <!-- /.digit -->
+          </div>
+          <!-- /.col-3 -->
+
+          <div class="col-4">
+            <div class="digit">
+              <div data-value="49349" class="digit__number">0</div>
+              <p class="digit__text">
+                единиц - охват постов в социальных
+                <br>
+                сетях
+              </p>
+            </div>
+            <!-- /.digit -->
+          </div>
+          <!-- /.col-3 -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.involvement -->
+    </div>
+    <!-- /.container -->
+  </section>
+
   <section id="usage" class="section">
     <div class="container">
       <div class="row justify-content-center">

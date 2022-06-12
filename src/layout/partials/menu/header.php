@@ -17,7 +17,7 @@
     </li>
 
     <li class="nav__item">
-      <a class="nav__link link" href="">О компании</a>
+      <a class="nav__link link" href="about.php">О компании</a>
     </li>
 
     <li class="nav__item">

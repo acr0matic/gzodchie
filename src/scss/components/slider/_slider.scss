@@ -14,6 +14,12 @@
   &-button-prev,
   &-button-next {
     transition: $transition ease;
+
+    @media (hover: hover) {
+      &:hover {
+        transform: scale(0.9);
+      }
+    }
   }
 
   &-button-prev {
