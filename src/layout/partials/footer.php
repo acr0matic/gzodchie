@@ -139,6 +139,7 @@
   <script src="scripts/libraries/imask.js"></script>
   <script src="scripts/libraries/forms.js"></script>
   <script src="scripts/libraries/micromodal.js"></script>
+  <script src="scripts/libraries/glightbox.min.js"></script>
 
   <script src="scripts/base.js"></script>
   <script src="scripts/init.js"></script>

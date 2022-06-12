@@ -38,3 +38,7 @@ _.forEach(modalTrigger, modal => {
     if (overflowContainer) overflowContainer.scroll({ top: 0 });
   })
 });
+
+const lightbox = GLightbox({
+  draggable: false,
+});

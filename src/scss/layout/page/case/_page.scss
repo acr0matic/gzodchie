@@ -1,0 +1,26 @@
+main#project {
+  .section__header {
+    margin-bottom: 56px;
+  }
+
+  .section__title {
+    font-weight: 600;
+    font-size: $font-size__display--small;
+  }
+
+  .section__text {
+    font-size: $font-size__text--big;
+  }
+}
+
+.project {
+  &__picture {
+    transition: $transition ease;
+
+    @media (hover: hover) {
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+}

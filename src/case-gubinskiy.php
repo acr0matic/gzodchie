@@ -1,7 +1,7 @@
 <?php include_once('layout/partials/header.php') ?>
 
 <!-- Основной контент -->
-<main id="project">
+<main id="project" class="project">
   <section id="hero" class="section">
     <picture class="hero__background lazy">
       <img class="hero__image image image--cover lazy__item lazy__item--blur" data-src="img/layout/page/case/gubinskiy/hero/picture.jpg" src="img/layout/page/case/gubinskiy/hero/thumb.jpg" alt="">
@@ -33,6 +33,50 @@
         </svg>
       </div>
       <!-- /.hero__action -->
+    </div>
+    <!-- /.container -->
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title text-center">
+          О проекте
+        </h2>
+      </div>
+      <!-- /.section__header -->
+
+      <p class="section__text mb-5">
+        Губкинский – населенный пункт, основанный как плацдарм нефтедобычи в Ямало-Ненецком автономном округе – молодой и динамично развивающийся город, который привлекает молодых специалистов нефтегазовой отрасли. Средний возраст населения Губкинского – 26 лет, город и его возможности привлекают молодых граждан, поэтому так важно создавать на его карте новые точки притяжения.
+        <br>
+        <br>
+        Эко-сквер Никольский в рамках разработанной концепции станет местом, сохраняющим первозданную красоту северной природы и многогранную культуру округа и, в то же время, предлагающем горожанам современную и комфортную среду для досуга и отдыха.
+      </p>
+
+      <div class="row pt-3">
+        <div class="col-6">
+          <a href="img/layout/page/case/gubinskiy/about/1.jpg" data-gallery="about" class="glightbox">
+            <picture class="project__picture lazy">
+              <img data-src="img/layout/page/case/gubinskiy/about/1.jpg" src="img/layout/page/case/gubinskiy/about/thumb/1.jpg" alt="" class="project__picture image image--cover lazy__item">
+              <img src="img/misc/preloader.svg" alt="" class="preloader">
+            </picture>
+            <!-- /.single-news__picture -->
+          </a>
+        </div>
+        <!-- /.col-6 -->
+
+        <div class="col-6">
+          <a href="img/layout/page/case/gubinskiy/about/2.jpg" data-gallery="about" class="glightbox">
+            <picture class="project__picture lazy">
+              <img data-src="img/layout/page/case/gubinskiy/about/2.jpg" src="img/layout/page/case/gubinskiy/about/thumb/2.jpg" alt="" class="project__image image image--cover lazy__item">
+              <img src="img/misc/preloader.svg" alt="" class="preloader">
+            </picture>
+            <!-- /.single-news__picture -->
+          </a>
+        </div>
+        <!-- /.col-6 -->
+      </div>
+      <!-- /.row -->
     </div>
     <!-- /.container -->
   </section>
