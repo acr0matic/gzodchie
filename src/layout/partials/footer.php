@@ -148,6 +148,7 @@
   <script src="scripts/service.js"></script>
   <script src="scripts/job.js"></script>
   <script src="scripts/about.js"></script>
+  <script src="scripts/project.js"></script>
   <!-- endbuild -->
   </body>
 

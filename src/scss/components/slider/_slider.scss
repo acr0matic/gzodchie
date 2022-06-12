@@ -1,4 +1,12 @@
 .swiper {
+  &--overflow {
+    overflow: visible;
+
+    .row {
+      flex-wrap: nowrap;
+    }
+  }
+
   &-slide {
     overflow: hidden;
   }

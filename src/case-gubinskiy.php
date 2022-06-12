@@ -183,6 +183,125 @@
         <!-- /.col-8 -->
       </div>
       <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+
+  <section id="solution" class="section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-6">
+          <div class="section__header text-center">
+            <h2 class="section__title section__title--small">
+              Архитектурные решения
+            </h2>
+
+            <p class="section__text mb-5">
+              По итогам всех проведенных мероприятий были подготовлены конкретные архитектурные решения, подготовленные с вниманием к запросам жителей и с учетом климатических особенностей территории. Появилось множество функциональных зон: лесная и водная зоны для тихого отдыха, спортивная зона для активных занятий, входная и культурно-событийные зоны
+            </p>
+          </div>
+          <!-- /.section__header -->
+        </div>
+        <!-- /.col-6 -->
+      </div>
+      <!-- /.row -->
+
+      <div class="solution">
+        <div class="swiper solution__slider">
+          <div class="swiper-wrapper row">
+            <div class="swiper-slide col-4 col-xxl-3 mb-5">
+              <a href="img/layout/page/case/gubinskiy/solution/1.jpg" data-gallery="solution" class="glightbox">
+                <picture class="project__picture lazy">
+                  <img data-src="img/layout/page/case/gubinskiy/solution/preview/1.jpg" src="img/layout/page/case/gubinskiy/solution/thumb/1.jpg" alt="" class="project__image image image--cover lazy__item">
+                  <img src="img/misc/preloader.svg" alt="" class="preloader">
+                </picture>
+                <!-- /.single-news__picture -->
+              </a>
+            </div>
+            <!-- /.col-4 col-xxl-3 -->
+
+            <div class="swiper-slide col-4 col-xxl-3 mb-5">
+              <a href="img/layout/page/case/gubinskiy/solution/2.jpg" data-gallery="solution" class="glightbox">
+                <picture class="project__picture lazy">
+                  <img data-src="img/layout/page/case/gubinskiy/solution/preview/2.jpg" src="img/layout/page/case/gubinskiy/solution/thumb/2.jpg" alt="" class="project__image image image--cover lazy__item">
+                  <img src="img/misc/preloader.svg" alt="" class="preloader">
+                </picture>
+                <!-- /.single-news__picture -->
+              </a>
+            </div>
+            <!-- /.col-4 col-xxl-3 -->
+
+            <div class="swiper-slide col-4 col-xxl-3 mb-5">
+              <a href="img/layout/page/case/gubinskiy/solution/3.jpg" data-gallery="solution" class="glightbox">
+                <picture class="project__picture lazy">
+                  <img data-src="img/layout/page/case/gubinskiy/solution/preview/3.jpg" src="img/layout/page/case/gubinskiy/solution/thumb/3.jpg" alt="" class="project__image image image--cover lazy__item">
+                  <img src="img/misc/preloader.svg" alt="" class="preloader">
+                </picture>
+                <!-- /.single-news__picture -->
+              </a>
+            </div>
+            <!-- /.col-4 col-xxl-3 -->
+
+            <div class="swiper-slide col-4 col-xxl-3 mb-5">
+              <a href="img/layout/page/case/gubinskiy/solution/4.jpg" data-gallery="solution" class="glightbox">
+                <picture class="project__picture lazy">
+                  <img data-src="img/layout/page/case/gubinskiy/solution/preview/4.jpg" src="img/layout/page/case/gubinskiy/solution/thumb/4.jpg" alt="" class="project__image image image--cover lazy__item">
+                  <img src="img/misc/preloader.svg" alt="" class="preloader">
+                </picture>
+                <!-- /.single-news__picture -->
+              </a>
+            </div>
+            <!-- /.col-4 col-xxl-3 -->
+
+            <div class="swiper-slide col-4 col-xxl-3">
+              <a href="img/layout/page/case/gubinskiy/solution/5.jpg" data-gallery="solution" class="glightbox">
+                <picture class="project__picture lazy">
+                  <img data-src="img/layout/page/case/gubinskiy/solution/preview/5.jpg" src="img/layout/page/case/gubinskiy/solution/thumb/5.jpg" alt="" class="project__image image image--cover lazy__item">
+                  <img src="img/misc/preloader.svg" alt="" class="preloader">
+                </picture>
+                <!-- /.single-news__picture -->
+              </a>
+            </div>
+            <!-- /.col-4 col-xxl-3 -->
+
+            <div class="swiper-slide col-4 col-xxl-3">
+              <a href="img/layout/page/case/gubinskiy/solution/6.jpg" data-gallery="solution" class="glightbox">
+                <picture class="project__picture lazy">
+                  <img data-src="img/layout/page/case/gubinskiy/solution/preview/6.jpg" src="img/layout/page/case/gubinskiy/solution/thumb/6.jpg" alt="" class="project__image image image--cover lazy__item">
+                  <img src="img/misc/preloader.svg" alt="" class="preloader">
+                </picture>
+                <!-- /.single-news__picture -->
+              </a>
+            </div>
+            <!-- /.col-4 col-xxl-3 -->
+
+            <div class="swiper-slide col-4 col-xxl-3">
+              <a href="img/layout/page/case/gubinskiy/solution/7.jpg" data-gallery="solution" class="glightbox">
+                <picture class="project__picture lazy">
+                  <img data-src="img/layout/page/case/gubinskiy/solution/preview/7.jpg" src="img/layout/page/case/gubinskiy/solution/thumb/7.jpg" alt="" class="project__image image image--cover lazy__item">
+                  <img src="img/misc/preloader.svg" alt="" class="preloader">
+                </picture>
+                <!-- /.single-news__picture -->
+              </a>
+            </div>
+            <!-- /.col-4 col-xxl-3 -->
+
+            <div class="swiper-slide col-4 col-xxl-3">
+              <a href="img/layout/page/case/gubinskiy/solution/8.jpg" data-gallery="solution" class="glightbox">
+                <picture class="project__picture lazy">
+                  <img data-src="img/layout/page/case/gubinskiy/solution/preview/8.jpg" src="img/layout/page/case/gubinskiy/solution/thumb/8.jpg" alt="" class="project__image image image--cover lazy__item">
+                  <img src="img/misc/preloader.svg" alt="" class="preloader">
+                </picture>
+                <!-- /.single-news__picture -->
+              </a>
+            </div>
+            <!-- /.col-4 col-xxl-3 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.swiper solution__slider -->
+      </div>
+      <!-- /.solution -->
 
     </div>
     <!-- /.container -->
