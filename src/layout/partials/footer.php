@@ -124,7 +124,7 @@
 
           <div class="col-12 col-lg-4 col-xxl-3">
             <div class="footer__info">
-              <a href="" class="footer__social footer__laptop link font-namu font-namu--1990">
+              <a href="" class="footer__laptop footer__social footer__laptop link font-namu font-namu--1990">
                 <img class="footer__icon" src="img/icons/social/vk.svg" alt="">
                 Мы в Вконтакте
               </a>

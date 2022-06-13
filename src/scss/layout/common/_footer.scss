@@ -15,20 +15,6 @@
     color: $color-text__white;
   }
 
-  &__laptop {
-    @include breakpoint($breakpoint-tablet) {
-      display: none !important;
-    }
-  }
-
-  &__mobile {
-    @include breakpoint($breakpoint-tablet) {
-      display: block;
-    }
-
-    display: none !important;
-  }
-
   &__company {
     @include breakpoint($breakpoint-tablet) {
       display: flex;
@@ -120,11 +106,6 @@
     text-align: right;
   }
 
-  &__social {
-    display: flex;
-    align-items: center;
-  }
-
   &__icon {
     margin-right: 8px;
   }
@@ -141,5 +122,30 @@
     .link {
       color: $color-text__gray;
     }
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+  }
+
+  &__social.footer__mobile {
+    @include breakpoint($breakpoint-tablet) {
+      display: flex !important;
+    }
+  }
+
+  &__laptop {
+    @include breakpoint($breakpoint-tablet) {
+      display: none;
+    }
+  }
+
+  &__mobile {
+    @include breakpoint($breakpoint-tablet) {
+      display: block;
+    }
+
+    display: none;
   }
 }

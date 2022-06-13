@@ -11,22 +11,22 @@
 
       <div class="news">
         <div class="row">
-          <div class="col-6 mb-4">
+          <div class="col-12 col-md-6 mb-4">
             <?php include('layout/template/news-card.php') ?>
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-6 mb-4">
+          <div class="col-12 col-md-6 mb-4">
             <?php include('layout/template/news-card.php') ?>
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-6">
+          <div class="col-12 col-md-6 mb-4 mb-md-0">
             <?php include('layout/template/news-card.php') ?>
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-6">
+          <div class="col-12 col-md-6">
             <?php include('layout/template/news-card.php') ?>
           </div>
           <!-- /.col-6 -->
