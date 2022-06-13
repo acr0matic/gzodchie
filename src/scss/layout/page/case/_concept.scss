@@ -18,6 +18,10 @@ section#concept {
   }
 
   &__title {
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: $font-size__text--large;
+    }
+
     margin-bottom: 16px;
 
     font-size: $font-size__text--huge;

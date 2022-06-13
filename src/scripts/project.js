@@ -18,6 +18,7 @@ if (project) {
             slidesPerView: 'auto',
             speed: 500,
             grabCursor: true,
+            slideToClickedSlide: true,
           });
 
         slider.el.classList.add('swiper--overflow');
@@ -79,6 +80,7 @@ if (project) {
               slidesPerView: 'auto',
               speed: 500,
               grabCursor: true,
+              slideToClickedSlide: true,
             });
 
           slider.el.classList.add('swiper--overflow');

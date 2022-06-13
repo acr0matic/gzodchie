@@ -341,7 +341,7 @@
   <section id="concept" class="section">
     <div class="container">
       <div class="row">
-        <div class="col-8 col-xxl-3 offset-xxl-1">
+        <div class="col-12 col-xl-8 col-xxl-3 offset-xxl-1">
           <div class="concept__content">
             <div class="section__header">
               <h2 class="section__title section__title--small">
