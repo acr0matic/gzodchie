@@ -34,6 +34,11 @@ section#concept {
     }
   }
 
+  &__text {
+    margin-top: 16px;
+    text-align: center;
+  }
+
   &__list {
     padding-left: 25px;
     list-style-type: disc;

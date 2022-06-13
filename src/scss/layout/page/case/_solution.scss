@@ -1,3 +1,15 @@
 section#solution {
   overflow: hidden;
+  padding-top: 96px;
+}
+
+.solution {
+  &__title {
+    margin-top: 24px;
+
+    font-weight: $weight-Regular;
+    font-size: $font-size__text--big;
+
+    text-align: center;
+  }
 }

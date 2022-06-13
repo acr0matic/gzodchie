@@ -1,0 +1,42 @@
+section#identity {
+  .section__header {
+    margin-bottom: 72px;
+  }
+}
+
+.identity {
+  &__item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__picture {
+    align-self: center;
+    width: 162px;
+    height: 162px;
+
+    margin-bottom: 56px;
+
+    filter: drop-shadow(0 8px 11px rgba(#18222e, 0.12));
+  }
+
+  &__title {
+    margin-bottom: 8px;
+    color: $color-text__blue;
+    font-size: $font-size__text--large;
+  }
+
+  &__quote {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 24px;
+    padding: 12px;
+    background-color: $palette-gray;
+  }
+
+  &__author {
+    margin-top: 8px;
+    margin-left: auto;
+  }
+}

@@ -22,6 +22,13 @@ section#usage {
 
   &__wrapper {
     position: relative;
+
+    &--table {
+      .usage__hidden {
+        height: 100%;
+        background-color: $palette-white;
+      }
+    }
   }
 
   &__switch {
@@ -31,5 +38,43 @@ section#usage {
     left: 50%;
 
     transform: translateX(-50%);
+
+    &--bottom {
+      bottom: -30px;
+    }
+  }
+
+  &__help {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__icon {
+    box-sizing: border-box;
+    width: 40px;
+    height: 20px;
+
+    margin-right: 12px;
+    border-radius: 3px;
+
+    background-color: var(--color);
+
+    &--outline {
+      border: 3px solid var(--color);
+      background-color: transparent;
+    }
+
+    &--dashed {
+      border-style: dashed;
+    }
+
+    &--picture {
+      width: initial;
+      height: initial;
+    }
   }
 }

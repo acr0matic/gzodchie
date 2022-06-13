@@ -52,4 +52,15 @@ section#research {
     font-weight: $weight-Bold;
     font-size: $font-size__text--regular;
   }
+
+  &__digit {
+    display: flex;
+    align-items: center;
+  }
+
+  &__count {
+    margin-right: 5px;
+    color: $color-text__blue;
+    font-size: $font-size__text--huge;
+  }
 }

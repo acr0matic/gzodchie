@@ -1,0 +1,13 @@
+section#textblock {
+}
+
+.textblock {
+  &__content {
+  }
+
+  &__text {
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }
+}
