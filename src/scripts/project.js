@@ -48,6 +48,12 @@ if (project) {
         clickable: true,
       },
 
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+
+
       navigation: {
         nextEl: '.visualization__slider .swiper-button-next',
         prevEl: '.visualization__slider .swiper-button-prev',

@@ -14,4 +14,22 @@
   &--blue {
     color: $color-text__blue;
   }
+
+  &--arrow {
+    display: flex;
+    align-items: center;
+
+    @media (hover: hover) {
+      &:hover {
+        .link__arrow {
+          transform: translateX(5px);
+        }
+      }
+    }
+
+    .link__arrow {
+      margin-left: 5px;
+      transition: $transition ease;
+    }
+  }
 }

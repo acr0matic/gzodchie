@@ -41,6 +41,15 @@
   }
 
   &__item {
+    @include breakpoint($breakpoint-mobile--large) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &::after {
+        content: url("../img/icons/control/arrow__nav.svg");
+      }
+    }
   }
 
   &__link {

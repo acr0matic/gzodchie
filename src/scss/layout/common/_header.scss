@@ -27,17 +27,46 @@
   .nav__link {
     color: $color-text__white;
   }
+
+  .header__telegram path {
+    fill: $palette-white;
+  }
+
+  .header__mobile {
+    .hamburger-inner,
+    .hamburger-inner::before,
+    .hamburger-inner::after {
+      background-color: $palette-white;
+    }
+  }
 }
 
 .header {
+  @include breakpoint($breakpoint-tablet) {
+    height: 56px;
+  }
+
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: $header-height;
 
+  &__telegram {
+    @include breakpoint($breakpoint-tablet) {
+      display: block;
+    }
+
+    display: none;
+  }
+
   &__logo {
     @include breakpoint($breakpoint-laptop--medium) {
       width: 80px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      width: 60px;
+      margin: 0 auto;
     }
 
     width: 290px;
@@ -60,5 +89,16 @@
   }
 
   &__nav {
+    @include breakpoint($breakpoint-tablet) {
+      display: none;
+    }
+  }
+
+  &__mobile {
+    @include breakpoint($breakpoint-tablet) {
+      display: block;
+    }
+
+    display: none;
   }
 }

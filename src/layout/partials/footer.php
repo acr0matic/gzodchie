@@ -3,7 +3,7 @@
     <div class="container">
       <div class="footer">
         <div class="row">
-          <div class="col-4 col-xxl-3">
+          <div class="col-12 col-md-4 col-lg-3 col-xxl-3">
             <div class="footer__company">
               <div class="footer__logo">
                 <a href="">
@@ -29,13 +29,17 @@
               </div>
               <!-- /.footer__logo -->
 
-              <div class="footer__legal">
+              <a href="" class="footer__social footer__mobile link font-namu font-namu--1990">
+                <img class="footer__icon" src="img/icons/social/vk.svg" alt="">
+                Мы в Вконтакте
+              </a>
+              <!-- /.footer__social -->
+
+              <div class="footer__legal footer__laptop">
                 <div class="footer__about">
                   <span>Юр. лицо</span>
                   <div class="font-namu font-namu--1990">
-                    ООО Проектная мастерская
-                    <br>
-                    "Городские зодчие"
+                    ООО "Городские зодчие"
                   </div>
                 </div>
                 <!-- /.footer__about -->
@@ -52,7 +56,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-2">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-2">
             <div class="footer__nav">
               <nav class="nav nav--footer">
                 <ul class="nav__list">
@@ -83,7 +87,7 @@
           </div>
           <!-- /.col-2 -->
 
-          <div class="col-3 col-xxl-4">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xxl-4">
             <div class="footer__callback">
               <div class="footer__contact">
                 <span>Телефон</span>
@@ -98,12 +102,29 @@
               <!-- /.footer__contact -->
             </div>
             <!-- /.footer__callback -->
+
+            <div class="footer__legal footer__mobile">
+              <div class="footer__about">
+                <span>Юр. лицо</span>
+                <div class="font-namu font-namu--1990">
+                  ООО "Городские зодчие"
+                </div>
+              </div>
+              <!-- /.footer__about -->
+
+              <div class="footer__about">
+                <span>ИНН</span>
+                <div class="font-namu font-namu--1990">9705159702</div>
+              </div>
+              <!-- /.footer__about -->
+            </div>
+            <!-- /.footer__info -->
           </div>
           <!-- /.col-5 -->
 
-          <div class="col-3">
+          <div class="col-12 col-lg-4 col-xxl-3">
             <div class="footer__info">
-              <a href="" class="footer__social link font-namu font-namu--1990">
+              <a href="" class="footer__social footer__laptop link font-namu font-namu--1990">
                 <img class="footer__icon" src="img/icons/social/vk.svg" alt="">
                 Мы в Вконтакте
               </a>

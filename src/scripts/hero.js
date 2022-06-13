@@ -4,6 +4,7 @@ if (hero) {
   const slider = new Swiper('.hero__slider', {
     simulateTouch: false,
     speed: 500,
+    followFinger: false,
 
     autoplay: {
       delay: 5000,

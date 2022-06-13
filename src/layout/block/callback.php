@@ -2,7 +2,7 @@
   <div class="container">
     <div class="callback">
       <div class="row">
-        <div class="col-6 col-xxl-5">
+        <div class="col-12 col-lg-6 col-xxl-5 mb-4 mb-lg-0">
           <div class="section__header">
             <h2 class="section__title">Мы на связи</h2>
             <p class="section__text">
@@ -64,7 +64,7 @@
         </div>
         <!-- /.col-5 -->
 
-        <div class="col-6 col-xxl-6 offset-xxl-1">
+        <div class="col-12 col-lg-6 col-xxl-6 offset-xxl-1">
           <div class="callback__info">
             <div class="callback__map lazy">
               <iframe class="lazy__item" data-src="https://yandex.ru/map-widget/v1/?um=constructor%3A2ee8c0203e8011213a31527b420f11402ed2094b98b1d44e5451baad578b10f3&amp;source=constructor" width="500" height="450" frameborder="0"></iframe>

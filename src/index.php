@@ -165,7 +165,7 @@
 
       <div class="work">
         <div class="row justify-content-center">
-          <div class="col-6 col-xxl-5 mb-5">
+          <div class="col-12 col-lg-6 col-xxl-5 mb-5">
             <div class="work__info digit">
               <div data-value="26" class="digit__number">0</div>
               <p class="digit__text">
@@ -176,7 +176,7 @@
           </div>
           <!-- /.col-5 -->
 
-          <div class="col-6 col-xxl-5 mb-5">
+          <div class="col-12 col-lg-6 col-xxl-5 mb-5">
             <div class="work__info digit">
               <div data-value="1.6" data-decimal="1" data-suffix=" млрд руб." class="digit__number">0 млрд руб.</div>
               <p class="digit__text">
@@ -187,7 +187,7 @@
           </div>
           <!-- /.col-5 -->
 
-          <div class="col-6 col-xxl-5">
+          <div class="col-12 col-lg-6 col-xxl-5 mb-5 mb-lg-0">
             <div class="work__info digit">
               <div data-value="300000" class="digit__number">0</div>
               <p class="digit__text">
@@ -198,7 +198,7 @@
           </div>
           <!-- /.col-5 -->
 
-          <div class="col-6 col-xxl-5">
+          <div class="col-12 col-lg-6 col-xxl-5">
             <div class="work__info digit">
               <div data-value="18" class="digit__number">0</div>
               <p class="digit__text">
@@ -219,24 +219,31 @@
 
   <section id="news" class="section">
     <div class="container">
-      <div class="section__header text-center">
+      <div class="section__header section__header--action">
         <h2 class="section__title">Ежедневно развиваемся</h2>
+        <a class="link link--bold link--blue link--arrow" href="">
+          Подробнее
+          <img class="link__arrow" src="img/icons/control/arrow__link.svg" alt="">
+        </a>
+        <!-- /.news__action -->
       </div>
-      <!-- /.section__header text-center -->
+      <!-- /.section__header -->
 
       <div class="news">
         <div class="row">
-          <div class="col-6">
+          <div class="col-12 col-lg-6 mb-4 mb-lg-0">
             <?php include('layout/template/news-card.php') ?>
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-6">
+          <div class="col-12 col-lg-6">
             <?php include('layout/template/news-card.php') ?>
           </div>
           <!-- /.col-6 -->
         </div>
         <!-- /.row -->
+
+        <button class="news__button button button-outline">Все новости</button>
       </div>
       <!-- /.news -->
     </div>

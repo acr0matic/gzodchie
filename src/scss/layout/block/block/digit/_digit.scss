@@ -16,6 +16,11 @@
       font-size: $font-size__display--small;
     }
 
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 8px;
+      font-size: $font-size__title--big;
+    }
+
     margin-bottom: 12px;
 
     font-weight: $weight-SemiBold;

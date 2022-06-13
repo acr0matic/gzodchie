@@ -12,12 +12,35 @@
   }
 
   &__header {
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 40px;
+
+      br {
+        display: none;
+      }
+    }
+
     margin-bottom: 72px;
+
+    &--action {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .section__title {
+        margin-bottom: 0;
+      }
+    }
   }
 
   &__title {
     @include breakpoint($breakpoint-laptop) {
       font-size: $font-size__title--medium;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      font-size: $font-size__text--huge;
+      line-height: $line-height--secondary;
     }
 
     margin-bottom: 15px;

@@ -21,8 +21,11 @@
 
   &__content,
   &__footer {
-    padding-right: 32px;
-    padding-left: 32px;
+    @include breakpoint($breakpoint-mobile--large) {
+      padding: 0 16px;
+    }
+
+    padding: 0 32px;
   }
 
   &__body {
@@ -66,6 +69,10 @@
       font-size: $font-size__text--huge;
     }
 
+    @include breakpoint($breakpoint-tablet) {
+      font-size: $font-size__text--large;
+    }
+
     font-size: $font-size__title--small;
   }
 
@@ -81,6 +88,11 @@
   &__date {
     @include breakpoint($breakpoint-laptop) {
       font-size: $font-size__text--regular;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      color: $color-text__gray;
+      font-size: 12px;
     }
   }
 

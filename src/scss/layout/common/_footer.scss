@@ -15,10 +15,35 @@
     color: $color-text__white;
   }
 
+  &__laptop {
+    @include breakpoint($breakpoint-tablet) {
+      display: none !important;
+    }
+  }
+
+  &__mobile {
+    @include breakpoint($breakpoint-tablet) {
+      display: block;
+    }
+
+    display: none !important;
+  }
+
   &__company {
+    @include breakpoint($breakpoint-tablet) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      margin-bottom: 40px;
+    }
   }
 
   &__logo {
+    @include breakpoint($breakpoint-tablet) {
+      width: 110px;
+    }
+
     width: 140px;
     margin-bottom: 30px;
   }
@@ -26,15 +51,35 @@
   &__legal {
   }
 
+  &__nav {
+    @include breakpoint($breakpoint-mobile--large) {
+      margin-bottom: 56px;
+    }
+  }
+
   &__about {
+    @include breakpoint($breakpoint-tablet) {
+      font-size: $font-size__text--large;
+    }
+
     font-size: $font-size__text--regular;
 
     &:not(:last-child) {
       margin-bottom: 20px;
     }
+
+    span {
+      @include breakpoint($breakpoint-tablet) {
+        font-size: $font-size__text--regular;
+      }
+    }
   }
 
   &__contact {
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 20px !important;
+    }
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -48,11 +93,24 @@
     }
 
     .link {
+      @include breakpoint($breakpoint-tablet) {
+        font-size: $font-size__text--large;
+      }
+
       font-size: $font-size__text--huge;
     }
   }
 
   &__info {
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-top: 24px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      align-items: flex-start;
+      margin-top: 0;
+    }
+
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -72,6 +130,10 @@
   }
 
   &__privacy {
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-top: 32px;
+    }
+
     margin-top: auto;
 
     font-size: $font-size__text--regular;

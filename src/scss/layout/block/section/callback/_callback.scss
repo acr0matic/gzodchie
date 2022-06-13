@@ -3,15 +3,27 @@ section#callback {
     padding: 56px 0;
   }
 
+  @include breakpoint($breakpoint-tablet) {
+    padding: 32px 0;
+  }
+
   padding-top: 110px;
   padding-bottom: 95px;
   background-color: $palette-white--pale;
 
   .section__header {
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 48px;
+    }
+
     margin-bottom: 32px;
   }
 
   .section__title {
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 16px;
+    }
+
     margin-bottom: 8px;
   }
 

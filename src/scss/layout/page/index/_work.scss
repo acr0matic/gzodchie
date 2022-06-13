@@ -3,6 +3,10 @@ section#work {
     padding-bottom: 208px;
   }
 
+  @include breakpoint($breakpoint-tablet) {
+    padding: 32px 0;
+  }
+
   padding-bottom: 168px;
 
   background-image: url("../img/layout/page/index/work/background.svg");

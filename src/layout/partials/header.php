@@ -62,6 +62,13 @@
   <header id="header">
     <div class="container">
       <div class="header">
+        <div class="header__telegram">
+          <svg class="svg" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M25.668 9.43369C25.8574 9.76172 25.8452 10.1686 25.6365 10.4847L14.548 27.2789C14.3355 27.6008 13.9567 27.7718 13.5747 27.7182C13.1926 27.6646 12.8755 27.3961 12.7596 27.0281L10.0584 18.4459L3.97658 11.8154C3.71582 11.5311 3.64183 11.1222 3.78645 10.7646C3.93108 10.4069 4.26852 10.1644 4.6536 10.1412L24.742 8.93549C25.1201 8.91279 25.4786 9.10567 25.668 9.43369ZM12.1403 18.3986L14.0366 24.4236L21.6334 12.9177L12.1403 18.3986ZM20.6334 11.1857L6.87063 12.0118L11.1403 16.6666L20.6334 11.1857Z" fill="#000000" />
+          </svg>
+        </div>
+        <!-- /.header__telegram -->
+
         <div class="header__logo">
           <a href="">
             <svg class="svg logo" width="100%" height="100%" viewBox="0 0 290 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -111,6 +118,15 @@
           <?php include_once('menu/header.php') ?>
         </div>
         <!-- /.header__nav -->
+
+        <div class="header__mobile">
+          <button class="hamburger" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
+        <!-- /.header__mobile -->
       </div>
       <!-- /.header -->
     </div>

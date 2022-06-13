@@ -3,10 +3,31 @@ main#home section#news {
   background-color: $palette-gray;
 
   .section__header {
+    @include breakpoint($breakpoint-mobile--large) {
+      justify-content: center;
+
+      .section__title {
+        margin-bottom: 0;
+        text-align: center;
+      }
+
+      .link--arrow {
+        display: none;
+      }
+    }
+
     margin-bottom: 48px;
   }
 }
 
 .news {
+  &__button {
+    @include breakpoint($breakpoint-mobile--large) {
+      display: block;
+    }
 
+    display: none;
+    width: 100%;
+    margin-top: 32px;
+  }
 }
