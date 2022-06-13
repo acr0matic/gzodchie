@@ -1,4 +1,8 @@
 .service-card {
+  @include breakpoint($breakpoint-tablet) {
+    padding: 16px;
+  }
+
   padding: 28px;
 
   border: 1px solid #cfd2dd;
@@ -48,6 +52,14 @@
       font-size: $font-size__text--large;
     }
 
+    @include breakpoint($breakpoint-tablet) {
+      font-size: $font-size__text--big;
+
+      br {
+        display: none;
+      }
+    }
+
     margin-bottom: 24px;
 
     font-weight: $weight-ExtraBold;
@@ -67,12 +79,21 @@
       width: 270px !important;
     }
 
+    @include breakpoint($breakpoint-tablet) {
+      width: 70% !important;
+    }
+
     width: 300px;
   }
 
   &__picture {
     @include breakpoint($breakpoint-laptop) {
       width: 120px !important;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      width: 30% !important;
+      max-width: 100px;
     }
 
     position: absolute;
@@ -87,6 +108,10 @@
   &__text {
     @include breakpoint($breakpoint-laptop) {
       font-size: $font-size__text--regular;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      font-size: $font-size__text--small;
     }
 
     position: relative;
