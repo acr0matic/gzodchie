@@ -5,7 +5,7 @@
   <section id="projects" class="section">
     <div class="projects">
       <div class="container">
-        <div class="section__header text-center">
+        <div class="section__header text-md-center">
           <h1 class="page__title section__title">Проекты</h1>
           <p class="section__text">
             Наша команда проводит комплексную работу с амбициозными и сложными
