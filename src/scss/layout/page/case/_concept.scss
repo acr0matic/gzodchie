@@ -1,0 +1,47 @@
+section#concept {
+}
+
+.concept {
+  &__content {
+    @include breakpoint($breakpoint-laptop--medium) {
+      position: static;
+    }
+
+    position: sticky;
+    top: 95px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    margin-bottom: 16px;
+
+    font-size: $font-size__text--huge;
+    text-align: center;
+  }
+
+  &__picture {
+    @include breakpoint($breakpoint-laptop--medium) {
+      margin-bottom: 32px;
+    }
+  }
+
+  &__list {
+    padding-left: 25px;
+    list-style-type: disc;
+
+    li {
+      &::marker {
+        font-size: 14px;
+      }
+
+      &:not(:last-child) {
+        margin-bottom: 8px;
+      }
+    }
+  }
+}

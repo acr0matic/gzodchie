@@ -338,6 +338,130 @@
     <!-- /.container -->
   </section>
 
+  <section id="concept" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-8 col-xxl-3 offset-xxl-1">
+          <div class="concept__content">
+            <div class="section__header">
+              <h2 class="section__title section__title--small">
+                Концепция
+              </h2>
+
+              <p class="section__text mb-5">
+                Никольский сквер играет уникальную роль в городе: это живое природное пространство в самом центре Губкинского. Поэтому, нам важно было сохранить богатую природу, сделать парк удобнее и при этом учесть суровые условия северного климата.
+                <br>
+                <br>
+                По результатам предпроектного исследования обнаружили ряд важных проблем и особенностей, которые учли в ходе разработки проекта.
+              </p>
+            </div>
+            <!-- /.section__header -->
+          </div>
+          <!-- /.concept__content -->
+        </div>
+        <!-- /.col-3 offset-1 -->
+
+        <div class="col-12 col-xxl-8">
+          <div class="concept">
+            <div class="row">
+              <div class="col-6 ps-xxl-5 pe-xxl-5 mb-5">
+                <div class="concept__item">
+                  <h3 class="concept__title">
+                    Увеличение территории <br> рекреации
+                  </h3>
+
+                  <picture class="concept__picture lazy">
+                    <img data-src="img/layout/page/case/gubinskiy/concept/1.jpg" src="img/layout/page/case/gubinskiy/concept/thumb/1.jpg" alt="" class="concept__image image image--cover lazy__item">
+                    <img src="img/misc/preloader.svg" alt="" class="preloader">
+                  </picture>
+
+                  <ul class="concept__list">
+                    <li>Включение неиспользуемой территории в состав благоустроенной</li>
+                    <li>Создание новых сценариев досуга горожан</li>
+                    <li>Обеспечение комфорта для более долгого пребывания на территории</li>
+                  </ul>
+                </div>
+                <!-- /.concept__item -->
+              </div>
+              <!-- /.col-6 -->
+
+              <div class="col-6 ps-xxl-5 pe-xxl-5 mb-5">
+                <div class="concept__item">
+                  <h3 class="concept__title">
+                    Улучшение пешеходной связности
+                    <br>
+                    территории
+                  </h3>
+
+                  <picture class="concept__picture lazy">
+                    <img data-src="img/layout/page/case/gubinskiy/concept/2.jpg" src="img/layout/page/case/gubinskiy/concept/thumb/2.jpg" alt="" class="concept__image image image--cover lazy__item">
+                    <img src="img/misc/preloader.svg" alt="" class="preloader">
+                  </picture>
+
+                  <ul class="concept__list">
+                    <li>Создание безопасных транзитных дорог</li>
+                    <li>Увеличение длины прогулочных дорожек</li>
+                  </ul>
+                </div>
+                <!-- /.concept__item -->
+              </div>
+              <!-- /.col-6 -->
+
+              <div class="col-6 ps-xxl-5 pe-xxl-5">
+                <div class="concept__item">
+                  <h3 class="concept__title">
+                    Работа с северной природой и
+                    <br>
+                    климатом
+                  </h3>
+
+                  <picture class="concept__picture lazy">
+                    <img data-src="img/layout/page/case/gubinskiy/concept/3.jpg" src="img/layout/page/case/gubinskiy/concept/thumb/3.jpg" alt="" class="concept__image image image--cover lazy__item">
+                    <img src="img/misc/preloader.svg" alt="" class="preloader">
+                  </picture>
+
+                  <ul class="concept__list">
+                    <li>Применение принципов северной архитектуры</li>
+                    <li>Сохранение зеленого массива</li>
+                    <li>Применение экологичных материалов</li>
+                  </ul>
+                </div>
+                <!-- /.concept__item -->
+              </div>
+              <!-- /.col-6 -->
+
+              <div class="col-6 ps-xxl-5 pe-xxl-5">
+                <div class="concept__item">
+                  <h3 class="concept__title">
+                    Подсвечивание айдентики
+                    <br>
+                    города
+                  </h3>
+
+                  <picture class="concept__picture lazy">
+                    <img data-src="img/layout/page/case/gubinskiy/concept/4.jpg" src="img/layout/page/case/gubinskiy/concept/thumb/4.jpg" alt="" class="concept__image image image--cover lazy__item">
+                    <img src="img/misc/preloader.svg" alt="" class="preloader">
+                  </picture>
+
+                  <ul class="concept__list">
+                    <li>Отражение местной идентичности в благоуйстройстве</li>
+                  </ul>
+                </div>
+                <!-- /.concept__item -->
+              </div>
+              <!-- /.col-6 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.concept -->
+        </div>
+        <!-- /.col-8 -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+
   <section id="usage" class="section">
     <div class="container">
       <div class="row justify-content-center">
