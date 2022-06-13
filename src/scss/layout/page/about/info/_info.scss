@@ -9,16 +9,28 @@ section#info {
       font-size: $font-size__title--medium;
     }
 
+    @include breakpoint($breakpoint-tablet) {
+      font-size: $font-size__text--huge;
+    }
+
     font-size: $font-size__title--big;
   }
 
   &__title {
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 24px;
+    }
+
     margin-bottom: 48px;
     color: $color-text__gray;
     text-align: center;
   }
 
   &__text {
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 48px;
+    }
+
     margin-bottom: 96px;
     line-height: $line-height--secondary;
   }

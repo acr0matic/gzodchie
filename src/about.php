@@ -19,7 +19,7 @@
 
         <div class="info__wrapper">
           <div class="row justify-content-center">
-            <div class="col-6 col-xxl-4">
+            <div class="col-12 col-sm-6 col-xxl-4">
               <div class="info__item info-item info-item--line">
                 <h3 class="info-item__title">Приоритет</h3>
                 <p class="info-item__text">
@@ -30,7 +30,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="col-6 col-xxl-4">
+            <div class="col-12 col-sm-6 col-xxl-4">
               <div class="info__item info-item">
                 <h3 class="info-item__title">Особенности</h3>
                 <p class="info-item__text">
@@ -44,7 +44,7 @@
           <!-- /.row -->
 
           <div class="row justify-content-center">
-            <div class="col-6 col-xxl-4">
+            <div class="col-12 col-sm-6 col-xxl-4">
               <div class="info__item info-item">
                 <h3 class="info-item__title">Партнерство</h3>
                 <p class="info-item__text">
@@ -55,7 +55,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="col-6 col-xxl-4">
+            <div class="col-12 col-sm-6 col-xxl-4">
               <div class="info__item info-item info-item--line info-item--reverse">
                 <h3 class="info-item__title">Опыт</h3>
                 <p class="info-item__text">
@@ -81,7 +81,7 @@
     <div class="container">
       <div class="team">
         <div class="row">
-          <div class="col-9 offset-3">
+          <div class="col-12 col-md-9 offset-md-3">
             <div class="section__header">
               <h2 class="section__title">Команда</h2>
               <p class="section__text">
@@ -101,7 +101,7 @@
         <!-- /.row -->
 
         <div class="row">
-          <div class="col-4 col-xxl-3 mb-4">
+          <div class="col-12 col-sm-6 col-md-4 col-xxl-3 mb-4">
             <div class="team__item team-item">
               <div class="team-item__container">
                 <picture class="team-item__picture lazy">
@@ -149,7 +149,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-4 col-xxl-3 mb-4">
+          <div class="col-12 col-sm-6 col-md-4 col-xxl-3 mb-4">
             <div class="team__item team-item">
               <div class="team-item__container">
                 <picture class="team-item__picture lazy">
@@ -197,7 +197,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-4 col-xxl-3 mb-4">
+          <div class="col-12 col-sm-6 col-md-4 col-xxl-3 mb-4">
             <div class="team__item team-item">
               <div class="team-item__container">
                 <picture class="team-item__picture lazy">
@@ -239,7 +239,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-4 col-xxl-3 mb-4">
+          <div class="col-12 col-sm-6 col-md-4 col-xxl-3 mb-4">
             <div class="team__item team-item">
               <div class="team-item__container">
                 <picture class="team-item__picture lazy">

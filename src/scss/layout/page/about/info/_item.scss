@@ -1,4 +1,13 @@
 .info-item {
+  @include breakpoint($breakpoint-mobile--large) {
+    &::before,
+    &::after {
+      content: none !important;
+    }
+
+    margin-bottom: 24px;
+  }
+
   position: relative;
   margin-bottom: 100px;
 
