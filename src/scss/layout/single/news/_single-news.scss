@@ -9,7 +9,21 @@ section#single-news {
   flex-direction: column;
   align-items: center;
 
+  &__title {
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: $font-size__title--small;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      font-size: $font-size__text--huge + 3px;
+    }
+  }
+
   &__action {
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 16px;
+    }
+
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -27,6 +41,11 @@ section#single-news {
   }
 
   &__info {
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 8px;
+      font-size: $font-size__text--large;
+    }
+
     display: block;
     color: $color-text__gray;
 
@@ -40,6 +59,14 @@ section#single-news {
   }
 
   &__picture {
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 100%;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      height: 180px;
+    }
+
     width: 800px;
     height: 250px;
 
@@ -47,6 +74,10 @@ section#single-news {
   }
 
   &__content {
+    @include breakpoint($breakpoint-tablet) {
+      width: 100%;
+    }
+
     width: 500px;
     margin: 0 auto;
 
