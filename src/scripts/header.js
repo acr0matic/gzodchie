@@ -21,7 +21,7 @@ if (header) {
 
     // Смена цветовой гаммы хедера
     function CheckHeader() {
-      isReach = window.scrollY >= heroHeight;
+      isReach = window.scrollY >= heroHeight - getHeight(header);
 
       if (isReach) header.classList.remove('header-inverted');
       else header.classList.add('header-inverted');

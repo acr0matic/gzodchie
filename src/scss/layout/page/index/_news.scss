@@ -23,7 +23,7 @@ main#home section#news {
 .news {
   &__button {
     @include breakpoint($breakpoint-mobile--large) {
-      display: block;
+      display: inline-block;
     }
 
     display: none;

@@ -221,8 +221,8 @@
     <div class="container">
       <div class="section__header section__header--action">
         <h2 class="section__title">Ежедневно развиваемся</h2>
-        <a class="link link--bold link--blue link--arrow" href="">
-          Подробнее
+        <a class="link link--bold link--blue link--arrow" href="news.php">
+          Все новости
           <img class="link__arrow" src="img/icons/control/arrow__link.svg" alt="">
         </a>
         <!-- /.news__action -->
@@ -243,7 +243,7 @@
         </div>
         <!-- /.row -->
 
-        <button class="news__button button button-outline">Все новости</button>
+        <a href="news.php" class="news__button button button-outline">Все новости</a>
       </div>
       <!-- /.news -->
     </div>

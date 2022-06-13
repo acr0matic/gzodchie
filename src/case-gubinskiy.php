@@ -187,6 +187,346 @@
     <!-- /.container -->
   </section>
 
+  <section id="history" class="section">
+    <div class="history">
+      <div class="history__wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-xxl-10 offset-xxl-1">
+              <div class="section__header">
+                <h2 class="section__title section__title--small">
+                  Историческая справка
+                </h2>
+              </div>
+              <!-- /.section__header -->
+            </div>
+            <!-- /.col-6 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+
+        <div class="history__container scrollbar-lg-hidden">
+          <div class="container">
+            <div class="row align-items-end">
+              <div class="col-3 col-xxl-2 offset-3 offset-xxl-2">
+                <div class="history__item history-item">
+                  <picture class="history-item__picture">
+                    <img src="img/layout/page/case/gubinskiy/history/1/1.jpg" alt="" class="history-item__image image image--cover">
+                  </picture>
+
+                  <p class="history-item__text">
+                    станция Пурпе (ветки Сургут - Новый Уренгой), основанная как рабочий посёлок в январе 1978 года.
+                  </p>
+                </div>
+                <!-- /.history__item -->
+              </div>
+              <!-- /.col-2 -->
+
+              <div class="col-4 col-xxl-3 offset-3 offset-xxl-2">
+                <div class="history__item history-item">
+                  <picture class="history-item__picture">
+                    <img src="img/layout/page/case/gubinskiy/history/1/2.jpg" alt="" class="history-item__image image image--cover">
+                  </picture>
+
+                  <p class="history-item__text">
+                    В апреле 1986 года состоялся митинг, посвященный началу строительства будушего города и закладка символического камня. Собрались почти все жителей - почти 300 человек
+                  </p>
+                </div>
+                <!-- /.history__item -->
+              </div>
+              <!-- /.col-2 -->
+
+              <div class="col-3 col-xxl-2 offset-1">
+                <div class="history__item history-item">
+                  <picture class="history-item__picture">
+                    <img src="img/layout/page/case/gubinskiy/history/1/3.jpg" alt="" class="history-item__image image image--cover">
+                  </picture>
+
+                  <p class="history-item__text">
+                    18 апреля 1988 года посёлку было присвоено имя Губкинский
+                  </p>
+                </div>
+                <!-- /.history__item -->
+              </div>
+              <!-- /.col-2 -->
+            </div>
+            <!-- /.row -->
+
+            <div class="history__timeline history-timeline">
+              <div class="row">
+                <div class="col-3 col-xxl-2 position-relative">
+                  <div class="history-timeline__item">
+                    <div class="history-timeline__line history-timeline__line--left"></div>
+                    <div class="history-timeline__year">1965 год</div>
+                    <div class="history-timeline__dot"></div>
+                    <div class="history-timeline__line history-timeline__line--right"></div>
+                  </div>
+                  <!-- /.history-timeline__item -->
+                </div>
+                <!-- /.col-2 -->
+
+                <div class="col-3 col-xxl-2 position-relative">
+                  <div class="history-timeline__item">
+                    <div class="history-timeline__line history-timeline__line--left"></div>
+                    <div class="history-timeline__year">1978 год</div>
+                    <div class="history-timeline__dot"></div>
+                    <div class="history-timeline__line history-timeline__line--right"></div>
+                  </div>
+                  <!-- /.history-timeline__item -->
+                </div>
+                <!-- /.col-2 position-relative -->
+
+                <div class="col-3 col-xxl-2 position-relative">
+                  <div class="history-timeline__item">
+                    <div class="history-timeline__line history-timeline__line--left"></div>
+                    <div class="history-timeline__year">1980 год</div>
+                    <div class="history-timeline__dot"></div>
+                    <div class="history-timeline__line history-timeline__line--right"></div>
+                  </div>
+                  <!-- /.history-timeline__item -->
+                </div>
+                <!-- /.col-2 position-relative -->
+
+                <div class="col-4 col-xxl-3 position-relative">
+                  <div class="history-timeline__item">
+                    <div class="history-timeline__line history-timeline__line--left"></div>
+                    <div class="history-timeline__year">1986 год</div>
+                    <div class="history-timeline__dot history-timeline__dot--blue"></div>
+                    <div class="history-timeline__line history-timeline__line--right history-timeline__line--blue"></div>
+                  </div>
+                  <!-- /.history-timeline__item -->
+                </div>
+                <!-- /.col-3 position-relative -->
+
+                <div class="col-3 col-xxl-2 offset-1 position-relative">
+                  <div class="history-timeline__item">
+                    <div class="history-timeline__line history-timeline__line--left history-timeline__line--wide history-timeline__line--blue"></div>
+                    <div class="history-timeline__year">1988 год</div>
+                    <div class="history-timeline__dot history-timeline__dot--blue"></div>
+                    <div class="history-timeline__line history-timeline__line--right"></div>
+                  </div>
+                  <!-- /.history-timeline__item -->
+                </div>
+                <!-- /.col-3 position-relative -->
+              </div>
+              <!-- /.row -->
+            </div>
+            <!-- /.history__timeline history-timeline -->
+
+            <div class="row align-items-start">
+              <div class="col-3 col-xxl-2">
+                <div class="history__item history-item">
+                  <p class="history-item__text">
+                    Было открыто Губкинское месторождение. Входит в состав Западно-Сибирской нефтегазоносной провинции. Общие запасы газа составляют более 400 млрд м².
+                  </p>
+                </div>
+                <!-- /.history__item -->
+              </div>
+              <!-- /.col-2 -->
+
+              <div class="col-3 col-xxl-2 offset-3 offset-xxl-2">
+                <div class="history__item history-item">
+                  <picture class="history-item__picture">
+                    <img src="img/layout/page/case/gubinskiy/history/1/4.jpg" alt="" class="history-item__image image image--cover">
+                  </picture>
+
+                  <p class="history-item__text">
+                    Первый поезд на участке пути Ноябрьск-Пурпе
+                  </p>
+                </div>
+                <!-- /.history__item -->
+              </div>
+              <!-- /.col-2 -->
+
+              <div class="col-4 col-xxl-3">
+                <div class="history__item history-item history-item--offset">
+                  <p class="history-item__text">
+                    Добыта первая тонна нефти и принято решение строительства рабочего посёлка. Установка панелей первого дома в 5 мкрн. нового горда. 1986 год. Появляется главная улица - это проспект Губкина.
+                  </p>
+
+                  <picture class="history-item__picture">
+                    <img src="img/layout/page/case/gubinskiy/history/1/5.jpg" alt="" class="history-item__image image image--cover">
+                  </picture>
+
+                  <div class="history-item__info history-item__info--blue">
+                    Застройка деревянными сборно-щитовыми зданиями, промышленные территории
+                  </div>
+                  <!-- /.history-item__info -->
+                </div>
+                <!-- /.history__item -->
+              </div>
+              <!-- /.col-2 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- /.history__container -->
+      </div>
+      <!-- /.history__wrapper -->
+
+      <div class="history__wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-xxl-10 offset-xxl-1">
+              <div class="section__header">
+                <h2 class="section__title section__title--small">
+                  Историко-ретроспективный анализ территории
+                </h2>
+              </div>
+              <!-- /.section__header -->
+            </div>
+            <!-- /.col-6 -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+
+        <div class="history__container history__container--offset scrollbar-lg-hidden">
+          <div class="container">
+            <div class="row align-items-end">
+              <div class="col-3 col-xxl-2 offset-3 offset-xxl-2">
+                <div class="history__item history-item">
+                  <p class="history-item__text">
+                    Посёлок Губкинский получил статус города окружного значения и был включен в перечень муниципальных образований ЯНАО.
+                    <br>
+                    <span>Губкинский - самый молодой город России.</span>
+                  </p>
+                </div>
+                <!-- /.history__item -->
+              </div>
+              <!-- /.col-2 -->
+
+              <div class="col-3 col-xxl-2">
+                <div class="history__item history-item">
+                  <p class="history-item__text">
+                    Началась Промышленная разработка Губкинского месторождения. Сдана первая очередь Губкинского месторождения.
+                  </p>
+                </div>
+                <!-- /.history__item -->
+              </div>
+              <!-- /.col-2 -->
+
+              <div class="col-3 col-xxl-2 offset-5 offset-xxl-4">
+                <div class="history__item history-item">
+                  <picture class="history-item__picture">
+                    <img src="img/layout/page/case/gubinskiy/history/2/1.jpg" alt="" class="history-item__image image image--cover">
+                  </picture>
+
+                  <p class="history-item__text text-center">
+                    В черту города включен <span>поселок Пурпе</span>
+                  </p>
+                </div>
+                <!-- /.history__item -->
+              </div>
+              <!-- /.col-2 -->
+            </div>
+            <!-- /.row -->
+
+            <div class="history__timeline history-timeline">
+              <div class="row">
+                <div class="col-3 col-xxl-2 position-relative">
+                  <div class="history-timeline__item">
+                    <div class="history-timeline__line history-timeline__line--left history-timeline__line--green"></div>
+                    <div class="history-timeline__year">1990 год</div>
+                    <div class="history-timeline__dot"></div>
+                    <div class="history-timeline__line history-timeline__line--right history-timeline__line--green"></div>
+                  </div>
+                  <!-- /.history-timeline__item -->
+                </div>
+                <!-- /.col-2 -->
+
+                <div class="col-3 col-xxl-2 position-relative">
+                  <div class="history-timeline__item">
+                    <div class="history-timeline__line history-timeline__line--left history-timeline__line--green"></div>
+                    <div class="history-timeline__date">2 декабря</div>
+                    <div class="history-timeline__year">1996 года</div>
+                    <div class="history-timeline__dot"></div>
+                    <div class="history-timeline__line history-timeline__line--right history-timeline__line--green"></div>
+                  </div>
+                  <!-- /.history-timeline__item -->
+                </div>
+                <!-- /.col-2 position-relative -->
+
+                <div class="col-3 col-xxl-2 position-relative">
+                  <div class="history-timeline__item">
+                    <div class="history-timeline__line history-timeline__line--left history-timeline__line--green"></div>
+                    <div class="history-timeline__date">31 мая</div>
+                    <div class="history-timeline__year">1999 года</div>
+                    <div class="history-timeline__dot"></div>
+                    <div class="history-timeline__line history-timeline__line--right history-timeline__line--green"></div>
+                  </div>
+                  <!-- /.history-timeline__item -->
+                </div>
+                <!-- /.col-2 position-relative -->
+
+                <div class="col-4 col-xxl-3 position-relative">
+                  <div class="history-timeline__item">
+                    <div class="history-timeline__line history-timeline__line--left history-timeline__line--green"></div>
+                    <div class="history-timeline__year">2010 год</div>
+                    <div class="history-timeline__dot history-timeline__dot--blue history-timeline__dot--outline"></div>
+                    <div class="history-timeline__line history-timeline__line--right history-timeline__line--blue"></div>
+                  </div>
+                  <!-- /.history-timeline__item -->
+                </div>
+                <!-- /.col-3 position-relative -->
+
+                <div class="col-3 col-xxl-2 offset-1 position-relative">
+                  <div class="history-timeline__item">
+                    <div class="history-timeline__line history-timeline__line--left history-timeline__line--wide history-timeline__line--blue"></div>
+                    <div class="history-timeline__year">2021 год</div>
+                    <div class="history-timeline__dot history-timeline__dot--blue"></div>
+                    <div class="history-timeline__line history-timeline__line--right"></div>
+                  </div>
+                  <!-- /.history-timeline__item -->
+                </div>
+                <!-- /.col-3 position-relative -->
+              </div>
+              <!-- /.row -->
+            </div>
+            <!-- /.history__timeline history-timeline -->
+
+            <div class="row align-items-start">
+              <div class="col-4 col-xxl-3 offset-4 offset-xxl-3">
+                <div class="history__item history-item">
+                  <p class="history-item__info history-item__info--green">
+                    Застройка панельными и кирпичными зданиями, промышленные территории
+                  </p>
+
+                  <picture class="history-item__picture">
+                    <img src="img/layout/page/case/gubinskiy/history/2/2.jpg" alt="" class="history-item__image image image--cover">
+                  </picture>
+                </div>
+                <!-- /.history__item -->
+              </div>
+              <!-- /.col-3 -->
+
+              <div class="col-4 col-xxl-3 offset-3 offset-xxl-2">
+                <div class="history__item history-item">
+                  <p class="history-item__info history-item__info--blue">
+                    Застройка монолитными и панельными зданиями, частные жилые дома, промышленные территории
+                  </p>
+
+                  <picture class="history-item__picture">
+                    <img src="img/layout/page/case/gubinskiy/history/2/3.jpg" alt="" class="history-item__image image image--cover">
+                  </picture>
+                </div>
+                <!-- /.history__item -->
+              </div>
+              <!-- /.col-3 -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+        </div>
+        <!-- /.history__container -->
+      </div>
+      <!-- /.history__wrapper -->
+    </div>
+    <!-- /.history -->
+  </section>
+
   <section id="involvement" class="section">
     <div class="container">
       <div class="row justify-content-center">

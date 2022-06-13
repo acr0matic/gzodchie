@@ -1,0 +1,51 @@
+section#history {
+  margin-top: 96px;
+  padding-top: 0;
+
+  .row {
+    flex-wrap: nowrap;
+  }
+}
+
+.history {
+  &__wrapper {
+    &:first-child {
+      .history-item__info {
+        position: absolute;
+        top: -35%;
+        right: -60%;
+
+        width: fit-content;
+      }
+    }
+
+    &:last-child {
+      .row:last-child .history-item {
+        @include breakpoint($breakpoint-laptop--medium) {
+          left: 0;
+        }
+
+        left: -60px;
+      }
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 96px;
+    }
+  }
+
+  &__container {
+    @include breakpoint($breakpoint-laptop--medium) {
+      overflow: auto;
+      cursor: grab;
+    }
+
+    overflow: hidden;
+
+    &--offset {
+      @include breakpoint($breakpoint-laptop--medium) {
+        margin-top: -40px;
+      }
+    }
+  }
+}

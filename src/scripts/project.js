@@ -7,6 +7,7 @@ if (project) {
   const visualization = project.querySelector('#visualization');
   const usage = project.querySelector('#usage');
   const involvement = project.querySelector('#involvement');
+  const history = project.querySelector('#history');
 
   if (solution) {
     let slider = null;
@@ -104,5 +105,52 @@ if (project) {
       Slider();
       window.addEventListener('resize', () => Slider());
     });
+  }
+
+  if (history) {
+    const container = history.querySelectorAll('.history__container');
+
+    function Drag() {
+      _.forEach(container, (block) => {
+        let pos = { top: 0, left: 0, x: 0, y: 0 };
+
+        const mouseDownHandler = function (e) {
+          pos = {
+            left: block.scrollLeft,
+            top: block.scrollTop,
+
+            x: e.clientX,
+            y: e.clientY,
+          };
+
+          block.style.cursor = 'grabbing';
+          block.style.userSelect = 'none';
+
+          block.addEventListener('mousemove', mouseMoveHandler);
+          block.addEventListener('mouseup', mouseUpHandler);
+        };
+
+        const mouseMoveHandler = function (e) {
+          const dx = e.clientX - pos.x;
+          const dy = e.clientY - pos.y;
+
+          block.scrollTop = pos.top - dy;
+          block.scrollLeft = pos.left - dx;
+        };
+
+        const mouseUpHandler = function () {
+          block.removeEventListener('mousemove', mouseMoveHandler);
+          block.removeEventListener('mouseup', mouseUpHandler);
+
+          block.style.cursor = 'grab';
+          block.style.removeProperty('user-select');
+        };
+
+        if (breakpoint.matches) block.addEventListener('mousedown', mouseDownHandler);
+      })
+    }
+
+    window.addEventListener('resize', () => Drag());
+    Drag();
   }
 }

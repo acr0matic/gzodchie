@@ -4,6 +4,11 @@
       bottom: 16px;
     }
 
+    @include breakpoint($breakpoint-mobile--large) {
+      bottom: 64px;
+      left: 12px;
+    }
+
     position: absolute;
     bottom: 48px;
     left: 0;

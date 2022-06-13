@@ -41,11 +41,11 @@
   <meta name="robots" content="index,follow" />
 
   <!-- Покраска адресной строки в мобильных Chrome, Firefox OS и Opera -->
-  <meta name="theme-color" content="#4285f4" />
+  <meta name="theme-color" content="#ffffff" />
 
   <!-- Покраска для iOS Safari -->
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="#4285f4">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#ffffff">
 
   <!-- Место для счетков и аналитики -->
 
@@ -70,7 +70,7 @@
         <!-- /.header__telegram -->
 
         <div class="header__logo">
-          <a href="">
+          <a href="index.php">
             <svg class="svg logo" width="100%" height="100%" viewBox="0 0 290 44" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_835_3724)">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M75.2475 0H0V44.0941H75.2475V0ZM37.6237 6.29949H56.4346H62.707V12.5984V18.8973H68.977V25.1979V31.4969V37.7958H37.6237V31.4969H62.707V25.1979H56.4346H43.8941V18.8973H56.4346V12.5984H37.6237V6.29949ZM12.5414 6.29949H6.27101V12.5984V37.7958H12.5414V12.5984H31.3541V6.29949H12.5414Z" fill="#1F212B" />

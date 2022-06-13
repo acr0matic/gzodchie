@@ -1,0 +1,35 @@
+.history-item {
+  position: relative;
+  font-size: $font-size__text--regular;
+
+  &--offset {
+    margin-top: 96px;
+  }
+
+  & > *:first-child {
+    margin-bottom: 24px;
+  }
+
+  &__picture {
+    pointer-events: none;
+  }
+
+  &__text {
+    span {
+      color: $component-color__red;
+      font-weight: $weight-Bold;
+    }
+  }
+
+  &__info {
+    text-align: center;
+
+    &--blue {
+      color: $color-text__blue;
+    }
+
+    &--green {
+      color: $color-text__green;
+    }
+  }
+}
