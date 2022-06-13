@@ -19,6 +19,28 @@
     }
   }
 
+  &--mobile {
+    .nav__list {
+      @include breakpoint($breakpoint-mobile--large) {
+        align-items: stretch;
+      }
+
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .nav__item {
+      &:not(:last-child) {
+        margin-bottom: 30px;
+      }
+    }
+
+    .nav__link {
+      color: $palette-white;
+      font-size: $font-size__text--large;
+    }
+  }
+
   &--footer {
     .nav__list {
       flex-direction: column;

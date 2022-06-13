@@ -120,7 +120,7 @@
         <!-- /.header__nav -->
 
         <div class="header__mobile">
-          <button class="hamburger" type="button">
+          <button class="hamburger hamburger--spin" type="button">
             <span class="hamburger-box">
               <span class="hamburger-inner"></span>
             </span>
@@ -132,3 +132,5 @@
     </div>
     <!-- /.container -->
   </header>
+
+  <?php include_once('menu/mobile.php'); ?>

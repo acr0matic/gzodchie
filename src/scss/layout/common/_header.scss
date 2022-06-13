@@ -11,12 +11,14 @@
   width: 100%;
 
   background-color: $palette-white;
+  transition: $transition ease;
 }
 
 .header-fixed {
   position: fixed !important;
 }
 
+.header-mobile,
 .header-inverted {
   background-color: transparent !important;
 
@@ -39,6 +41,10 @@
       background-color: $palette-white;
     }
   }
+}
+
+.header-mobile {
+  background-color: $palette-black !important;
 }
 
 .header {
