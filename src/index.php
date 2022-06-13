@@ -35,13 +35,13 @@
             <div class="hero__item">
               <div class="hero__content">
                 <div class="container">
-                  <h2 class="section__title hero__subtitle">Доступное жилье</h2>
+                  <h2 class="section__title hero__subtitle">Городские территории</h2>
                   <h1 class="section__title hero__title">
-                    Решения для создания
+                    Решения для развития
                     <br>
-                    качественного и
+                    территорий и
                     <br>
-                    доступного жилья
+                    недвижимости
                   </h1>
                 </div>
                 <!-- /.container -->
@@ -60,7 +60,7 @@
             <div class="hero__item">
               <div class="hero__content">
                 <div class="container">
-                  <h2 class="section__title hero__subtitle">Инфраструктура и городской консалтинг</h2>
+                  <h2 class="section__title hero__subtitle">Консалтинг и внедрение решений</h2>
                   <h1 class="section__title hero__title">
                     Повышение
                     <br>

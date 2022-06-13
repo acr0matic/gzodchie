@@ -67,7 +67,7 @@
         <div class="col-12 col-lg-6 col-xxl-6 offset-xxl-1">
           <div class="callback__info">
             <div class="callback__map lazy">
-              <iframe class="lazy__item" data-src="https://yandex.ru/map-widget/v1/?um=constructor%3A2ee8c0203e8011213a31527b420f11402ed2094b98b1d44e5451baad578b10f3&amp;source=constructor" width="500" height="450" frameborder="0"></iframe>
+              <iframe class="lazy__item" data-src="https://yandex.ru/map-widget/v1/?um=constructor%3A668a80595052ad79ecf555a5894c8f9cf6389fd3cadf9441bfb1cad9e4b94776&amp;source=constructor" width="100%" height="450" frameborder="0"></iframe>
               <img src="img/misc/preloader.svg" alt="" class="preloader">
             </div>
             <!-- /.callback__map lazy -->
@@ -75,13 +75,13 @@
             <div class="callback__wrapper">
               <div class="callback__contact">
                 <div class="callback__label">Телефон</div>
-                <a href="tel:+79506005403" class="callback__link link font-namu font-namu--1990">8 950 600 54 03</a>
+                <a href="tel:+74951420151" class="callback__link link font-namu font-namu--1990">8 495 142 01 51</a>
               </div>
               <!-- /.callback__contact -->
 
               <div class="callback__contact">
                 <div class="callback__label">Адрес</div>
-                <a href="" class="callback__link link font-namu font-namu--1990">
+                <a href="https://yandex.ru/maps/-/CCUJZ8CrLB" target="_blank" class="callback__link link font-namu font-namu--1990">
                   115172, г. Москва, наб.
                   <br>
                   Гончарная, д.1 стр.4, этаж 2

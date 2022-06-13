@@ -3,7 +3,7 @@
 
   &--focus {
     .input__label {
-      top: 10px;
+      top: 10px !important;
       font-size: $font-size__text--small - 2px;
       transform: none;
     }

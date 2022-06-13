@@ -29,7 +29,7 @@
               </div>
               <!-- /.footer__logo -->
 
-              <a href="" class="footer__social footer__mobile link font-namu font-namu--1990">
+              <a href="https://vk.com/gzodchie" target="_blank" class="footer__social footer__mobile link font-namu font-namu--1990">
                 <img class="footer__icon" src="img/icons/social/vk.svg" alt="">
                 Мы в Вконтакте
               </a>
@@ -39,7 +39,9 @@
                 <div class="footer__about">
                   <span>Юр. лицо</span>
                   <div class="font-namu font-namu--1990">
-                    ООО "Городские зодчие"
+                    ООО Проектная мастерская
+                    <br>
+                    "Городские зодчие"
                   </div>
                 </div>
                 <!-- /.footer__about -->
@@ -61,23 +63,23 @@
               <nav class="nav nav--footer">
                 <ul class="nav__list">
                   <li class="nav__item">
-                    <a class="nav__link link" href="">Услуги</a>
+                    <a class="nav__link link" href="service.php">Услуги</a>
                   </li>
 
                   <li class="nav__item">
-                    <a class="nav__link link" href="">Проекты</a>
+                    <a class="nav__link link" href="projects.php">Проекты</a>
                   </li>
 
                   <li class="nav__item">
-                    <a class="nav__link link" href="">Новости</a>
+                    <a class="nav__link link" href="news.php">Новости</a>
                   </li>
 
                   <li class="nav__item">
-                    <a class="nav__link link" href="">О компании</a>
+                    <a class="nav__link link" href="about.php">О компании</a>
                   </li>
 
                   <li class="nav__item">
-                    <a class="nav__link link" href="">Вакансии</a>
+                    <a class="nav__link link" href="jobs.php">Вакансии</a>
                   </li>
                 </ul>
               </nav>
@@ -91,13 +93,13 @@
             <div class="footer__callback">
               <div class="footer__contact">
                 <span>Телефон</span>
-                <a class="link font-namu font-namu--1990" href="tel:+79506005403">8 950 600 54 03</a>
+                <a class="link font-namu font-namu--1990" href="tel:+74951420151">8 495 142 01 51</a>
               </div>
               <!-- /.footer__contact -->
 
               <div class="footer__contact">
                 <span>E-mail</span>
-                <a class="link font-namu font-namu--1990" href="mailto:+79506005403">info@gzodchie.ru</a>
+                <a class="link font-namu font-namu--1990" href="mailto:info@gzodchie.ru">info@gzodchie.ru</a>
               </div>
               <!-- /.footer__contact -->
             </div>
@@ -107,7 +109,7 @@
               <div class="footer__about">
                 <span>Юр. лицо</span>
                 <div class="font-namu font-namu--1990">
-                  ООО "Городские зодчие"
+                  ООО Проектная мастерская <br> "Городские зодчие"
                 </div>
               </div>
               <!-- /.footer__about -->
