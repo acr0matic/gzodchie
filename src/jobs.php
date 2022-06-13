@@ -13,7 +13,7 @@
 
       <div class="jobs">
         <div class="row">
-          <div class="col-6">
+          <div class="col-12 col-md-6 mb-4 mb-md-0">
             <div class="jobs__item jobs-item">
               <div class="jobs__wrapper">
                 <span class="jobs-item__geo">Москва</span>
@@ -40,7 +40,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-6">
+          <div class="col-12 col-md-6">
             <div class="jobs__item jobs-item">
               <div class="jobs__wrapper">
                 <span class="jobs-item__geo">Москва</span>
@@ -87,7 +87,7 @@
         <!-- /.section__header -->
 
         <div class="row justify-content-center">
-          <div class="col-5 col-xxl-4">
+          <div class="col-12 col-md-5 col-xxl-4">
             <form action="test.php" class="callback__form form form-job">
               <div class="input mb-4">
                 <input autocomplete="off" type="text" name="user_name" class="input__field">

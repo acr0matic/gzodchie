@@ -2,7 +2,7 @@
    <div class="modal__overlay" data-micromodal-close>
      <div class="modal__container" role="dialog">
        <div class="modal__col overflow">
-         <div class="modal__header">
+         <div class="modal__header pt-4 pt-md-0">
            <h3 class="modal__title font-namu font-namu--1990">Координатор проектов</h3>
          </div>
          <!-- /.modal__header -->

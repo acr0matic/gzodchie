@@ -2,7 +2,7 @@
   <div class="container">
     <div class="callback">
       <div class="row">
-        <div class="col-12 col-lg-6 col-xxl-5 mb-4 mb-lg-0">
+        <div class="col-12 col-lg-6 col-xxl-5 mb-5 mb-sm-4 mb-md-0">
           <div class="section__header">
             <h2 class="section__title">Мы на связи</h2>
             <p class="section__text">

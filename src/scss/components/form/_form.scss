@@ -1,5 +1,10 @@
 .form {
   &__action {
+    @include breakpoint($breakpoint-mobile--large) {
+      flex-direction: column;
+      text-align: center;
+    }
+
     display: flex;
     align-items: center;
 
@@ -13,6 +18,15 @@
   }
 
   &__privacy {
+    @include breakpoint($breakpoint-mobile--large) {
+      margin-top: 16px;
+      font-size: $font-size__text--small;
+
+      br {
+        display: none;
+      }
+    }
+
     color: $color-text__gray;
     font-size: $font-size__text--regular;
   }

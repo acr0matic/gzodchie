@@ -8,6 +8,10 @@
       font-size: $font-size__display--small;
     }
 
+    @include breakpoint($breakpoint-tablet) {
+      line-height: 1;
+    }
+
     font-size: $font-size__display--medium;
     line-height: $line-height--secondary;
   }

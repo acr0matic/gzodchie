@@ -5,23 +5,18 @@ section#single-news {
 }
 
 .single-news {
+  @include breakpoint($breakpoint-tablet) {
+    align-items: flex-start;
+  }
+
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  &__title {
-    @include breakpoint($breakpoint-tablet--large) {
-      font-size: $font-size__title--small;
-    }
-
-    @include breakpoint($breakpoint-tablet) {
-      font-size: $font-size__text--huge + 3px;
-    }
-  }
-
   &__action {
     @include breakpoint($breakpoint-tablet) {
       margin-bottom: 16px;
+      margin-left: -12px;
     }
 
     display: inline-flex;
@@ -54,6 +49,15 @@ section#single-news {
   }
 
   &__title {
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: $font-size__title--small;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      font-size: $font-size__text--huge + 3px;
+      text-align: left;
+    }
+
     margin-bottom: 32px;
     text-align: center;
   }

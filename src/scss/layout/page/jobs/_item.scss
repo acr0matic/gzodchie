@@ -1,4 +1,8 @@
 .jobs-item {
+  @include breakpoint($breakpoint-tablet) {
+    padding: 32px;
+  }
+
   height: 100%;
   padding: 32px 48px;
   border: 1px solid #cfd2dd;
@@ -9,6 +13,11 @@
   }
 
   &__title {
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 40px;
+      font-size: $font-size__text--large;
+    }
+
     margin-bottom: 58px;
     font-size: $font-size__title--big;
   }

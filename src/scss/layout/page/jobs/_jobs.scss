@@ -1,3 +1,7 @@
 .jobs {
+  @include breakpoint($breakpoint-tablet) {
+    padding-bottom: 32px;
+  }
+
   padding-bottom: 112px;
 }

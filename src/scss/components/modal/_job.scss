@@ -1,5 +1,18 @@
 .modal-job {
+  .modal__overlay {
+    @include breakpoint($breakpoint-tablet) {
+      align-items: flex-start;
+      overflow: auto;
+    }
+  }
+
   .modal__container {
+    @include breakpoint($breakpoint-tablet) {
+      flex-direction: column;
+      height: auto;
+      border-radius: 0;
+    }
+
     display: flex;
     overflow: hidden;
 
@@ -10,6 +23,14 @@
   }
 
   .modal__col {
+    @include breakpoint($breakpoint-tablet) {
+      width: 100% !important;
+
+      .modal__header {
+        position: static;
+      }
+    }
+
     width: 795px;
     padding: 24px;
     background-color: $palette-white;
@@ -34,15 +55,30 @@
   }
 
   .modal__title {
+    @include breakpoint($breakpoint-tablet) {
+      font-size: $font-size__text--large;
+      line-height: $line-height--secondary;
+    }
+
     font-size: $font-size__title--small;
   }
 
   .modal__close {
+    @include breakpoint($breakpoint-tablet) {
+      top: 16px;
+      right: 16px;
+    }
+
     top: 12px;
     right: 0;
   }
 
   .modal__content {
+    @include breakpoint($breakpoint-tablet) {
+      height: auto;
+      padding-right: 0;
+    }
+
     overflow: auto;
     height: 88%;
 
