@@ -12,7 +12,7 @@
       <!-- /.section__header -->
 
       <div class="jobs">
-        <div class="row">
+        <div class="row" style="display: none;">
           <div class="col-12 col-md-6 mb-4 mb-md-0">
             <div class="jobs__item jobs-item">
               <div class="jobs__wrapper">
@@ -68,6 +68,12 @@
           <!-- /.col-6 -->
         </div>
         <!-- /.row -->
+
+        <div class="jobs__empty">
+          <h2 class="section__title">Пока вакансий нет.</h2>
+          <span>Но скоро они появятся</span>
+        </div>
+        <!-- /.jobs__empty -->
       </div>
       <!-- /.jobs -->
     </div>

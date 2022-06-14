@@ -35,7 +35,7 @@
           </p>
 
           <div class="projects-item__action">
-            <a href class="button button-primary">Подробнее</a>
+            <a href="case-svobodniy.php" class="button button-primary">Подробнее</a>
           </div>
           <!-- /.projects-item__action -->
         </div>

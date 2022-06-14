@@ -4,4 +4,17 @@
   }
 
   padding-bottom: 112px;
+
+  &__empty {
+    text-align: center;
+
+    span {
+      @include breakpoint($breakpoint-tablet) {
+        font-size: $font-size__text--regular;
+      }
+
+      color: $color-text__gray;
+      font-size: $font-size__text--large;
+    }
+  }
 }
