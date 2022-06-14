@@ -12,7 +12,7 @@
       <!-- /.section__header -->
 
       <div class="jobs">
-        <div class="row" style="display: none;">
+        <div class="row">
           <div class="col-12 col-md-6 mb-4 mb-md-0">
             <div class="jobs__item jobs-item">
               <div class="jobs__wrapper">
@@ -69,7 +69,7 @@
         </div>
         <!-- /.row -->
 
-        <div class="jobs__empty">
+        <div class="jobs__empty" style="display: none;">
           <h2 class="section__title">Пока вакансий нет.</h2>
           <span>Но скоро они появятся</span>
         </div>
@@ -94,7 +94,7 @@
 
         <div class="row justify-content-center">
           <div class="col-12 col-sm-8 col-lg-5 col-xxl-4">
-            <form action="test.php" class="callback__form form form-job">
+            <form action="test.php" data-target="job" data-subject="Кандидатура" class="callback__form form form-job">
               <div class="input mb-4">
                 <input autocomplete="off" type="text" name="user_name" class="input__field">
                 <label class="input__label">Фамилия, имя, отчество</label>

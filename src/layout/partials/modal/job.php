@@ -34,7 +34,7 @@
              Пожалуйста, заполните поля
            </p>
 
-           <form action="test.php" class="modal__form form form-job">
+           <form action="test.php" data-target="job" data-subject="Кандидатура" data-additional="" class="modal__form form form-job">
              <div class="input mb-3">
                <input autocomplete="off" type="text" name="user_name" class="input__field">
                <label class="input__label">Фамилия, имя, отчество</label>

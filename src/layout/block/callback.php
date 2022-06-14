@@ -13,7 +13,7 @@
           </div>
           <!-- /.section__header -->
 
-          <form action="" class="callback__form form">
+          <form action="" data-target="callback" data-subject="Обратная связь" class="callback__form form">
             <div class="input mb-3">
               <input autocomplete="off" type="text" name="user_name" class="input__field">
               <label class="input__label">Фамилия, имя, отчество</label>
@@ -29,7 +29,7 @@
             <!-- /.input -->
 
             <div class="input mb-3">
-              <input autocomplete="off" type="tel" name="user_phone" class="input__field" required>
+              <input data-required autocomplete="off" type="tel" name="user_phone" class="input__field" required>
               <label class="input__label">Телефон</label>
               <img data-tippy-content="" class="input__warning" src="" alt="">
             </div>
@@ -43,7 +43,7 @@
             <!-- /.input -->
 
             <div class="input input--box">
-              <textarea autocomplete="off" type="text" name="user_company" class="input__field"></textarea>
+              <textarea autocomplete="off" type="text" name="user_message" class="input__field"></textarea>
               <label class="input__label">Поделитесь вашим запросом</label>
               <img data-tippy-content="" class="input__warning" src="" alt="">
             </div>

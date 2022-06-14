@@ -187,16 +187,16 @@ class Form {
     const data = new FormData(this.form);
 
     const target = this.form.getAttribute('data-target');
-    const additional = this.form.getAttribute('data-additional');
     const subject = this.form.getAttribute('data-subject');
+    const additional = this.form.getAttribute('data-additional');
 
     data.append('target', target);
     if (additional) data.append('additional', additional);
     if (subject) data.append('subject', subject);
 
-    // for (var pair of data.entries()) {
-    //   console.log(pair[0]+ ', ' + pair[1]);
-    // }
+    for (var pair of data.entries()) {
+      console.log(pair[0]+ ', ' + pair[1]);
+    }
 
     try {
       let response = await fetch(this.action, {
@@ -208,6 +208,7 @@ class Form {
         if (this.redirect) window.location.href = this.redirect;
 
         MicroModal.close('modal-callback', modalParams);
+        MicroModal.close('modal-job', modalParams);
         MicroModal.show('modal-success', modalParams);
 
         setTimeout(() => {
