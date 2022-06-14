@@ -1,0 +1,17 @@
+@import "privacy";
+
+main#privacy {
+  .page__title {
+    @include breakpoint($breakpoint-laptop--medium) {
+      font-size: 48px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      font-size: 36px;
+    }
+
+    @include breakpoint($breakpoint-mobile--large) {
+      font-size: 28px;
+    }
+  }
+}
