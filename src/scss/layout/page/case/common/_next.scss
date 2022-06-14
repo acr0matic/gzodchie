@@ -1,4 +1,8 @@
 section#next {
+  @include breakpoint($breakpoint-tablet) {
+    margin-top: 54px;
+  }
+
   margin-top: 95px;
   padding-top: 0;
 

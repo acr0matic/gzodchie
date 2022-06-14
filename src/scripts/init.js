@@ -12,8 +12,10 @@ const lazyLoadInstance = new LazyLoad({
 const digit = document.querySelector('.digit');
 
 if (digit) {
-  const Scroll = () => {
-    const isReach = window.scrollY >= container.clientHeight;
+  const container = document.querySelectorAll('.digits');
+
+  const Scroll = (wrapper, number, handler) => {
+    const isReach = (window.innerHeight + window.scrollY) >= wrapper.offsetTop;
 
     if (isReach) {
       _.forEach(number, (item) => {
@@ -35,14 +37,16 @@ if (digit) {
         count.start();
       });
 
-      window.removeEventListener('scroll', Scroll);
+      window.removeEventListener('scroll', handler);
     }
   }
 
-  window.addEventListener('scroll', Scroll);
+  _.forEach(container, (wrapper) => {
+    const number = wrapper.querySelectorAll('.digit__number');
 
-  const container = digit.closest('section');
-  const number = container.querySelectorAll('.digit__number');
+    const ScrollHandle = () => Scroll(wrapper, number, ScrollHandle);
+    window.addEventListener('scroll', ScrollHandle);
+  });
 }
 
 const forms = document.querySelectorAll('form');

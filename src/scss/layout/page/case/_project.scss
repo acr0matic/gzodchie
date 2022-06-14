@@ -1,0 +1,49 @@
+.project {
+  &__picture {
+    @media (hover: hover) {
+      &:hover {
+        .project__image {
+          transform: scale(0.95);
+        }
+      }
+    }
+  }
+
+  &__image {
+    transition: $transition ease;
+  }
+
+  &-prompt {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+
+    &__icon {
+      box-sizing: border-box;
+      width: 40px;
+      height: 20px;
+
+      margin-right: 12px;
+      border-radius: 3px;
+
+      background-color: var(--color);
+
+      &--outline {
+        border: 3px solid var(--color);
+        background-color: transparent;
+      }
+
+      &--dashed {
+        border-style: dashed;
+      }
+
+      &--picture {
+        width: initial;
+        height: initial;
+      }
+    }
+  }
+}

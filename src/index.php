@@ -164,53 +164,56 @@
       <!-- /.section__header text-center -->
 
       <div class="work">
-        <div class="row justify-content-center">
-          <div class="col-12 col-lg-6 col-xxl-5 mb-5">
-            <div class="work__info digit">
-              <div data-value="26" class="digit__number">0</div>
-              <p class="digit__text">
-                Проектов стали победителями Всероссийского конкурса лучших проектов создания комфортной городской среды
-              </p>
+        <div class="digits">
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-6 col-xxl-5 mb-5">
+              <div class="work__info digit">
+                <div data-value="26" class="digit__number">0</div>
+                <p class="digit__text">
+                  Проектов стали победителями Всероссийского конкурса лучших проектов создания комфортной городской среды
+                </p>
+              </div>
+              <!-- /.work__info digit -->
             </div>
-            <!-- /.work__info digit -->
-          </div>
-          <!-- /.col-5 -->
+            <!-- /.col-5 -->
 
-          <div class="col-12 col-lg-6 col-xxl-5 mb-5">
-            <div class="work__info digit">
-              <div data-value="1.6" data-decimal="1" data-suffix=" млрд руб." class="digit__number">0 млрд руб.</div>
-              <p class="digit__text">
-                Общая сумма привлеченных средств на создание общественных пространств в малых городах России
-              </p>
+            <div class="col-12 col-lg-6 col-xxl-5 mb-5">
+              <div class="work__info digit">
+                <div data-value="1.6" data-decimal="1" data-suffix=" млрд руб." class="digit__number">0 млрд руб.</div>
+                <p class="digit__text">
+                  Общая сумма привлеченных средств на создание общественных пространств в малых городах России
+                </p>
+              </div>
+              <!-- /.work__info digit -->
             </div>
-            <!-- /.work__info digit -->
-          </div>
-          <!-- /.col-5 -->
+            <!-- /.col-5 -->
 
-          <div class="col-12 col-lg-6 col-xxl-5 mb-5 mb-lg-0">
-            <div class="work__info digit">
-              <div data-value="300000" class="digit__number">0</div>
-              <p class="digit__text">
-                Жителей по всей России вовлечено в соучаствующее проектирование и реализацию социально-значимых инициатив
-              </p>
+            <div class="col-12 col-lg-6 col-xxl-5 mb-5 mb-lg-0">
+              <div class="work__info digit">
+                <div data-value="300000" class="digit__number">0</div>
+                <p class="digit__text">
+                  Жителей по всей России вовлечено в соучаствующее проектирование и реализацию социально-значимых инициатив
+                </p>
+              </div>
+              <!-- /.work__info digit -->
             </div>
-            <!-- /.work__info digit -->
-          </div>
-          <!-- /.col-5 -->
+            <!-- /.col-5 -->
 
-          <div class="col-12 col-lg-6 col-xxl-5">
-            <div class="work__info digit">
-              <div data-value="18" class="digit__number">0</div>
-              <p class="digit__text">
-                Регионов уже стали лучше вместе с нами
-              </p>
+            <div class="col-12 col-lg-6 col-xxl-5">
+              <div class="work__info digit">
+                <div data-value="18" class="digit__number">0</div>
+                <p class="digit__text">
+                  Регионов уже стали лучше вместе с нами
+                </p>
+              </div>
+              <!-- /.work__info digit -->
             </div>
-            <!-- /.work__info digit -->
-          </div>
-          <!-- /.col-5 -->
+            <!-- /.col-5 -->
 
+          </div>
+          <!-- /.row -->
         </div>
-        <!-- /.row -->
+        <!-- /.digits -->
       </div>
       <!-- /.work -->
     </div>

@@ -1,6 +1,11 @@
 main#project {
   #hero {
+    @include breakpoint($breakpoint-tablet--large) {
+      height: calc(100vh - 52px);
+    }
+
     position: relative;
+    overflow: hidden;
     height: calc(100vh - #{$header-height});
     padding-top: 0;
   }

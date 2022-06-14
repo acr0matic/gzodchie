@@ -1,3 +1,10 @@
+@import "project";
+@import "common/main";
+
+@import "review";
+@import "textblock";
+@import "identity";
+
 main#project {
   .section__header {
     @include breakpoint($breakpoint-laptop) {
@@ -41,21 +48,5 @@ main#project {
     }
 
     font-size: $font-size__text--big;
-  }
-}
-
-.project {
-  &__picture {
-    @media (hover: hover) {
-      &:hover {
-        .project__image {
-          transform: scale(0.95);
-        }
-      }
-    }
-  }
-
-  &__image {
-    transition: $transition ease;
   }
 }

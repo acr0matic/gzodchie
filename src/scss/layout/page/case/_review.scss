@@ -28,6 +28,10 @@ section#review {
       height: 480px;
     }
 
+    @include breakpoint($breakpoint-laptop) {
+      height: 420px;
+    }
+
     @include breakpoint($breakpoint-tablet--large) {
       height: 360px;
     }

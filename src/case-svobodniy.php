@@ -159,7 +159,7 @@
   <section id="research" class="section mt-0 mt-md-5">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-7 col-xxl-6 offset-xxl-1">
+        <div class="col-12 col-xl-7 col-xxl-6 offset-xxl-1">
           <div class="section__header mb-4">
             <h2 class="section__title section__title--small">
               Предпроектное исследование
@@ -224,62 +224,62 @@
             </div>
 
             <div class="mb-4">
-              <div class="usage__help">
-                <div style="--color: #FF100F;" class="usage__icon usage__icon--outline"></div>
-                <div class="usage__info">Граница территории проектирования</div>
+              <div class="project-prompt">
+                <div style="--color: #FF100F;" class="project-prompt__icon project-prompt__icon--outline"></div>
+                <div class="project-prompt__info">Граница территории проектирования</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
 
-              <div class="usage__help">
-                <div style="--color: #000000;" class="usage__icon usage__icon--outline usage__icon--dashed"></div>
-                <div class="usage__info">Зона 10-минутной доступности территории</div>
+              <div class="project-prompt">
+                <div style="--color: #000000;" class="project-prompt__icon project-prompt__icon--outline project-prompt__icon--dashed"></div>
+                <div class="project-prompt__info">Зона 10-минутной доступности территории</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
 
-              <div class="usage__help">
-                <svg class="usage__icon usage__icon--picture" width="40" height="30" viewBox="0 0 40 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <div class="project-prompt">
+                <svg class="project-prompt__icon project-prompt__icon--picture" width="40" height="30" viewBox="0 0 40 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M20.0001 -1.08206e-07C13.3836 -4.85447e-08 8.00012 5.3835 8.00012 11.9925C7.95662 21.66 19.5441 29.676 20.0001 30C20.0001 30 32.0436 21.66 32.0001 12C32.0001 5.3835 26.6166 -1.67868e-07 20.0001 -1.08206e-07ZM20.0001 18C16.6851 18 14.0001 15.315 14.0001 12C14.0001 8.685 16.6851 6 20.0001 6C23.3151 6 26.0001 8.685 26.0001 12C26.0001 15.315 23.3151 18 20.0001 18Z" fill="#2478DB" />
                   <path d="M20.0001 18C16.6851 18 14.0001 15.315 14.0001 12C14.0001 8.685 16.6851 6 20.0001 6C23.3151 6 26.0001 8.685 26.0001 12C26.0001 15.315 23.3151 18 20.0001 18Z" fill="#2478DB" />
                   <path d="M23.8021 3.89526H15.9134C15.7116 3.89526 14.6527 3.95384 13.6579 5.11271C12.6783 6.25266 12.6504 7.37549 12.6504 7.49985V17.4124C12.6504 17.8904 12.8403 18.3489 13.1783 18.6869C13.5163 19.0249 13.9747 19.2147 14.4527 19.2147H15.3538L13.5515 21.9182H15.6719L16.273 21.017H23.4822L24.0922 21.9182H26.1676L24.3653 19.2147H25.2664C25.7444 19.2147 26.2028 19.0249 26.5408 18.6869C26.8788 18.3489 27.0687 17.8904 27.0687 17.4124V7.49985C27.0696 7.33043 27.0399 6.2076 26.0513 5.09829C25.0096 3.92861 23.9228 3.89526 23.8021 3.89526ZM18.0573 5.69756H21.6618V7.49985H18.0573V5.69756ZM15.8044 17.4124C15.4458 17.4123 15.1019 17.2698 14.8484 17.0161C14.5949 16.7624 14.4526 16.4184 14.4527 16.0598C14.4528 15.7012 14.5954 15.3573 14.849 15.1038C15.1027 14.8503 15.4467 14.708 15.8053 14.7081C16.1639 14.7082 16.5078 14.8508 16.7613 15.1045C17.0148 15.3581 17.1571 15.7021 17.157 16.0607C17.1569 16.4193 17.0143 16.7632 16.7607 17.0167C16.507 17.2702 16.163 17.4126 15.8044 17.4124ZM23.9147 17.4124C23.5561 17.4123 23.2122 17.2698 22.9587 17.0161C22.7052 16.7624 22.5629 16.4184 22.563 16.0598C22.5631 15.7012 22.7057 15.3573 22.9594 15.1038C23.213 14.8503 23.557 14.708 23.9156 14.7081C24.2742 14.7082 24.6181 14.8508 24.8716 15.1045C25.1251 15.3581 25.2674 15.7021 25.2673 16.0607C25.2672 16.4193 25.1246 16.7632 24.871 17.0167C24.6173 17.2702 24.2733 17.4126 23.9147 17.4124ZM25.2664 12.9067H14.4527V9.30214H25.2664V12.9067Z" fill="white" />
                 </svg>
 
-                <div class="usage__info">Железнодорожная станция «Свободный» </div>
+                <div class="project-prompt__info">Железнодорожная станция «Свободный» </div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
             </div>
 
             <div class="mb-3"><strong>Плотность насесления</strong></div>
 
             <div>
-              <div class="usage__help">
-                <div style="--color: #FFAEAF;" class="usage__icon"></div>
-                <div class="usage__info">Очень низкая</div>
+              <div class="project-prompt">
+                <div style="--color: #FFAEAF;" class="project-prompt__icon"></div>
+                <div class="project-prompt__info">Очень низкая</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
 
-              <div class="usage__help">
-                <div style="--color: #FFA3A3;" class="usage__icon"></div>
-                <div class="usage__info">Низкая</div>
+              <div class="project-prompt">
+                <div style="--color: #FFA3A3;" class="project-prompt__icon"></div>
+                <div class="project-prompt__info">Низкая</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
 
-              <div class="usage__help">
-                <div style="--color: #FF7050;" class="usage__icon"></div>
-                <div class="usage__info">Умеренная</div>
+              <div class="project-prompt">
+                <div style="--color: #FF7050;" class="project-prompt__icon"></div>
+                <div class="project-prompt__info">Умеренная</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
 
-              <div class="usage__help">
-                <div style="--color: #DD504F;" class="usage__icon"></div>
-                <div class="usage__info">Высокая</div>
+              <div class="project-prompt">
+                <div style="--color: #DD504F;" class="project-prompt__icon"></div>
+                <div class="project-prompt__info">Высокая</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
 
-              <div class="usage__help">
-                <div style="--color: #953435;" class="usage__icon"></div>
-                <div class="usage__info">Очень высокая</div>
+              <div class="project-prompt">
+                <div style="--color: #953435;" class="project-prompt__icon"></div>
+                <div class="project-prompt__info">Очень высокая</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
             </div>
           </div>
           <!-- /.research -->
@@ -415,7 +415,7 @@
       <div class="involvement">
         <div class="swiper involvement__slider">
           <div class="row swiper-wrapper">
-            <div class="swiper-slide col-12 col-sm-8 col-lg-6 col-xxl-4">
+            <div class="swiper-slide col-10 col-sm-8 col-md-6 col-xxl-4">
               <a class="glightbox" href="img/layout/page/case/svobodniy/involvement/1.jpg" data-gallery="involvement">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/involvement/1.jpg" src="img/layout/page/case/svobodniy/involvement/thumb/1.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -426,7 +426,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="swiper-slide col-12 col-sm-8 col-lg-6 col-xxl-4">
+            <div class="swiper-slide col-10 col-sm-8 col-md-6 col-xxl-4">
               <a class="glightbox" href="img/layout/page/case/svobodniy/involvement/2.jpg" data-gallery="involvement">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/involvement/2.jpg" src="img/layout/page/case/svobodniy/involvement/thumb/2.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -437,7 +437,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="swiper-slide col-12 col-sm-8 col-lg-6 col-xxl-4">
+            <div class="swiper-slide col-10 col-sm-8 col-md-6 col-xxl-4">
               <a class="glightbox" href="img/layout/page/case/svobodniy/involvement/3.jpg" data-gallery="involvement">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/involvement/3.jpg" src="img/layout/page/case/svobodniy/involvement/thumb/3.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -471,7 +471,7 @@
 
         <div class="swiper involvement__slider">
           <div class="swiper-wrapper row justify-content-lg-center">
-            <div class="swiper-slide col-12 col-sm-8 col-lg-6 col-xxl-5">
+            <div class="swiper-slide col-10 col-sm-8 col-md-6 col-xxl-5">
               <a class="glightbox" href="img/layout/page/case/svobodniy/involvement/4.jpg" data-gallery="involvement">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/involvement/4.jpg" src="img/layout/page/case/svobodniy/involvement/thumb/4.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -482,7 +482,7 @@
             </div>
             <!-- /.col-5 -->
 
-            <div class="swiper-slide col-12 col-sm-8 col-lg-6 col-xxl-5">
+            <div class="swiper-slide col-10 col-sm-8 col-md-6 col-xxl-5">
               <a class="glightbox" href="img/layout/page/case/svobodniy/involvement/5.jpg" data-gallery="involvement">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/involvement/5.jpg" src="img/layout/page/case/svobodniy/involvement/thumb/5.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -497,49 +497,52 @@
         </div>
         <!-- /.swiper involvement__slider -->
 
-        <div class="row justify-content-center mt-4 mt-md-5">
-          <div class="col-12 col-md-4 col-xxl-3 ps-xxl-5 mb-4 mb-md-0">
-            <div class="digit">
-              <div data-value="58914" class="digit__number">58914</div>
-              <p class="digit__text">
-                единицы - охват постов в социальных
-                <br>
-                сетях
-              </p>
+        <div class="digits">
+          <div class="row justify-content-center mt-4 mt-md-5">
+            <div class="col-12 col-md-4 col-xxl-3 ps-xxl-5 mb-4 mb-md-0">
+              <div class="digit">
+                <div data-value="58914" class="digit__number">58914</div>
+                <p class="digit__text">
+                  единицы - охват постов в социальных
+                  <br>
+                  сетях
+                </p>
+              </div>
+              <!-- /.digit -->
             </div>
-            <!-- /.digit -->
-          </div>
-          <!-- /.col-3 -->
+            <!-- /.col-3 -->
 
-          <div class="col-12 col-md-4 col-xxl-3 mb-4 mb-md-0">
-            <div class="digit">
-              <div data-value="4064" class="digit__number">0</div>
-              <p class="digit__text">
-                жителя всего вовлечены в решение
-                <br>
-                вопросов, связанных с разработкой
-                <br>
-                проекта
-              </p>
+            <div class="col-12 col-md-4 col-xxl-3 mb-4 mb-md-0">
+              <div class="digit">
+                <div data-value="4064" class="digit__number">0</div>
+                <p class="digit__text">
+                  жителя всего вовлечены в решение
+                  <br>
+                  вопросов, связанных с разработкой
+                  <br>
+                  проекта
+                </p>
+              </div>
+              <!-- /.digit -->
             </div>
-            <!-- /.digit -->
-          </div>
-          <!-- /.col-3 -->
+            <!-- /.col-3 -->
 
-          <div class="col-12 col-md-4 col-xxl-4">
-            <div class="digit">
-              <div data-value="13" class="digit__number">0</div>
-              <p class="digit__text">
-                форматов использовано в ходе
-                <br>
-                соучаствующего проектирования
-              </p>
+            <div class="col-12 col-md-4 col-xxl-4">
+              <div class="digit">
+                <div data-value="13" class="digit__number">0</div>
+                <p class="digit__text">
+                  форматов использовано в ходе
+                  <br>
+                  соучаствующего проектирования
+                </p>
+              </div>
+              <!-- /.digit -->
             </div>
-            <!-- /.digit -->
+            <!-- /.col-3 -->
           </div>
-          <!-- /.col-3 -->
+          <!-- /.row -->
         </div>
-        <!-- /.row -->
+        <!-- /.digits -->
       </div>
       <!-- /.involvement -->
     </div>
@@ -572,7 +575,7 @@
 
       <div class="review">
         <div class="row justify-content-center">
-          <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+          <div class="col-12 col-md-4 col-xl-3 mb-5 mb-md-0">
             <div class="review__item">
               <img src="img/layout/page/case/svobodniy/review/1.jpg" alt="" class="review__avatar">
               <a href="https://www.youtube.com/channel/UCrBrH2HVtIA6-kk42E5m7yw" target="_blank" class="review__name link link--blue">Павел Гнилорыбов</a>
@@ -582,7 +585,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
+          <div class="col-12 col-md-4 col-xl-3 mb-5 mb-md-0">
             <div class="review__item">
               <img src="img/layout/page/case/svobodniy/review/2.jpg" alt="" class="review__avatar">
               <a href="https://urbanblog.ru/761634.html" target="_blank" class="review__name link link--blue">Аркадий Гершман</a>
@@ -592,7 +595,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-12 col-md-4 col-lg-3">
+          <div class="col-12 col-md-4 col-xl-3">
             <div class="review__item">
               <img src="img/layout/page/case/svobodniy/review/3.jpg" alt="" class="review__avatar">
               <a href="https://zen.yandex.ru/media/moscowwalks/ne-moskvoi-edinoi-60a4f13fc76c0b76358b0512" target="_blank" class="review__name link link--blue">Александр Усольцев</a>
@@ -642,7 +645,7 @@
 
       <div class="concept">
         <div class="row">
-          <div class="col-12 col-md-6 col-xxl-4 mb-5">
+          <div class="col-12 col-sm-6 col-xxl-4 mb-5">
             <div class="concept__item">
               <picture class="concept__picture lazy">
                 <img data-src="img/layout/page/case/svobodniy/concept/1.jpg" src="img/layout/page/case/svobodniy/concept/thumb/1.jpg" alt="" class="concept__image image image--cover lazy__item">
@@ -657,7 +660,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-12 col-md-6 col-xxl-4 mb-5">
+          <div class="col-12 col-sm-6 col-xxl-4 mb-5">
             <div class="concept__item">
               <picture class="concept__picture lazy">
                 <img data-src="img/layout/page/case/svobodniy/concept/2.jpg" src="img/layout/page/case/svobodniy/concept/thumb/2.jpg" alt="" class="concept__image image image--cover lazy__item">
@@ -672,7 +675,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-12 col-md-6 col-xxl-4 mb-5">
+          <div class="col-12 col-sm-6 col-xxl-4 mb-5">
             <div class="concept__item">
               <picture class="concept__picture lazy">
                 <img data-src="img/layout/page/case/svobodniy/concept/3.jpg" src="img/layout/page/case/svobodniy/concept/thumb/3.jpg" alt="" class="concept__image image image--cover lazy__item">
@@ -687,7 +690,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-12 col-md-6 col-xxl-4 mb-5 mb-md-0">
+          <div class="col-12 col-sm-6 col-xxl-4 mb-5 mb-sm-0">
             <div class="concept__item">
               <picture class="concept__picture lazy">
                 <img data-src="img/layout/page/case/svobodniy/concept/4.jpg" src="img/layout/page/case/svobodniy/concept/thumb/4.jpg" alt="" class="concept__image image image--cover lazy__item">
@@ -702,7 +705,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-12 col-md-6 col-xxl-4 mb-5 mb-md-0">
+          <div class="col-12 col-sm-6 col-xxl-4 mb-5 mb-sm-0">
             <div class="concept__item">
               <picture class="concept__picture lazy">
                 <img data-src="img/layout/page/case/svobodniy/concept/5.jpg" src="img/layout/page/case/svobodniy/concept/thumb/5.jpg" alt="" class="concept__image image image--cover lazy__item">
@@ -717,7 +720,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-12 col-md-6 col-xxl-4">
+          <div class="col-12 col-sm-6 col-xxl-4">
             <div class="concept__item">
               <picture class="concept__picture lazy">
                 <img data-src="img/layout/page/case/svobodniy/concept/6.jpg" src="img/layout/page/case/svobodniy/concept/thumb/6.jpg" alt="" class="concept__image image image--cover lazy__item">
@@ -803,116 +806,116 @@
         <div class="col-12 col-lg-4 sticky">
           <div class="usage__wrapper usage__wrapper--table">
             <div class="usage__table">
-              <div class="usage__help">
-                <div style="--color: #FF100F;" class="usage__icon usage__icon--outline"></div>
-                <div class="usage__info">Граница территории проектирования</div>
+              <div class="project-prompt">
+                <div style="--color: #FF100F;" class="project-prompt__icon project-prompt__icon--outline"></div>
+                <div class="project-prompt__info">Граница территории проектирования</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
 
-              <div class="usage__help">
-                <div style="--color: #EDC00C;" class="usage__icon"></div>
-                <div class="usage__info">Апрель</div>
+              <div class="project-prompt">
+                <div style="--color: #EDC00C;" class="project-prompt__icon"></div>
+                <div class="project-prompt__info">Апрель</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
 
-              <div class="usage__help">
-                <div style="--color: #EDC00C;" class="usage__icon"></div>
-                <div class="usage__info">Апрель-Июнь</div>
+              <div class="project-prompt">
+                <div style="--color: #EDC00C;" class="project-prompt__icon"></div>
+                <div class="project-prompt__info">Апрель-Июнь</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
 
-              <div class="usage__help">
-                <div style="--color: #D3E743;" class="usage__icon"></div>
-                <div class="usage__info">Май</div>
+              <div class="project-prompt">
+                <div style="--color: #D3E743;" class="project-prompt__icon"></div>
+                <div class="project-prompt__info">Май</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
 
-              <div class="usage__help">
-                <div style="--color: #D3E743;" class="usage__icon"></div>
-                <div class="usage__info">Май-Июнь</div>
+              <div class="project-prompt">
+                <div style="--color: #D3E743;" class="project-prompt__icon"></div>
+                <div class="project-prompt__info">Май-Июнь</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
 
-              <div class="usage__help">
-                <div style="--color: #EF441F;" class="usage__icon"></div>
-                <div class="usage__info">Июнь</div>
+              <div class="project-prompt">
+                <div style="--color: #EF441F;" class="project-prompt__icon"></div>
+                <div class="project-prompt__info">Июнь</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
 
-              <div class="usage__help">
-                <div style="--color: #E9F075;" class="usage__icon"></div>
-                <div class="usage__info">Июль</div>
+              <div class="project-prompt">
+                <div style="--color: #E9F075;" class="project-prompt__icon"></div>
+                <div class="project-prompt__info">Июль</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
 
-              <div class="usage__help">
-                <div style="--color: #9BDDEA;" class="usage__icon"></div>
-                <div class="usage__info">Август</div>
+              <div class="project-prompt">
+                <div style="--color: #9BDDEA;" class="project-prompt__icon"></div>
+                <div class="project-prompt__info">Август</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
 
-              <div class="usage__help">
-                <div style="--color: #7AD0BC;" class="usage__icon"></div>
-                <div class="usage__info">Сентябрь</div>
+              <div class="project-prompt">
+                <div style="--color: #7AD0BC;" class="project-prompt__icon"></div>
+                <div class="project-prompt__info">Сентябрь</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
 
-              <div class="usage__help">
-                <div style="--color: #F065B4;" class="usage__icon"></div>
-                <div class="usage__info">В течение года</div>
+              <div class="project-prompt">
+                <div style="--color: #F065B4;" class="project-prompt__icon"></div>
+                <div class="project-prompt__info">В течение года</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
             </div>
             <!-- /.usage__table -->
 
             <div class="usage__table usage__hidden">
-              <div class="usage__help">
-                <div style="--color: #FF100F;" class="usage__icon usage__icon--outline"></div>
-                <div class="usage__info">Граница территории проектирования</div>
+              <div class="project-prompt">
+                <div style="--color: #FF100F;" class="project-prompt__icon project-prompt__icon--outline"></div>
+                <div class="project-prompt__info">Граница территории проектирования</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
 
-              <div class="usage__help">
-                <div style="--color: #D98BCA;" class="usage__icon"></div>
-                <div class="usage__info">Октябрь</div>
+              <div class="project-prompt">
+                <div style="--color: #D98BCA;" class="project-prompt__icon"></div>
+                <div class="project-prompt__info">Октябрь</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
 
-              <div class="usage__help">
-                <div style="--color: #BFE9F2;" class="usage__icon"></div>
-                <div class="usage__info">Ноябрь</div>
+              <div class="project-prompt">
+                <div style="--color: #BFE9F2;" class="project-prompt__icon"></div>
+                <div class="project-prompt__info">Ноябрь</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
 
-              <div class="usage__help">
-                <div style="--color: #6FCB94;" class="usage__icon"></div>
-                <div class="usage__info">Декабрь</div>
+              <div class="project-prompt">
+                <div style="--color: #6FCB94;" class="project-prompt__icon"></div>
+                <div class="project-prompt__info">Декабрь</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
 
-              <div class="usage__help">
-                <div style="--color: #56C5B8;" class="usage__icon"></div>
-                <div class="usage__info">Январь</div>
+              <div class="project-prompt">
+                <div style="--color: #56C5B8;" class="project-prompt__icon"></div>
+                <div class="project-prompt__info">Январь</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
 
-              <div class="usage__help">
-                <div style="--color: #7AB4E3;" class="usage__icon"></div>
-                <div class="usage__info">Февраль</div>
+              <div class="project-prompt">
+                <div style="--color: #7AB4E3;" class="project-prompt__icon"></div>
+                <div class="project-prompt__info">Февраль</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
 
-              <div class="usage__help">
-                <div style="--color: #F5C4E4;" class="usage__icon"></div>
-                <div class="usage__info">Март</div>
+              <div class="project-prompt">
+                <div style="--color: #F5C4E4;" class="project-prompt__icon"></div>
+                <div class="project-prompt__info">Март</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
 
-              <div class="usage__help">
-                <div style="--color: #F065B4;" class="usage__icon"></div>
-                <div class="usage__info">В течение года</div>
+              <div class="project-prompt">
+                <div style="--color: #F065B4;" class="project-prompt__icon"></div>
+                <div class="project-prompt__info">В течение года</div>
               </div>
-              <!-- /.usage__help -->
+              <!-- /.project-prompt -->
             </div>
             <!-- /.usage__table -->
           </div>
@@ -947,7 +950,7 @@
       <div class="solution">
         <div class="swiper solution__slider">
           <div class="swiper-wrapper row">
-            <div class="swiper-slide col-12 col-sm-6 col-md-5 col-lg-4 col-xxl-3 mb-lg-5">
+            <div class="swiper-slide col-10 col-sm-8 col-md-5 col-lg-4 col-xxl-3 mb-lg-5">
               <a href="img/layout/page/case/svobodniy/solution/1.jpg" data-gallery="solution" class="glightbox">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/solution/preview/1.jpg" src="img/layout/page/case/svobodniy/solution/thumb/1.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -962,7 +965,7 @@
             </div>
             <!-- /.col-4 col-xxl-3 -->
 
-            <div class="swiper-slide col-12 col-sm-6 col-md-5 col-lg-4 col-xxl-3 mb-lg-5">
+            <div class="swiper-slide col-10 col-sm-8 col-md-5 col-lg-4 col-xxl-3 mb-lg-5">
               <a href="img/layout/page/case/svobodniy/solution/2.jpg" data-gallery="solution" class="glightbox">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/solution/preview/2.jpg" src="img/layout/page/case/svobodniy/solution/thumb/2.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -977,7 +980,7 @@
             </div>
             <!-- /.col-4 col-xxl-3 -->
 
-            <div class="swiper-slide col-12 col-sm-6 col-md-5 col-lg-4 col-xxl-3 mb-lg-5">
+            <div class="swiper-slide col-10 col-sm-8 col-md-5 col-lg-4 col-xxl-3 mb-lg-5">
               <a href="img/layout/page/case/svobodniy/solution/3.jpg" data-gallery="solution" class="glightbox">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/solution/preview/3.jpg" src="img/layout/page/case/svobodniy/solution/thumb/3.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -992,7 +995,7 @@
             </div>
             <!-- /.col-4 col-xxl-3 -->
 
-            <div class="swiper-slide col-12 col-sm-6 col-md-5 col-lg-4 col-xxl-3 mb-lg-5">
+            <div class="swiper-slide col-10 col-sm-8 col-md-5 col-lg-4 col-xxl-3 mb-lg-5">
               <a href="img/layout/page/case/svobodniy/solution/4.jpg" data-gallery="solution" class="glightbox">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/solution/preview/4.jpg" src="img/layout/page/case/svobodniy/solution/thumb/4.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -1007,7 +1010,7 @@
             </div>
             <!-- /.col-4 col-xxl-3 -->
 
-            <div class="swiper-slide col-12 col-sm-6 col-md-5 col-lg-4 col-xxl-3">
+            <div class="swiper-slide col-10 col-sm-8 col-md-5 col-lg-4 col-xxl-3">
               <a href="img/layout/page/case/svobodniy/solution/5.jpg" data-gallery="solution" class="glightbox">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/solution/preview/5.jpg" src="img/layout/page/case/svobodniy/solution/thumb/5.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -1018,7 +1021,7 @@
             </div>
             <!-- /.col-4 col-xxl-3 -->
 
-            <div class="swiper-slide col-12 col-sm-6 col-md-5 col-lg-4 col-xxl-3">
+            <div class="swiper-slide col-10 col-sm-8 col-md-5 col-lg-4 col-xxl-3">
               <a href="img/layout/page/case/svobodniy/solution/6.jpg" data-gallery="solution" class="glightbox">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/solution/preview/6.jpg" src="img/layout/page/case/svobodniy/solution/thumb/6.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -1029,7 +1032,7 @@
             </div>
             <!-- /.col-4 col-xxl-3 -->
 
-            <div class="swiper-slide col-12 col-sm-6 col-md-5 col-lg-4 col-xxl-3">
+            <div class="swiper-slide col-10 col-sm-8 col-md-5 col-lg-4 col-xxl-3">
               <a href="img/layout/page/case/svobodniy/solution/7.jpg" data-gallery="solution" class="glightbox">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/solution/preview/7.jpg" src="img/layout/page/case/svobodniy/solution/thumb/7.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -1042,7 +1045,7 @@
             </div>
             <!-- /.col-4 col-xxl-3 -->
 
-            <div class="swiper-slide col-12 col-sm-6 col-md-5 col-lg-4 col-xxl-3">
+            <div class="swiper-slide col-10 col-sm-8 col-md-5 col-lg-4 col-xxl-3">
               <a href="img/layout/page/case/svobodniy/solution/8.jpg" data-gallery="solution" class="glightbox">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/solution/preview/8.jpg" src="img/layout/page/case/svobodniy/solution/thumb/8.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -1152,82 +1155,85 @@
 
   <section id="result" class="section">
     <div class="container">
-      <div class="row">
-        <div class="col-12 col-lg-8 col-xxl-6 offset-xxl-1">
-          <div class="section__header">
-            <h2 class="section__title section__title--small">
-              Результаты
-            </h2>
+      <div class="digits">
+        <div class="row">
+          <div class="col-12 col-lg-8 col-xxl-6 offset-xxl-1">
+            <div class="section__header">
+              <h2 class="section__title section__title--small">
+                Результаты
+              </h2>
 
-            <p class="section__text">
-              Результатом нашей работы совместно с жителями Свободного стал финальный проект всесезонной территории, которая будет включать в себя развитую сеть пешеходных маршрутов, зоны отдыха и активности для разных целевых групп.
-            </p>
+              <p class="section__text">
+                Результатом нашей работы совместно с жителями Свободного стал финальный проект всесезонной территории, которая будет включать в себя развитую сеть пешеходных маршрутов, зоны отдыха и активности для разных целевых групп.
+              </p>
+            </div>
+            <!-- /.section__header -->
           </div>
-          <!-- /.section__header -->
+          <!-- /.col-6 offset-1 -->
         </div>
-        <!-- /.col-6 offset-1 -->
+        <!-- /.row -->
+
+        <div class="row">
+          <div class="col-12 col-lg-4 offset-xxl-1 mb-4 mb-lg-5">
+            <div class="digit">
+              <div data-value="7.49" data-decimal="1" data-suffix=" Га" class="digit__number">0</div>
+              <p class="digit__text">
+                общая площадь объекта
+              </p>
+            </div>
+            <!-- /.digit -->
+          </div>
+          <!-- /.col-4 -->
+
+          <div class="col-12 col-lg-8 col-xxl-7 mb-4 mb-lg-5">
+            <div class="digit">
+              <div data-value="90" data-suffix=" млн руб." class="digit__number">0</div>
+              <p class="digit__text">
+                средства федерального гранта
+              </p>
+            </div>
+            <!-- /.digit -->
+          </div>
+          <!-- /.col-7 -->
+
+          <div class="col-12 col-lg-4 offset-xxl-1 mb-4 mb-lg-5">
+            <div class="digit">
+              <div data-value="4064" class="digit__number">0</div>
+              <p class="digit__text">
+                жителей всего (из них очно 364 человека) вовлечены в решение вопросов, связанных с разработкой проекта
+              </p>
+            </div>
+            <!-- /.digit -->
+          </div>
+          <!-- /.col-4 -->
+
+          <div class="col-12 col-lg-8 col-xxl-7 mb-4 mb-lg-5">
+            <div class="digit">
+              <div data-value="47" data-prefix="На " data-suffix="%" class="digit__number">0</div>
+              <p class="digit__text">
+                (314 тыс. человек) вырастет посещаемость территории в первые
+                <br>
+                годы после реализации проекта
+              </p>
+            </div>
+            <!-- /.digit -->
+          </div>
+          <!-- /.col-7 -->
+
+          <div class="col-12 col-lg-8 col-xxl-7 offset-xxl-1">
+            <div class="digit">
+              <div data-value="10" data-suffix=" рабочих мест" class="digit__number">0</div>
+              <p class="digit__text">
+                даются сразу после реализации проекта благоустройства
+              </p>
+            </div>
+            <!-- /.digit -->
+          </div>
+          <!-- /.col-7 -->
+        </div>
+        <!-- /.row -->
       </div>
-      <!-- /.row -->
-
-      <div class="row">
-        <div class="col-12 col-lg-4 offset-xxl-1 mb-4 mb-lg-5">
-          <div class="digit">
-            <div data-value="7.49" data-decimal="1" data-suffix=" Га" class="digit__number">0</div>
-            <p class="digit__text">
-              общая площадь объекта
-            </p>
-          </div>
-          <!-- /.digit -->
-        </div>
-        <!-- /.col-4 -->
-
-        <div class="col-12 col-lg-8 col-xxl-7 mb-4 mb-lg-5">
-          <div class="digit">
-            <div data-value="90" data-suffix=" млн руб." class="digit__number">0</div>
-            <p class="digit__text">
-              средства федерального гранта
-            </p>
-          </div>
-          <!-- /.digit -->
-        </div>
-        <!-- /.col-7 -->
-
-        <div class="col-12 col-lg-4 offset-xxl-1 mb-4 mb-lg-5">
-          <div class="digit">
-            <div data-value="4064" class="digit__number">0</div>
-            <p class="digit__text">
-              жителей всего (из них очно 364 человека) вовлечены в решение вопросов, связанных с разработкой проекта
-            </p>
-          </div>
-          <!-- /.digit -->
-        </div>
-        <!-- /.col-4 -->
-
-        <div class="col-12 col-lg-8 col-xxl-7 mb-4 mb-lg-5">
-          <div class="digit">
-            <div data-value="47" data-prefix="На " data-suffix="%" class="digit__number">0</div>
-            <p class="digit__text">
-              (314 тыс. человек) вырастет посещаемость территории в первые
-              <br>
-              годы после реализации проекта
-            </p>
-          </div>
-          <!-- /.digit -->
-        </div>
-        <!-- /.col-7 -->
-
-        <div class="col-12 col-lg-8 col-xxl-7 offset-xxl-1">
-          <div class="digit">
-            <div data-value="10" data-suffix=" рабочих мест" class="digit__number">0</div>
-            <p class="digit__text">
-              даются сразу после реализации проекта благоустройства
-            </p>
-          </div>
-          <!-- /.digit -->
-        </div>
-        <!-- /.col-7 -->
-      </div>
-      <!-- /.row -->
+      <!-- /.digits -->
 
       <div class="result">
         <div class="row justify-content-center">

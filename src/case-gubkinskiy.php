@@ -562,7 +562,7 @@
       <div class="involvement">
         <div class="swiper involvement__slider">
           <div class="row swiper-wrapper">
-            <div class="swiper-slide col-12 col-sm-8 col-md-6 col-xxl-4">
+            <div class="swiper-slide col-10 col-sm-8 col-md-6 col-xxl-4">
               <a class="glightbox" href="img/layout/page/case/gubinskiy/involvement/1.jpg" data-gallery="involvement">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/gubinskiy/involvement/1.jpg" src="img/layout/page/case/gubinskiy/involvement/thumb/1.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -573,7 +573,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="swiper-slide col-12 col-sm-8 col-md-6 col-xxl-4">
+            <div class="swiper-slide col-10 col-sm-8 col-md-6 col-xxl-4">
               <a class="glightbox" href="img/layout/page/case/gubinskiy/involvement/2.jpg" data-gallery="involvement">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/gubinskiy/involvement/2.jpg" src="img/layout/page/case/gubinskiy/involvement/thumb/2.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -584,7 +584,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="swiper-slide col-12 col-sm-8 col-md-6 col-xxl-4">
+            <div class="swiper-slide col-10 col-sm-8 col-md-6 col-xxl-4">
               <a class="glightbox" href="img/layout/page/case/gubinskiy/involvement/3.jpg" data-gallery="involvement">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/gubinskiy/involvement/3.jpg" src="img/layout/page/case/gubinskiy/involvement/thumb/3.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -618,7 +618,7 @@
 
         <div class="swiper involvement__slider">
           <div class="swiper-wrapper row justify-content-md-center">
-            <div class="swiper-slide col-12 col-sm-8 col-md-6 col-xxl-5">
+            <div class="swiper-slide col-10 col-sm-8 col-md-6 col-xxl-5">
               <a class="glightbox" href="img/layout/page/case/gubinskiy/involvement/4.jpg" data-gallery="involvement">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/gubinskiy/involvement/4.jpg" src="img/layout/page/case/gubinskiy/involvement/thumb/4.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -629,7 +629,7 @@
             </div>
             <!-- /.col-5 -->
 
-            <div class="swiper-slide col-12 col-sm-8 col-md-6 col-xxl-5">
+            <div class="swiper-slide col-10 col-sm-8 col-md-6 col-xxl-5">
               <a class="glightbox" href="img/layout/page/case/gubinskiy/involvement/5.jpg" data-gallery="involvement">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/gubinskiy/involvement/5.jpg" src="img/layout/page/case/gubinskiy/involvement/thumb/5.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -644,47 +644,50 @@
         </div>
         <!-- /.swiper involvement__slider -->
 
-        <div class="row justify-content-center mt-3 mt-md-5">
-          <div class="col-12 col-md-4 col-xxl-3 ps-xxl-5 mb-3 mb-md-0">
-            <div class="digit">
-              <div data-value="13" class="digit__number">0</div>
-              <p class="digit__text">
-                мероприятий по вовлечению
-                <br>
-                проведено
-              </p>
+        <div class="digits">
+          <div class="row justify-content-center mt-3 mt-md-5">
+            <div class="col-12 col-md-4 col-xxl-3 ps-xxl-5 mb-3 mb-md-0">
+              <div class="digit">
+                <div data-value="13" class="digit__number">0</div>
+                <p class="digit__text">
+                  мероприятий по вовлечению
+                  <br>
+                  проведено
+                </p>
+              </div>
+              <!-- /.digit -->
             </div>
-            <!-- /.digit -->
-          </div>
-          <!-- /.col-3 -->
+            <!-- /.col-3 -->
 
-          <div class="col-12 col-md-4 col-xxl-3 mb-3 mb-md-0">
-            <div class="digit">
-              <div data-value="1491" class="digit__number">0</div>
-              <p class="digit__text">
-                житель принял участие в разработке
-                <br>
-                проекта
-              </p>
+            <div class="col-12 col-md-4 col-xxl-3 mb-3 mb-md-0">
+              <div class="digit">
+                <div data-value="1491" class="digit__number">0</div>
+                <p class="digit__text">
+                  житель принял участие в разработке
+                  <br>
+                  проекта
+                </p>
+              </div>
+              <!-- /.digit -->
             </div>
-            <!-- /.digit -->
-          </div>
-          <!-- /.col-3 -->
+            <!-- /.col-3 -->
 
-          <div class="col-12 col-md-4 col-xxl-4">
-            <div class="digit">
-              <div data-value="49349" class="digit__number">0</div>
-              <p class="digit__text">
-                единиц - охват постов в социальных
-                <br>
-                сетях
-              </p>
+            <div class="col-12 col-md-4 col-xxl-4">
+              <div class="digit">
+                <div data-value="49349" class="digit__number">0</div>
+                <p class="digit__text">
+                  единиц - охват постов в социальных
+                  <br>
+                  сетях
+                </p>
+              </div>
+              <!-- /.digit -->
             </div>
-            <!-- /.digit -->
+            <!-- /.col-3 -->
           </div>
-          <!-- /.col-3 -->
+          <!-- /.row -->
         </div>
-        <!-- /.row -->
+        <!-- /.digits -->
       </div>
       <!-- /.involvement -->
     </div>
@@ -760,7 +763,7 @@
               </div>
               <!-- /.col-6 -->
 
-              <div class="col-12 col-sm-6 ps-xxl-5 pe-xxl-5">
+              <div class="col-12 col-sm-6 ps-xxl-5 pe-xxl-5 mb-5 mb-md-0">
                 <div class="concept__item">
                   <h3 class="concept__title">
                     Работа с северной природой и
@@ -903,7 +906,7 @@
       <div class="solution">
         <div class="swiper solution__slider">
           <div class="swiper-wrapper row">
-            <div class="swiper-slide col-12 col-sm-6 col-md-4 col-xxl-3 mb-xxl-5">
+            <div class="swiper-slide col-10 col-sm-8 col-md-4 col-xxl-3 mb-xxl-5">
               <a href="img/layout/page/case/gubinskiy/solution/1.jpg" data-gallery="solution" class="glightbox">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/gubinskiy/solution/preview/1.jpg" src="img/layout/page/case/gubinskiy/solution/thumb/1.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -914,7 +917,7 @@
             </div>
             <!-- /.col-4 col-xxl-3 -->
 
-            <div class="swiper-slide col-12 col-sm-6 col-md-4 col-xxl-3 mb-xxl-5">
+            <div class="swiper-slide col-10 col-sm-8 col-md-4 col-xxl-3 mb-xxl-5">
               <a href="img/layout/page/case/gubinskiy/solution/2.jpg" data-gallery="solution" class="glightbox">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/gubinskiy/solution/preview/2.jpg" src="img/layout/page/case/gubinskiy/solution/thumb/2.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -925,7 +928,7 @@
             </div>
             <!-- /.col-4 col-xxl-3 -->
 
-            <div class="swiper-slide col-12 col-sm-6 col-md-4 col-xxl-3 mb-xxl-5">
+            <div class="swiper-slide col-10 col-sm-8 col-md-4 col-xxl-3 mb-xxl-5">
               <a href="img/layout/page/case/gubinskiy/solution/3.jpg" data-gallery="solution" class="glightbox">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/gubinskiy/solution/preview/3.jpg" src="img/layout/page/case/gubinskiy/solution/thumb/3.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -936,7 +939,7 @@
             </div>
             <!-- /.col-4 col-xxl-3 -->
 
-            <div class="swiper-slide col-12 col-sm-6 col-md-4 col-xxl-3 mb-xxl-5">
+            <div class="swiper-slide col-10 col-sm-8 col-md-4 col-xxl-3 mb-xxl-5">
               <a href="img/layout/page/case/gubinskiy/solution/4.jpg" data-gallery="solution" class="glightbox">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/gubinskiy/solution/preview/4.jpg" src="img/layout/page/case/gubinskiy/solution/thumb/4.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -947,7 +950,7 @@
             </div>
             <!-- /.col-4 col-xxl-3 -->
 
-            <div class="swiper-slide col-12 col-sm-6 col-md-4 col-xxl-3">
+            <div class="swiper-slide col-10 col-sm-8 col-md-4 col-xxl-3">
               <a href="img/layout/page/case/gubinskiy/solution/5.jpg" data-gallery="solution" class="glightbox">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/gubinskiy/solution/preview/5.jpg" src="img/layout/page/case/gubinskiy/solution/thumb/5.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -958,7 +961,7 @@
             </div>
             <!-- /.col-4 col-xxl-3 -->
 
-            <div class="swiper-slide col-12 col-sm-6 col-md-4 col-xxl-3">
+            <div class="swiper-slide col-10 col-sm-8 col-md-4 col-xxl-3">
               <a href="img/layout/page/case/gubinskiy/solution/6.jpg" data-gallery="solution" class="glightbox">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/gubinskiy/solution/preview/6.jpg" src="img/layout/page/case/gubinskiy/solution/thumb/6.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -969,7 +972,7 @@
             </div>
             <!-- /.col-4 col-xxl-3 -->
 
-            <div class="swiper-slide col-12 col-sm-6 col-md-4 col-xxl-3">
+            <div class="swiper-slide col-10 col-sm-8 col-md-4 col-xxl-3">
               <a href="img/layout/page/case/gubinskiy/solution/7.jpg" data-gallery="solution" class="glightbox">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/gubinskiy/solution/preview/7.jpg" src="img/layout/page/case/gubinskiy/solution/thumb/7.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -980,7 +983,7 @@
             </div>
             <!-- /.col-4 col-xxl-3 -->
 
-            <div class="swiper-slide col-12 col-sm-6 col-md-4 col-xxl-3">
+            <div class="swiper-slide col-10 col-sm-8 col-md-4 col-xxl-3">
               <a href="img/layout/page/case/gubinskiy/solution/8.jpg" data-gallery="solution" class="glightbox">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/gubinskiy/solution/preview/8.jpg" src="img/layout/page/case/gubinskiy/solution/thumb/8.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -1098,65 +1101,68 @@
       </div>
       <!-- /.row -->
 
-      <div class="row">
-        <div class="col-12 col-md-4 offset-xxl-1 mb-3 mb-md-5">
-          <div class="digit">
-            <div data-value="10.3" data-decimal="1" data-suffix=" Га" class="digit__number">0</div>
-            <p class="digit__text">
-              площадь проектирования
-            </p>
+      <div class="digits">
+        <div class="row">
+          <div class="col-12 col-md-4 offset-xxl-1 mb-3 mb-md-5">
+            <div class="digit">
+              <div data-value="10.3" data-decimal="1" data-suffix=" Га" class="digit__number">0</div>
+              <p class="digit__text">
+                площадь проектирования
+              </p>
+            </div>
+            <!-- /.digit -->
           </div>
-          <!-- /.digit -->
-        </div>
-        <!-- /.col-4 -->
+          <!-- /.col-4 -->
 
-        <div class="col-12 col-md-8 col-xxl-7 mb-3 mb-md-5">
-          <div class="digit">
-            <div data-value="243.2" data-decimal="1" data-suffix=" млн руб." class="digit__number">0</div>
-            <p class="digit__text">
-              общий бюджет проекта согласно укрупненному сметному расчету
-            </p>
+          <div class="col-12 col-md-8 col-xxl-7 mb-3 mb-md-5">
+            <div class="digit">
+              <div data-value="243.2" data-decimal="1" data-suffix=" млн руб." class="digit__number">0</div>
+              <p class="digit__text">
+                общий бюджет проекта согласно укрупненному сметному расчету
+              </p>
+            </div>
+            <!-- /.digit -->
           </div>
-          <!-- /.digit -->
-        </div>
-        <!-- /.col-7 -->
+          <!-- /.col-7 -->
 
-        <div class="col-12 col-md-4 offset-xxl-1 mb-3 mb-md-5">
-          <div class="digit">
-            <div data-value="1491" class="digit__number">0</div>
-            <p class="digit__text">
-              житель вовлечен в процесс разработки проекта
-            </p>
+          <div class="col-12 col-md-4 offset-xxl-1 mb-3 mb-md-5">
+            <div class="digit">
+              <div data-value="1491" class="digit__number">0</div>
+              <p class="digit__text">
+                житель вовлечен в процесс разработки проекта
+              </p>
+            </div>
+            <!-- /.digit -->
           </div>
-          <!-- /.digit -->
-        </div>
-        <!-- /.col-4 -->
+          <!-- /.col-4 -->
 
-        <div class="col-12 col-md-8 col-xxl-7 mb-3 mb-md-5">
-          <div class="digit">
-            <div data-value="61" data-prefix="На " data-suffix="%" class="digit__number">0</div>
-            <p class="digit__text">
-              вырастет посещаемость территории после реализации проекта
-            </p>
+          <div class="col-12 col-md-8 col-xxl-7 mb-3 mb-md-5">
+            <div class="digit">
+              <div data-value="61" data-prefix="На " data-suffix="%" class="digit__number">0</div>
+              <p class="digit__text">
+                вырастет посещаемость территории после реализации проекта
+              </p>
+            </div>
+            <!-- /.digit -->
           </div>
-          <!-- /.digit -->
-        </div>
-        <!-- /.col-7 -->
+          <!-- /.col-7 -->
 
-        <div class="col-12 col-lg-8 col-xxl-7 offset-xxl-1">
-          <div class="digit">
-            <div data-value="3" data-suffix=" рабочих места" class="digit__number">0</div>
-            <p class="digit__text">
-              создается благодаря реализации проекта
-            </p>
+          <div class="col-12 col-lg-8 col-xxl-7 offset-xxl-1">
+            <div class="digit">
+              <div data-value="3" data-suffix=" рабочих места" class="digit__number">0</div>
+              <p class="digit__text">
+                создается благодаря реализации проекта
+              </p>
+            </div>
+            <!-- /.digit -->
           </div>
-          <!-- /.digit -->
+          <!-- /.col-7 -->
         </div>
-        <!-- /.col-7 -->
+        <!-- /.row -->
       </div>
-      <!-- /.row -->
+      <!-- /.digits -->
 
-      <div class="result mt-5 mt-md-0">
+      <div class="result">
         <div class="row justify-content-center">
           <div class="col-12 col-md-8 col-xxl-6">
             <img src="img/layout/page/case/gubinskiy/result/picture.svg" class="mb-3 mb-md-5 mx-auto" alt="">
@@ -1185,7 +1191,7 @@
           </a>
         </h2>
 
-        <p class="section__text me-5">
+        <p class="section__text me-md-5">
           Разработка проекта благоустройства
           <br>
           центрального парка г. Свободный
