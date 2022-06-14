@@ -14,7 +14,7 @@ if (mobileMenu) {
 function Menu(menu) {
   header.classList.toggle('header-mobile');
 
-  document.body.classList.toggle('body-overflow');
+  document.body.classList.toggle(StyleClass.body.overflow);
   if (menu === 'mobile') {
     headerMobile.classList.toggle('is-active');
     mobileMenu.classList.toggle('mobile-menu--open');

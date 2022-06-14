@@ -23,6 +23,6 @@
   </div>
   <!-- /.news-item__footer -->
 
-  <a class="stretched-link" href="single-news.php"></a>
+  <a class="stretched-link" href="layout/single/single-news.php"></a>
 </article>
 <!-- /.news__item news-item -->

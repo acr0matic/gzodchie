@@ -12,7 +12,7 @@ if (job) {
   const cards = job.querySelectorAll('.jobs-item');
 
   modalClose.addEventListener('click', () => {
-    if (breakpoint.matches) document.body.classList.remove('body-overflow');
+    if (breakpoint.matches) document.body.classList.remove(StyleClass.body.overflow);
   });
 
   _.forEach(cards, (card) => {
@@ -25,7 +25,7 @@ if (job) {
       modalContent.innerHTML = content;
       modalForm.dataset.additional = title;
 
-      if (breakpoint.matches) document.body.classList.add('body-overflow');
+      if (breakpoint.matches) document.body.classList.add(StyleClass.body.overflow);
     });
   })
 }

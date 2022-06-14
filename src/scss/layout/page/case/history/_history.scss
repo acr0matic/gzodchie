@@ -54,7 +54,12 @@ section#history {
   }
 
   &__help {
-    display: flex;
+    @include breakpoint($breakpoint-laptop--medium) {
+      display: flex;
+      margin-top: 16px;
+    }
+
+    display: none;
     align-items: center;
     justify-content: center;
 

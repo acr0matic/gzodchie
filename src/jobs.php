@@ -24,13 +24,15 @@
                 <!-- /.jobs-item__action -->
 
                 <div class="jobs-item__content">
-                  Etiam accumsan cras est laoreet. Volutpat consequat nisl suspendisse vitae risus. Lectus arcu in eget urna, feugiat malesuada. Lorem tellus aliquam non dictum porta. Dui faucibus luctus interdum enim gravida vel mauris, nibh justo. Pulvinar tristique sollicitudin quis viverra porttitor. Integer gravida diam volutpat tellus montes. Ante habitasse in tellus imperdiet suspendisse.
-                  <br> <br>
-                  Velit blandit sem nisi aliquet imperdiet nunc posuere neque. Nec, nec pellentesque nisi malesuada eget ac, nisi, lectus. Congue facilisi egestas condimentum nec, urna enim metus vulputate. Risus, aliquet tincidunt eget nisl imperdiet est lorem. Nulla nunc eget venenatis convallis tempor tellus. Enim, aliquet purus nisl vestibulum, eget tellus nec semper. Interdum sit tempus, lorem posuere vitae molestie blandit. At amet sed scelerisque proin tempor orci massa pharetra, in. In non neque, sit penatibus eu sit aliquet tristique eu. Ornare nec metus, pellentesque at in integer enim sit. Ultrices diam turpis sit hendrerit lorem congue eget. In in morbi libero, pulvinar sed. Vitae laoreet purus elementum consectetur.
-                  <br> <br>
-                  Ullamcorper maecenas duis turpis tellus massa, mauris, etiam. Id quisque arcu ac leo. Netus nisi, ac neque amet, ipsum. Etiam commodo pharetra amet orci. Lacinia vel tincidunt sit blandit nunc, risus vitae viverra. Sollicitudin pellentesque diam nibh pretium nulla integer rhoncus, feugiat. Nisl in blandit lacus, integer dignissim enim in ornare libero.
-                  <br> <br> <br>
-                  Ullamcorper maecenas duis turpis tellus massa, mauris, etiam. Id quisque arcu ac leo. Netus nisi, ac neque amet, ipsum. Etiam commodo pharetra amet orci. Lacinia vel tincidunt sit blandit nunc, risus vitae viverra. Sollicitudin pellentesque diam nibh pretium nulla integer rhoncus, feugiat. Nisl in blandit lacus, integer dignissim enim in ornare libero llamcorper maecenas duis turpis tellus massa, mauris, etiam. Id quisque arcu ac leo. Netus nisi, ac neque amet, ipsum. Etiam commodo pharetra amet orci. Lacinia vel tincidunt sit blandit nunc, risus vitae viverra. Sollicitudin pellentesque diam nibh pretium nulla integer rhoncus, feugiat. Nisl in blandit lacus, integer dignissim enim in ornare libero.
+                  <p>
+                    Etiam accumsan cras est laoreet. Volutpat consequat nisl suspendisse vitae risus. Lectus arcu in eget urna, feugiat malesuada. Lorem tellus aliquam non dictum porta. Dui faucibus luctus interdum enim gravida vel mauris, nibh justo. Pulvinar tristique sollicitudin quis viverra porttitor. Integer gravida diam volutpat tellus montes. Ante habitasse in tellus imperdiet suspendisse.
+                    <br> <br>
+                    Velit blandit sem nisi aliquet imperdiet nunc posuere neque. Nec, nec pellentesque nisi malesuada eget ac, nisi, lectus. Congue facilisi egestas condimentum nec, urna enim metus vulputate. Risus, aliquet tincidunt eget nisl imperdiet est lorem. Nulla nunc eget venenatis convallis tempor tellus. Enim, aliquet purus nisl vestibulum, eget tellus nec semper. Interdum sit tempus, lorem posuere vitae molestie blandit. At amet sed scelerisque proin tempor orci massa pharetra, in. In non neque, sit penatibus eu sit aliquet tristique eu. Ornare nec metus, pellentesque at in integer enim sit. Ultrices diam turpis sit hendrerit lorem congue eget. In in morbi libero, pulvinar sed. Vitae laoreet purus elementum consectetur.
+                    <br> <br>
+                    Ullamcorper maecenas duis turpis tellus massa, mauris, etiam. Id quisque arcu ac leo. Netus nisi, ac neque amet, ipsum. Etiam commodo pharetra amet orci. Lacinia vel tincidunt sit blandit nunc, risus vitae viverra. Sollicitudin pellentesque diam nibh pretium nulla integer rhoncus, feugiat. Nisl in blandit lacus, integer dignissim enim in ornare libero.
+                    <br> <br> <br>
+                    Ullamcorper maecenas duis turpis tellus massa, mauris, etiam. Id quisque arcu ac leo. Netus nisi, ac neque amet, ipsum. Etiam commodo pharetra amet orci. Lacinia vel tincidunt sit blandit nunc, risus vitae viverra. Sollicitudin pellentesque diam nibh pretium nulla integer rhoncus, feugiat. Nisl in blandit lacus, integer dignissim enim in ornare libero llamcorper maecenas duis turpis tellus massa, mauris, etiam. Id quisque arcu ac leo. Netus nisi, ac neque amet, ipsum. Etiam commodo pharetra amet orci. Lacinia vel tincidunt sit blandit nunc, risus vitae viverra. Sollicitudin pellentesque diam nibh pretium nulla integer rhoncus, feugiat. Nisl in blandit lacus, integer dignissim enim in ornare libero.
+                  </p>
                 </div>
                 <!-- /.jobs-item__content -->
               </div>
@@ -51,13 +53,15 @@
                 <!-- /.jobs-item__action -->
 
                 <div class="jobs-item__content">
-                  Ullamcorper maecenas duis turpis tellus massa, mauris, etiam. Id quisque arcu ac leo. Netus nisi, ac neque amet, ipsum. Etiam commodo pharetra amet orci. Lacinia vel tincidunt sit blandit nunc, risus vitae viverra. Sollicitudin pellentesque diam nibh pretium nulla integer rhoncus, feugiat. Nisl in blandit lacus, integer dignissim enim in ornare libero llamcorper maecenas duis turpis tellus massa, mauris, etiam. Id quisque arcu ac leo. Netus nisi, ac neque amet, ipsum. Etiam commodo pharetra amet orci. Lacinia vel tincidunt sit blandit nunc, risus vitae viverra. Sollicitudin pellentesque diam nibh pretium nulla integer rhoncus, feugiat. Nisl in blandit lacus, integer dignissim enim in ornare libero.
-                  <br> <br> <br>
-                  Etiam accumsan cras est laoreet. Volutpat consequat nisl suspendisse vitae risus. Lectus arcu in eget urna, feugiat malesuada. Lorem tellus aliquam non dictum porta. Dui faucibus luctus interdum enim gravida vel mauris, nibh justo. Pulvinar tristique sollicitudin quis viverra porttitor. Integer gravida diam volutpat tellus montes. Ante habitasse in tellus imperdiet suspendisse.
-                  <br> <br>
-                  Velit blandit sem nisi aliquet imperdiet nunc posuere neque. Nec, nec pellentesque nisi malesuada eget ac, nisi, lectus. Congue facilisi egestas condimentum nec, urna enim metus vulputate. Risus, aliquet tincidunt eget nisl imperdiet est lorem. Nulla nunc eget venenatis convallis tempor tellus. Enim, aliquet purus nisl vestibulum, eget tellus nec semper. Interdum sit tempus, lorem posuere vitae molestie blandit. At amet sed scelerisque proin tempor orci massa pharetra, in. In non neque, sit penatibus eu sit aliquet tristique eu. Ornare nec metus, pellentesque at in integer enim sit. Ultrices diam turpis sit hendrerit lorem congue eget. In in morbi libero, pulvinar sed. Vitae laoreet purus elementum consectetur.
-                  <br> <br>
-                  Ullamcorper maecenas duis turpis tellus massa, mauris, etiam. Id quisque arcu ac leo. Netus nisi, ac neque amet, ipsum. Etiam commodo pharetra amet orci. Lacinia vel tincidunt sit blandit nunc, risus vitae viverra. Sollicitudin pellentesque diam nibh pretium nulla integer rhoncus, feugiat. Nisl in blandit lacus, integer dignissim enim in ornare libero.
+                  <p>
+                    Ullamcorper maecenas duis turpis tellus massa, mauris, etiam. Id quisque arcu ac leo. Netus nisi, ac neque amet, ipsum. Etiam commodo pharetra amet orci. Lacinia vel tincidunt sit blandit nunc, risus vitae viverra. Sollicitudin pellentesque diam nibh pretium nulla integer rhoncus, feugiat. Nisl in blandit lacus, integer dignissim enim in ornare libero llamcorper maecenas duis turpis tellus massa, mauris, etiam. Id quisque arcu ac leo. Netus nisi, ac neque amet, ipsum. Etiam commodo pharetra amet orci. Lacinia vel tincidunt sit blandit nunc, risus vitae viverra. Sollicitudin pellentesque diam nibh pretium nulla integer rhoncus, feugiat. Nisl in blandit lacus, integer dignissim enim in ornare libero.
+                    <br> <br> <br>
+                    Etiam accumsan cras est laoreet. Volutpat consequat nisl suspendisse vitae risus. Lectus arcu in eget urna, feugiat malesuada. Lorem tellus aliquam non dictum porta. Dui faucibus luctus interdum enim gravida vel mauris, nibh justo. Pulvinar tristique sollicitudin quis viverra porttitor. Integer gravida diam volutpat tellus montes. Ante habitasse in tellus imperdiet suspendisse.
+                    <br> <br>
+                    Velit blandit sem nisi aliquet imperdiet nunc posuere neque. Nec, nec pellentesque nisi malesuada eget ac, nisi, lectus. Congue facilisi egestas condimentum nec, urna enim metus vulputate. Risus, aliquet tincidunt eget nisl imperdiet est lorem. Nulla nunc eget venenatis convallis tempor tellus. Enim, aliquet purus nisl vestibulum, eget tellus nec semper. Interdum sit tempus, lorem posuere vitae molestie blandit. At amet sed scelerisque proin tempor orci massa pharetra, in. In non neque, sit penatibus eu sit aliquet tristique eu. Ornare nec metus, pellentesque at in integer enim sit. Ultrices diam turpis sit hendrerit lorem congue eget. In in morbi libero, pulvinar sed. Vitae laoreet purus elementum consectetur.
+                    <br> <br>
+                    Ullamcorper maecenas duis turpis tellus massa, mauris, etiam. Id quisque arcu ac leo. Netus nisi, ac neque amet, ipsum. Etiam commodo pharetra amet orci. Lacinia vel tincidunt sit blandit nunc, risus vitae viverra. Sollicitudin pellentesque diam nibh pretium nulla integer rhoncus, feugiat. Nisl in blandit lacus, integer dignissim enim in ornare libero.
+                  </p>
                 </div>
                 <!-- /.jobs-item__content -->
               </div>
@@ -69,6 +73,7 @@
         </div>
         <!-- /.row -->
 
+        <!-- Показать если нет вакансий -->
         <div class="jobs__empty" style="display: none;">
           <h2 class="section__title">Пока вакансий нет.</h2>
           <span>Но скоро они появятся</span>

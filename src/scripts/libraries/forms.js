@@ -195,7 +195,7 @@ class Form {
     if (subject) data.append('subject', subject);
 
     for (var pair of data.entries()) {
-      console.log(pair[0]+ ', ' + pair[1]);
+      console.log(pair[0] + ', ' + pair[1]);
     }
 
     try {
@@ -207,8 +207,7 @@ class Form {
       if (response.ok) {
         if (this.redirect) window.location.href = this.redirect;
 
-        MicroModal.close('modal-callback', modalParams);
-        MicroModal.close('modal-job', modalParams);
+        if (currentModal) MicroModal.close(currentModal);
         MicroModal.show('modal-success', modalParams);
 
         setTimeout(() => {
@@ -237,6 +236,9 @@ class Form {
 
   // Функция: Очистка формы
   Clear() {
-    this.fields.forEach(field => field.value = '');
+    this.fields.forEach(field => {
+      field.value = '';
+      field.parentNode.classList.remove('input--focus');
+    });
   }
 }

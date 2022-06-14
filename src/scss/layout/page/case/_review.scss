@@ -37,9 +37,9 @@ section#review {
       margin-top: 40px;
     }
 
-    // @include breakpoint($breakpoint-mobile--large) {
-    //   height: ;
-    // }
+    @include breakpoint($breakpoint-mobile--large) {
+      height: 240px;
+    }
 
     height: 600px;
     margin-top: 80px;

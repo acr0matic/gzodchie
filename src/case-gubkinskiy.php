@@ -1174,6 +1174,27 @@
     </div>
     <!-- /.container -->
   </section>
+
+  <section id="next" class="section">
+    <div class="container">
+      <div class="next">
+        <h2 class="section__title section__title--small next__title">
+          <a href="" class="link d-flex align-items-center">
+            Кейс «Свободный»
+            <img class="ms-2" src="img/icons/misc/arrow-right.svg" alt="">
+          </a>
+        </h2>
+
+        <p class="section__text me-5">
+          Разработка проекта благоустройства
+          <br>
+          центрального парка г. Свободный
+        </p>
+      </div>
+      <!-- /.next -->
+    </div>
+    <!-- /.container -->
+  </section>
 </main>
 
 <?php include_once('layout/partials/footer.php') ?>

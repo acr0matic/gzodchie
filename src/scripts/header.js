@@ -1,7 +1,9 @@
 const header = document.getElementById('header');
-if (header) {
 
-  if (hero) {
+if (header) {
+  const heroBlock = document.querySelector('main#home #hero')
+
+  if (heroBlock) {
     const getHeight = (block) => block ? block.clientHeight : null;
 
     const heroBlock = document.querySelector('main#home #hero')
@@ -9,8 +11,8 @@ if (header) {
 
     heroHeight = getHeight(heroBlock);
 
-    header.classList.add('header-fixed');
-    header.classList.add('header-inverted');
+    header.classList.add(StyleClass.header.fixed);
+    header.classList.add(StyleClass.header.inverted);
 
     window.addEventListener('scroll', () => CheckHeader());
 
@@ -23,8 +25,8 @@ if (header) {
     function CheckHeader() {
       isReach = window.scrollY >= heroHeight - getHeight(header);
 
-      if (isReach) header.classList.remove('header-inverted');
-      else header.classList.add('header-inverted');
+      if (isReach) header.classList.remove(StyleClass.header.inverted);
+      else header.classList.add(StyleClass.header.inverted);
     }
   }
 }

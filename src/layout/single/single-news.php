@@ -1,4 +1,4 @@
-<?php include_once('layout/partials/header.php') ?>
+<?php include_once(dirname(__DIR__) . '/partials/header.php') ?>
 
 <!-- Основной контент -->
 <main id="single-news">
@@ -20,12 +20,12 @@
         </h1>
 
         <picture class="single-news__picture lazy">
-          <img data-src="img/layout/single/news/picture.jpg" alt="" class="single-news__image image image--cover lazy__item">
-          <img src="img/misc/preloader.svg" alt="" class="preloader">
+          <img data-src="/img/layout/single/news/picture.jpg" alt="" class="single-news__image image image--cover lazy__item">
+          <img src="/img/misc/preloader.svg" alt="" class="preloader">
         </picture>
         <!-- /.single-news__picture -->
 
-        <div class="single-news__content">
+        <div id="editor" class="single-news__content">
           <p>Turpis curabitur morbi elementum justo bibendum egestas pulvinar cursus. Congue feugiat laoreet tristique pretium, ultrices purus malesuada venenatis. Ultrices pharetra, tempor at nulla egestas amet in semper. In lectus feugiat lorem dolor, egestas nascetur risus et et. Cras massa ut ut non rhoncus quis sit. Et accumsan imperdiet lectus ultrices vulputate vestibulum. Pharetra varius lacus, aliquet morbi justo, gravida tellus pellentesque suspendisse. Consectetur euismod vestibulum volutpat id. Magna aliquam nunc sagittis, proin lectus scelerisque etiam lobortis. A in vitae vitae id pellentesque fermentum aliquam eget tortor. Massa tristique pharetra urna magnis senectus sit netus vel odio. Urna nisl tempor aliquam, arcu integer sed tincidunt. Malesuada nisl sed egestas sed.</p>
 
           <h2>
@@ -50,4 +50,4 @@
   </section>
 </main>
 
-<?php include_once('layout/partials/footer.php') ?>
+<?php include_once(dirname(__DIR__) . '/partials/footer.php') ?>

@@ -84,30 +84,5 @@ section#single-news {
 
     width: 500px;
     margin: 0 auto;
-
-    & > * {
-      &:not(:last-child) {
-        margin-bottom: 10px;
-      }
-    }
-
-    h2,
-    h3 {
-      line-height: $line-height--secondary;
-    }
-
-    h2 {
-      font-size: $font-size__text--huge;
-    }
-
-    h3 {
-      font-size: $font-size__text--large;
-    }
-
-    ul,
-    ol {
-      padding-left: 20px;
-      list-style: initial;
-    }
   }
 }

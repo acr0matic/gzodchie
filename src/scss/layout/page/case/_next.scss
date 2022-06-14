@@ -1,0 +1,33 @@
+section#next {
+  margin-top: 95px;
+  padding-top: 0;
+
+  .section__title {
+    @include breakpoint($breakpoint-tablet) {
+      justify-content: flex-start;
+    }
+
+    display: flex;
+    justify-content: flex-end;
+
+    @media (hover: hover) {
+      &:hover {
+        img {
+          transform: translateX(5px);
+        }
+      }
+    }
+
+    img {
+      transition: $transition ease;
+    }
+  }
+}
+
+.next {
+  @include breakpoint($breakpoint-tablet) {
+    text-align: left;
+  }
+
+  text-align: right;
+}

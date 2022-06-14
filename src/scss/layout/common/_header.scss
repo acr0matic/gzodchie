@@ -14,6 +14,8 @@
   transition: $transition ease;
 }
 
+/* purgecss start ignore */
+
 .header-fixed {
   position: fixed !important;
 }
@@ -46,6 +48,8 @@
 .header-mobile {
   background-color: $palette-black !important;
 }
+
+/* purgecss end ignore */
 
 .header {
   @include breakpoint($breakpoint-tablet--large) {

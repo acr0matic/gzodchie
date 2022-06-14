@@ -453,15 +453,15 @@
         <!-- /.swiper involvement__slider -->
 
         <div class="row justify-content-center">
-          <div class="col-6 col-xxl-4">
-            <p class="section__text mb-3 mb-md-4 mb-lg-5 mt-4 mt-lg-5">
+          <div class="col-12 col-sm-6 col-xxl-4">
+            <p class="section__text mb-3 mb-md-4 mb-lg-5 mt-3 mt-sm-4 mt-lg-5">
               За время проведения этапов соучаствующего проектирования организовали 13 мероприятий разных форматов: ZOOM-встречи, голосования в Google Формах, глубинные интервью, очные проектные семинары, фокус-группы.
             </p>
           </div>
           <!-- /.col-4 -->
 
-          <div class="col-6 col-xxl-4">
-            <p class="section__text mb-3 mb-md-4 mb-lg-5 mt-4 mt-lg-5">
+          <div class="col-12 col-sm-6 col-xxl-4">
+            <p class="section__text mb-3 mb-md-4 mb-lg-5 mt-0 mt-sm-4 mt-lg-5">
               В своей работе мы не только прислушивались к идеям горожан, но и тестировали идеи архитекторов, благодаря чему проект получил ряд важных правок в режиме реального времени
             </p>
           </div>
@@ -497,8 +497,8 @@
         </div>
         <!-- /.swiper involvement__slider -->
 
-        <div class="row justify-content-center mt-5">
-          <div class="col-4 col-xxl-3 ps-xxl-5">
+        <div class="row justify-content-center mt-4 mt-md-5">
+          <div class="col-12 col-md-4 col-xxl-3 ps-xxl-5 mb-4 mb-md-0">
             <div class="digit">
               <div data-value="58914" class="digit__number">58914</div>
               <p class="digit__text">
@@ -511,7 +511,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-4 col-xxl-3">
+          <div class="col-12 col-md-4 col-xxl-3 mb-4 mb-md-0">
             <div class="digit">
               <div data-value="4064" class="digit__number">0</div>
               <p class="digit__text">
@@ -526,7 +526,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-4 col-xxl-4">
+          <div class="col-12 col-md-4 col-xxl-4">
             <div class="digit">
               <div data-value="13" class="digit__number">0</div>
               <p class="digit__text">
@@ -1218,7 +1218,7 @@
 
         <div class="col-12 col-lg-8 col-xxl-7 offset-xxl-1">
           <div class="digit">
-            <div data-value="10" data-suffix=" рабочих места" class="digit__number">0</div>
+            <div data-value="10" data-suffix=" рабочих мест" class="digit__number">0</div>
             <p class="digit__text">
               даются сразу после реализации проекта благоустройства
             </p>
@@ -1244,6 +1244,27 @@
         <!-- /.row -->
       </div>
       <!-- /.result -->
+    </div>
+    <!-- /.container -->
+  </section>
+
+  <section id="next" class="section">
+    <div class="container">
+      <div class="next">
+        <h2 class="section__title section__title--small next__title">
+          <a href="" class="link d-flex align-items-center">
+            Кейс «Губкинский»
+            <img class="ms-2" src="img/icons/misc/arrow-right.svg" alt="">
+          </a>
+        </h2>
+
+        <p class="section__text me-5">
+          Разработка проекта благоустройства
+          <br>
+          Никольского сквера, г. Губкинский
+        </p>
+      </div>
+      <!-- /.next -->
     </div>
     <!-- /.container -->
   </section>

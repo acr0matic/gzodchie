@@ -60,30 +60,7 @@
 
           <div class="col-12 col-sm-6 col-md-4 col-lg-2">
             <div class="footer__nav">
-              <nav class="nav nav--footer">
-                <ul class="nav__list">
-                  <li class="nav__item">
-                    <a class="nav__link link" href="service.php">Услуги</a>
-                  </li>
-
-                  <li class="nav__item">
-                    <a class="nav__link link" href="projects.php">Проекты</a>
-                  </li>
-
-                  <li class="nav__item">
-                    <a class="nav__link link" href="news.php">Новости</a>
-                  </li>
-
-                  <li class="nav__item">
-                    <a class="nav__link link" href="about.php">О компании</a>
-                  </li>
-
-                  <li class="nav__item">
-                    <a class="nav__link link" href="jobs.php">Вакансии</a>
-                  </li>
-                </ul>
-              </nav>
-              <!-- /.nav -->
+              <?php include_once('menu/footer.php') ?>
             </div>
             <!-- /.footer__nav -->
           </div>
@@ -152,27 +129,27 @@
 
   <!-- Скрипты -->
   <!-- build:js js/script.min.js -->
-  <script src="scripts/libraries/lazyload.js"></script>
-  <script src="scripts/libraries/lodash.js"></script>
-  <script src="scripts/libraries/countUp.min.js"></script>
-  <script src="scripts/libraries/swiper-bundle.min.js"></script>
-  <script src="scripts/libraries/datepicker-full.min.js"></script>
-  <script src="scripts/libraries/datepicker-ru.js"></script>
-  <script src="scripts/libraries/dropzone.js"></script>
-  <script src="scripts/libraries/imask.js"></script>
-  <script src="scripts/libraries/forms.js"></script>
-  <script src="scripts/libraries/micromodal.js"></script>
-  <script src="scripts/libraries/glightbox.min.js"></script>
+  <script src="/scripts/libraries/lazyload.js"></script>
+  <script src="/scripts/libraries/lodash.js"></script>
+  <script src="/scripts/libraries/countUp.min.js"></script>
+  <script src="/scripts/libraries/swiper-bundle.min.js"></script>
+  <script src="/scripts/libraries/datepicker-full.min.js"></script>
+  <script src="/scripts/libraries/datepicker-ru.js"></script>
+  <script src="/scripts/libraries/dropzone.js"></script>
+  <script src="/scripts/libraries/imask.js"></script>
+  <script src="/scripts/libraries/forms.js"></script>
+  <script src="/scripts/libraries/micromodal.js"></script>
+  <script src="/scripts/libraries/glightbox.min.js"></script>
 
-  <script src="scripts/base.js"></script>
-  <script src="scripts/init.js"></script>
-  <script src="scripts/hero.js"></script>
-  <script src="scripts/header.js"></script>
-  <script src="scripts/mobile.js"></script>
-  <script src="scripts/service.js"></script>
-  <script src="scripts/job.js"></script>
-  <script src="scripts/about.js"></script>
-  <script src="scripts/project.js"></script>
+  <script src="/scripts/base.js"></script>
+  <script src="/scripts/init.js"></script>
+  <script src="/scripts/hero.js"></script>
+  <script src="/scripts/header.js"></script>
+  <script src="/scripts/mobile.js"></script>
+  <script src="/scripts/service.js"></script>
+  <script src="/scripts/job.js"></script>
+  <script src="/scripts/about.js"></script>
+  <script src="/scripts/project.js"></script>
   <!-- endbuild -->
   </body>
 

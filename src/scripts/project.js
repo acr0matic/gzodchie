@@ -7,7 +7,7 @@ if (project) {
   const visualization = project.querySelector('#visualization');
   const usage = project.querySelector('#usage');
   const involvement = project.querySelector('#involvement');
-  const history = project.querySelector('#history');
+  const historyBlock = project.querySelector('#history');
 
   if (solution) {
     let slider = null;
@@ -109,8 +109,9 @@ if (project) {
     });
   }
 
-  if (history) {
-    const container = history.querySelectorAll('.history__container');
+  if (historyBlock) {
+    console.log(historyBlock);
+    const container = historyBlock.querySelectorAll('.history__container');
 
     function Drag() {
       _.forEach(container, (block) => {
