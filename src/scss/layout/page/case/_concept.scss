@@ -32,6 +32,10 @@ section#concept {
     @include breakpoint($breakpoint-laptop--medium) {
       margin-bottom: 32px;
     }
+
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 24px;
+    }
   }
 
   &__text {

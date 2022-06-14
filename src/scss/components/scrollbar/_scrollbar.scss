@@ -1,13 +1,11 @@
 /* purgecss start ignore */
 
 .scrollbar-lg-hidden {
-  @include breakpoint(min-width 991px) {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 
-    &::-webkit-scrollbar {
-      display: none;
-    }
+  &::-webkit-scrollbar {
+    display: none;
   }
 }
 

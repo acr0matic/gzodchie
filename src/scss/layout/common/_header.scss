@@ -48,7 +48,7 @@
 }
 
 .header {
-  @include breakpoint($breakpoint-tablet) {
+  @include breakpoint($breakpoint-tablet--large) {
     height: 56px;
   }
 
@@ -58,7 +58,7 @@
   height: $header-height;
 
   &__telegram {
-    @include breakpoint($breakpoint-tablet) {
+    @include breakpoint($breakpoint-tablet--large) {
       display: block;
     }
 
@@ -70,7 +70,7 @@
       width: 80px;
     }
 
-    @include breakpoint($breakpoint-tablet) {
+    @include breakpoint($breakpoint-tablet--large) {
       width: 60px;
       margin: 0 auto;
     }
@@ -95,13 +95,13 @@
   }
 
   &__nav {
-    @include breakpoint($breakpoint-tablet) {
+    @include breakpoint($breakpoint-tablet--large) {
       display: none;
     }
   }
 
   &__mobile {
-    @include breakpoint($breakpoint-tablet) {
+    @include breakpoint($breakpoint-tablet--large) {
       display: block;
     }
 

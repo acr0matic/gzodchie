@@ -46,6 +46,23 @@ section#history {
       @include breakpoint($breakpoint-laptop--medium) {
         margin-top: -40px;
       }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        margin-top: 0;
+      }
+    }
+  }
+
+  &__help {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: $color-text__gray;
+    text-transform: uppercase;
+
+    img {
+      margin-right: 12px;
     }
   }
 }

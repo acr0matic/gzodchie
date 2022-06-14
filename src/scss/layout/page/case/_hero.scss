@@ -17,6 +17,14 @@ main#project {
     }
 
     &__content {
+      @include breakpoint($breakpoint-tablet--large) {
+        padding-top: 50px;
+      }
+
+      @include breakpoint($breakpoint-tablet) {
+        padding-left: 0;
+      }
+
       position: relative;
       z-index: 2;
       padding-top: 135px;
@@ -28,11 +36,16 @@ main#project {
       position: relative;
 
       &::before {
+        @include breakpoint($breakpoint-tablet--large) {
+          left: -150%;
+        }
+
         content: "";
 
         position: absolute;
+        z-index: -1;
         top: 0;
-        left: -300%;
+        left: -200%;
 
         display: block;
         width: 300%;
@@ -41,12 +54,30 @@ main#project {
     }
 
     &__title {
+      @include breakpoint($breakpoint-tablet--large) {
+        width: 100%;
+        font-size: $font-size__title--small;
+      }
+
+      @include breakpoint($breakpoint-tablet) {
+        font-size: $font-size__text--huge;
+        line-height: $line-height--secondary;
+
+        br {
+          display: none;
+        }
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        font-size: $font-size__text--large;
+      }
+
       position: relative;
+      z-index: 2;
 
       width: 930px;
       padding: 24px 0;
 
-      background-color: rgba(#1f212b, 0.7);
       color: $palette-white;
 
       font-size: $font-size__title--big;
@@ -57,12 +88,26 @@ main#project {
     }
 
     &__description {
+      @include breakpoint($breakpoint-tablet--large) {
+        width: 100%;
+        font-size: $font-size__text--big;
+      }
+
+      @include breakpoint($breakpoint-tablet) {
+        br {
+          display: none;
+        }
+      }
+
+      @include breakpoint($breakpoint-mobile--large) {
+        font-size: $font-size__text--regular;
+      }
+
       position: relative;
+      z-index: 2;
 
       width: 884px;
       padding: 10px 0;
-
-      background-color: $palette-white;
 
       font-size: $font-size__text--huge;
 
@@ -81,6 +126,12 @@ main#project {
     }
 
     &__icon {
+      @include breakpoint($breakpoint-tablet--large) {
+        rect {
+          display: none;
+        }
+      }
+
       .arrow {
         animation-name: sliding;
         animation-duration: 2s;

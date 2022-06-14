@@ -32,10 +32,15 @@ section#usage {
   }
 
   &__switch {
+    @include breakpoint($breakpoint-tablet) {
+      bottom: -60px;
+    }
+
     position: absolute;
     z-index: 5;
     bottom: 20px;
     left: 50%;
+    width: fit-content;
 
     transform: translateX(-50%);
 

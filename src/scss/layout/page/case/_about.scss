@@ -1,5 +1,14 @@
 main#project section#about {
+  @include breakpoint($breakpoint-tablet) {
+    padding-top: 32px;
+    padding-bottom: 0;
+  }
+
   .section__text {
+    @include breakpoint($breakpoint-tablet--large) {
+      width: 100%;
+    }
+
     width: 660px;
     margin: 0 auto;
   }

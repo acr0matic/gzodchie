@@ -6,12 +6,6 @@
 
   &--left {
     .switch__wrapper {
-      // @media (hover: hover) {
-      //   &:hover::after {
-      //     left: 15px;
-      //   }
-      // }
-
       &::after {
         left: 5px;
       }
@@ -26,12 +20,6 @@
 
   &--right {
     .switch__wrapper {
-      // @media (hover: hover) {
-      //   &:hover::after {
-      //     left: 65px;
-      //   }
-      // }
-
       &::after {
         left: 80px;
       }
