@@ -1,5 +1,5 @@
 .jobs {
-  @include breakpoint($breakpoint-tablet) {
+  @include breakpoint($breakpoint-tablet--large) {
     padding-bottom: 32px;
   }
 

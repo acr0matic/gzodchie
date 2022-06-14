@@ -1,5 +1,5 @@
 .jobs-item {
-  @include breakpoint($breakpoint-tablet) {
+  @include breakpoint($breakpoint-tablet--large) {
     padding: 32px;
   }
 
@@ -13,7 +13,7 @@
   }
 
   &__title {
-    @include breakpoint($breakpoint-tablet) {
+    @include breakpoint($breakpoint-tablet--large) {
       margin-bottom: 40px;
       font-size: $font-size__text--large;
     }

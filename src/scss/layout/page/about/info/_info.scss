@@ -9,7 +9,7 @@ section#info {
       font-size: $font-size__title--medium;
     }
 
-    @include breakpoint($breakpoint-tablet) {
+    @include breakpoint($breakpoint-tablet--large) {
       font-size: $font-size__text--huge;
     }
 
@@ -17,7 +17,7 @@ section#info {
   }
 
   &__title {
-    @include breakpoint($breakpoint-tablet) {
+    @include breakpoint($breakpoint-tablet--large) {
       margin-bottom: 24px;
     }
 
@@ -27,7 +27,7 @@ section#info {
   }
 
   &__text {
-    @include breakpoint($breakpoint-tablet) {
+    @include breakpoint($breakpoint-tablet--large) {
       margin-bottom: 48px;
     }
 

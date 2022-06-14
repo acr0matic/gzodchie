@@ -12,7 +12,7 @@
   }
 
   &__header {
-    @include breakpoint($breakpoint-tablet) {
+    @include breakpoint($breakpoint-tablet--large) {
       margin-bottom: 40px;
 
       br {
@@ -38,7 +38,7 @@
       font-size: $font-size__title--medium;
     }
 
-    @include breakpoint($breakpoint-tablet) {
+    @include breakpoint($breakpoint-tablet--large) {
       font-size: $font-size__text--huge;
       line-height: $line-height--secondary;
     }

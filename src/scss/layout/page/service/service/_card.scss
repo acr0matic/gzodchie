@@ -79,7 +79,7 @@
       width: 270px !important;
     }
 
-    @include breakpoint($breakpoint-tablet) {
+    @include breakpoint($breakpoint-tablet--large) {
       width: 70% !important;
     }
 
@@ -91,7 +91,7 @@
       width: 120px !important;
     }
 
-    @include breakpoint($breakpoint-tablet) {
+    @include breakpoint($breakpoint-tablet--large) {
       width: 30% !important;
       max-width: 100px;
     }
@@ -110,7 +110,7 @@
       font-size: $font-size__text--regular;
     }
 
-    @include breakpoint($breakpoint-tablet) {
+    @include breakpoint($breakpoint-tablet--large) {
       font-size: $font-size__text--small;
     }
 

@@ -14,7 +14,7 @@
 
       <div class="service">
         <div class="row">
-          <div class="col-12 col-md-6 col-xxl-4 mb-4 mb-md-5">
+          <div class="col-12 col-md-6 col-xxl-4 mb-4 mb-md-3 mb-5">
             <div class="service__card service-card">
               <div class="service-card__container">
                 <h3 class="service-card__title">
@@ -59,7 +59,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div class="col-12 col-md-6 col-xxl-8 mb-4 mb-md-5">
+          <div class="col-12 col-md-6 col-xxl-8 mb-4 mb-md-3 mb-5">
             <div class="service__card service-card service-card--big">
               <div class="service-card__container">
                 <h3 class="service-card__title">
@@ -104,7 +104,7 @@
           </div>
           <!-- /.col-8 -->
 
-          <div class="col-12 col-md-6 col-xxl-4 mb-4 mb-md-5">
+          <div class="col-12 col-md-6 col-xxl-4 mb-4 mb-md-3 mb-5">
             <div class="service__card service-card">
               <div class="service-card__container">
                 <h3 class="service-card__title">
@@ -148,7 +148,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div class="col-12 col-md-6 col-xxl-4 mb-4 mb-md-5">
+          <div class="col-12 col-md-6 col-xxl-4 mb-4 mb-md-3 mb-5">
             <div class="service__card service-card">
               <div class="service-card__container">
                 <h3 class="service-card__title">
@@ -186,7 +186,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div class="col-12 col-md-6 col-xxl-4 mb-4 mb-md-5">
+          <div class="col-12 col-md-6 col-xxl-4 mb-4 mb-md-3 mb-5">
             <div class="service__card service-card">
               <div class="service-card__container">
                 <h3 class="service-card__title">
@@ -226,7 +226,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div class="col-12 col-md-6 col-xxl-4 mb-4 mb-md-0">
+          <div class="col-12 col-md-6 col-xxl-4 mb-4 mb-md-3 mb-lg-0">
             <div class="service__card service-card">
               <div class="service-card__container">
                 <h3 class="service-card__title">

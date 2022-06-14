@@ -1,3 +1,11 @@
 @import "jobs";
 @import "item";
 @import "callback";
+
+main#jobs {
+  .callback .section__title {
+    br {
+      display: initial !important;
+    }
+  }
+}

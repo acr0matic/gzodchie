@@ -1,4 +1,8 @@
 .info-item {
+  @include breakpoint($breakpoint-tablet--large) {
+    margin-bottom: 56px;
+  }
+
   @include breakpoint($breakpoint-mobile--large) {
     margin-bottom: 24px;
 

@@ -87,7 +87,7 @@
         <!-- /.section__header -->
 
         <div class="row justify-content-center">
-          <div class="col-12 col-md-5 col-xxl-4">
+          <div class="col-12 col-sm-8 col-lg-5 col-xxl-4">
             <form action="test.php" class="callback__form form form-job">
               <div class="input mb-4">
                 <input autocomplete="off" type="text" name="user_name" class="input__field">

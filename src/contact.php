@@ -16,7 +16,7 @@
         <!-- /.section__header -->
 
         <div class="row">
-          <div class="col-12 col-md-6 col-xxl-5 mb-5 mb-sm-4 mb-md-0">
+          <div class="col-12 col-lg-6 col-xxl-5 mb-5 mb-sm-4 mb-lg-0">
             <form action="" class="callback__form form">
               <div class="input mb-3">
                 <input autocomplete="off" type="text" name="user_name" class="input__field">
@@ -68,7 +68,7 @@
           </div>
           <!-- /.col-5 -->
 
-          <div class="col-12 col-md-6 col-xxl-6 offset-xxl-1">
+          <div class="col-12 col-lg-6 col-xxl-6 offset-xxl-1">
             <div class="callback__info">
               <div class="callback__map lazy">
                 <iframe class="lazy__item" data-src="https://yandex.ru/map-widget/v1/?um=constructor%3A668a80595052ad79ecf555a5894c8f9cf6389fd3cadf9441bfb1cad9e4b94776&amp;source=constructor" width="100%" height="450" frameborder="0"></iframe>

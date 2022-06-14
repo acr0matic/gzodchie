@@ -26,6 +26,10 @@
   }
 
   &__title {
+    @include breakpoint($breakpoint-tablet--large) {
+      font-size: $font-size__display--small;
+    }
+
     @include breakpoint($breakpoint-tablet) {
       font-size: $font-size__title--small;
     }
@@ -37,8 +41,11 @@
   }
 
   &__geo {
-    @include breakpoint($breakpoint-tablet) {
+    @include breakpoint($breakpoint-tablet--large) {
       font-size: $font-size__text--regular;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
       text-align: left;
     }
 
@@ -55,9 +62,12 @@
   }
 
   &__description {
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-bottom: 32px;
+    }
+
     @include breakpoint($breakpoint-tablet) {
       width: 100%;
-      margin-bottom: 32px;
     }
 
     width: 726px;
@@ -67,10 +77,8 @@
 
   &__action .button {
     @include breakpoint($breakpoint-tablet) {
-      display: block;
       width: 100%;
       max-width: 360px;
-      margin: 0 auto;
     }
   }
 }

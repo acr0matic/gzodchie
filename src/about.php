@@ -81,7 +81,7 @@
     <div class="container">
       <div class="team">
         <div class="row">
-          <div class="col-12 col-md-9 offset-md-3">
+          <div class="col-12 col-lg-9 offset-lg-3">
             <div class="section__header">
               <h2 class="section__title">Команда</h2>
               <p class="section__text">
@@ -101,7 +101,7 @@
         <!-- /.row -->
 
         <div class="row">
-          <div class="col-12 col-sm-6 col-md-4 col-xxl-3 mb-4">
+          <div class="col-12 col-sm-6 col-lg-4 col-xxl-3 mb-4">
             <div class="team__item team-item">
               <div class="team-item__container">
                 <picture class="team-item__picture lazy">
@@ -149,7 +149,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-12 col-sm-6 col-md-4 col-xxl-3 mb-4">
+          <div class="col-12 col-sm-6 col-lg-4 col-xxl-3 mb-4">
             <div class="team__item team-item">
               <div class="team-item__container">
                 <picture class="team-item__picture lazy">
@@ -197,7 +197,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-12 col-sm-6 col-md-4 col-xxl-3 mb-4">
+          <div class="col-12 col-sm-6 col-lg-4 col-xxl-3 mb-4">
             <div class="team__item team-item">
               <div class="team-item__container">
                 <picture class="team-item__picture lazy">
@@ -239,7 +239,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-12 col-sm-6 col-md-4 col-xxl-3 mb-4">
+          <div class="col-12 col-sm-6 col-lg-4 col-xxl-3 mb-4">
             <div class="team__item team-item">
               <div class="team-item__container">
                 <picture class="team-item__picture lazy">
