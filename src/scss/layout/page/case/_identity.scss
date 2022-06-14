@@ -1,5 +1,13 @@
 section#identity {
   .section__header {
+    @include breakpoint($breakpoint-tablet--large) {
+      margin-bottom: 56px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 16px;
+    }
+
     margin-bottom: 72px;
   }
 }
@@ -11,6 +19,10 @@ section#identity {
   }
 
   &__picture {
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 40px;
+    }
+
     align-self: center;
     width: 162px;
     height: 162px;
@@ -21,6 +33,10 @@ section#identity {
   }
 
   &__title {
+    @include breakpoint($breakpoint-tablet) {
+      margin-bottom: 16px;
+    }
+
     margin-bottom: 8px;
     color: $color-text__blue;
     font-size: $font-size__text--large;

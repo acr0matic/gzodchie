@@ -882,7 +882,7 @@
   </section>
 
   <section id="solution" class="section">
-    <div class="container">
+    <div class="container pt-5 pt-md-0">
       <div class="row justify-content-center mt-4 mt-md-0">
         <div class="col-12 col-lg-10 col-xl-8 col-xxl-6">
           <div class="section__header text-md-center">

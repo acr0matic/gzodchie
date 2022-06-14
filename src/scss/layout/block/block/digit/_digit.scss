@@ -19,6 +19,8 @@
     @include breakpoint($breakpoint-tablet) {
       margin-bottom: 8px;
       font-size: $font-size__title--big;
+
+      line-height: $line-height--secondary;
     }
 
     margin-bottom: 12px;

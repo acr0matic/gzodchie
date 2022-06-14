@@ -1,4 +1,8 @@
 section#solution {
+  @include breakpoint($breakpoint-tablet) {
+    padding-top: 42px;
+  }
+
   overflow: hidden;
   padding-top: 96px;
 }

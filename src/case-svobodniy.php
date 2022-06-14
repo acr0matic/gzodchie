@@ -54,11 +54,11 @@
     <!-- /.container -->
   </section>
 
-  <section id="textblock" class="section pt-0">
+  <section id="textblock" class="section pt-0 pt-sm-5 mt-0 mt-sm-3">
     <div class="container">
       <div class="textblock">
         <div class="row align-items-start">
-          <div class="col-6 sticky">
+          <div class="col-12 col-md-6 mb-4 mb-md-0 sticky">
             <a href="img/layout/page/case/svobodniy/textblock/1.jpg" data-gallery="textblock-1" class="glightbox">
               <picture class="project__picture lazy">
                 <img data-src="img/layout/page/case/svobodniy/textblock/preview/1.jpg" src="img/layout/page/case/svobodniy/textblock/thumb/1.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -69,7 +69,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-6">
+          <div class="col-12 col-md-6">
             <h2 class="textblock__title section__title section__title--small">
               Ситуационный план рассматриваемой территории
             </h2>
@@ -112,8 +112,8 @@
   <section id="textblock" class="section">
     <div class="container">
       <div class="textblock">
-        <div class="row flex-row-reverse align-items-start">
-          <div class="col-6 sticky">
+        <div class="row flex-md-row-reverse align-items-start">
+          <div class="col-12 col-md-6 mb-4 mb-md-0 sticky">
             <a href="img/layout/page/case/svobodniy/textblock/2.jpg" data-gallery="textblock-1" class="glightbox">
               <picture class="project__picture lazy">
                 <img data-src="img/layout/page/case/svobodniy/textblock/preview/2.jpg" src="img/layout/page/case/svobodniy/textblock/thumb/2.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -124,7 +124,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-6">
+          <div class="col-12 col-md-6">
             <h2 class="textblock__title section__title section__title--small">
               Ландшафтно-визуальный анализ территории
             </h2>
@@ -156,10 +156,10 @@
     <!-- /.container -->
   </section>
 
-  <section id="research" class="section mt-5">
+  <section id="research" class="section mt-0 mt-md-5">
     <div class="container">
       <div class="row">
-        <div class="col-7 col-xxl-6 offset-xxl-1">
+        <div class="col-12 col-lg-7 col-xxl-6 offset-xxl-1">
           <div class="section__header mb-4">
             <h2 class="section__title section__title--small">
               Предпроектное исследование
@@ -177,8 +177,8 @@
       </div>
       <!-- /.row -->
 
-      <div class="row align-items-start">
-        <div class="col-6 offset-xxl-1 pe-5 sticky">
+      <div class="row align-items-start flex-column-reverse flex-md-row">
+        <div class="col-12 col-md-6 offset-xxl-1 pe-md-5 sticky">
           <a href="img/layout/page/case/svobodniy/research/1.jpg" data-gallery="research" class="glightbox">
             <picture class="project__picture lazy">
               <img data-src="img/layout/page/case/svobodniy/research/preview/1.jpg" src="img/layout/page/case/svobodniy/research/thumb/1.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -189,7 +189,7 @@
         </div>
         <!-- /.col-7 -->
 
-        <div class="col-6 col-xxl-5">
+        <div class="col-12 col-md-6 col-xxl-5 mb-4 mt-md-0">
           <div class="section__header mb-4">
             <h2 class="section__title section__title--small">
               Подтверждение востребованности проекта и выбора места
@@ -293,7 +293,7 @@
 
   <section id="identity" class="section">
     <div class="container">
-      <div class="section__header text-center">
+      <div class="section__header text-md-center">
         <h2 class="section__title section__title--small">
           Локальная идентичность города
         </h2>
@@ -302,7 +302,7 @@
 
       <div class="identity">
         <div class="row">
-          <div class="col-4">
+          <div class="col-12 col-lg-4 mb-4 mb-lg-0">
             <div class="identity__item">
               <picture class="identity__picture lazy">
                 <img data-src="img/layout/page/case/svobodniy/identity/1.png" src="img/layout/page/case/svobodniy/identity/1.png" alt="" class="identity__picture image image--cover lazy__item">
@@ -333,7 +333,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div class="col-4">
+          <div class="col-12 col-lg-4 mb-4 mb-lg-0">
             <div class="identity__item">
               <picture class="identity__picture lazy">
                 <img data-src="img/layout/page/case/svobodniy/identity/2.png" src="img/layout/page/case/svobodniy/identity/2.png" alt="" class="identity__picture image image--cover lazy__item">
@@ -364,7 +364,7 @@
           </div>
           <!-- /.col-4 -->
 
-          <div class="col-4">
+          <div class="col-12 col-lg-4">
             <div class="identity__item">
               <picture class="identity__picture lazy">
                 <img data-src="img/layout/page/case/svobodniy/identity/3.png" src="img/layout/page/case/svobodniy/identity/3.png" alt="" class="identity__picture image image--cover lazy__item">
@@ -396,13 +396,13 @@
   <section id="involvement" class="section">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-10 col-xl-8 col-xxl-6">
-          <div class="section__header text-center">
+        <div class="col-12 col-lg-10 col-xl-8 col-xxl-6">
+          <div class="section__header text-lg-center">
             <h2 class="section__title section__title--small">
               Вовлечение жителей
             </h2>
 
-            <p class="section__text mb-5">
+            <p class="section__text mb-4 mb-lg-5">
               Важной составляющей разработки конкурсной заявки стало участие жителей города в создании проекта. Для обеспечения качественного и разнообразного вовлечения приглашали жителей разных возрастов из разных целевых групп.
             </p>
           </div>
@@ -415,7 +415,7 @@
       <div class="involvement">
         <div class="swiper involvement__slider">
           <div class="row swiper-wrapper">
-            <div class="swiper-slide col-6 col-xxl-4">
+            <div class="swiper-slide col-12 col-sm-8 col-lg-6 col-xxl-4">
               <a class="glightbox" href="img/layout/page/case/svobodniy/involvement/1.jpg" data-gallery="involvement">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/involvement/1.jpg" src="img/layout/page/case/svobodniy/involvement/thumb/1.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -426,7 +426,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="swiper-slide col-6 col-xxl-4">
+            <div class="swiper-slide col-12 col-sm-8 col-lg-6 col-xxl-4">
               <a class="glightbox" href="img/layout/page/case/svobodniy/involvement/2.jpg" data-gallery="involvement">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/involvement/2.jpg" src="img/layout/page/case/svobodniy/involvement/thumb/2.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -437,7 +437,7 @@
             </div>
             <!-- /.col-4 -->
 
-            <div class="swiper-slide col-6 col-xxl-4">
+            <div class="swiper-slide col-12 col-sm-8 col-lg-6 col-xxl-4">
               <a class="glightbox" href="img/layout/page/case/svobodniy/involvement/3.jpg" data-gallery="involvement">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/involvement/3.jpg" src="img/layout/page/case/svobodniy/involvement/thumb/3.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -454,14 +454,14 @@
 
         <div class="row justify-content-center">
           <div class="col-6 col-xxl-4">
-            <p class="section__text mb-5 mt-5">
+            <p class="section__text mb-3 mb-md-4 mb-lg-5 mt-4 mt-lg-5">
               За время проведения этапов соучаствующего проектирования организовали 13 мероприятий разных форматов: ZOOM-встречи, голосования в Google Формах, глубинные интервью, очные проектные семинары, фокус-группы.
             </p>
           </div>
           <!-- /.col-4 -->
 
           <div class="col-6 col-xxl-4">
-            <p class="section__text mb-5 mt-5">
+            <p class="section__text mb-3 mb-md-4 mb-lg-5 mt-4 mt-lg-5">
               В своей работе мы не только прислушивались к идеям горожан, но и тестировали идеи архитекторов, благодаря чему проект получил ряд важных правок в режиме реального времени
             </p>
           </div>
@@ -470,8 +470,8 @@
         <!-- /.row -->
 
         <div class="swiper involvement__slider">
-          <div class="swiper-container row justify-content-center">
-            <div class="swiper-slide col-6 col-xxl-5">
+          <div class="swiper-wrapper row justify-content-lg-center">
+            <div class="swiper-slide col-12 col-sm-8 col-lg-6 col-xxl-5">
               <a class="glightbox" href="img/layout/page/case/svobodniy/involvement/4.jpg" data-gallery="involvement">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/involvement/4.jpg" src="img/layout/page/case/svobodniy/involvement/thumb/4.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -482,7 +482,7 @@
             </div>
             <!-- /.col-5 -->
 
-            <div class="swiper-slide col-6 col-xxl-5">
+            <div class="swiper-slide col-12 col-sm-8 col-lg-6 col-xxl-5">
               <a class="glightbox" href="img/layout/page/case/svobodniy/involvement/5.jpg" data-gallery="involvement">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/involvement/5.jpg" src="img/layout/page/case/svobodniy/involvement/thumb/5.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -549,7 +549,7 @@
   <section id="review" class="section">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-10 col-xxl-6">
+        <div class="col-12 col-lg-10 col-xxl-6">
           <div class="section__header">
             <h2 class="section__title section__title--small">
               Известные блогеры о проекте
@@ -572,7 +572,7 @@
 
       <div class="review">
         <div class="row justify-content-center">
-          <div class="col-3">
+          <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
             <div class="review__item">
               <img src="img/layout/page/case/svobodniy/review/1.jpg" alt="" class="review__avatar">
               <a href="https://www.youtube.com/channel/UCrBrH2HVtIA6-kk42E5m7yw" target="_blank" class="review__name link link--blue">Павел Гнилорыбов</a>
@@ -582,7 +582,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-3">
+          <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
             <div class="review__item">
               <img src="img/layout/page/case/svobodniy/review/2.jpg" alt="" class="review__avatar">
               <a href="https://urbanblog.ru/761634.html" target="_blank" class="review__name link link--blue">Аркадий Гершман</a>
@@ -592,7 +592,7 @@
           </div>
           <!-- /.col-3 -->
 
-          <div class="col-3">
+          <div class="col-12 col-md-4 col-lg-3">
             <div class="review__item">
               <img src="img/layout/page/case/svobodniy/review/3.jpg" alt="" class="review__avatar">
               <a href="https://zen.yandex.ru/media/moscowwalks/ne-moskvoi-edinoi-60a4f13fc76c0b76358b0512" target="_blank" class="review__name link link--blue">Александр Усольцев</a>
@@ -605,7 +605,7 @@
         <!-- /.row -->
 
         <div class="row justify-content-center">
-          <div class="col-10">
+          <div class="col-12 col-lg-10">
             <div class="review__video lazy">
               <iframe class="lazy__item" width="100%" height="100%" data-src="https://www.youtube.com/embed/o9zDfBLmI8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               <img src="img/misc/preloader.svg" alt="" class="preloader">
@@ -624,13 +624,13 @@
   <section id="concept" class="section">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-8 col-xxl-6">
-          <div class="section__header text-center">
+        <div class="col-12 col-lg-8 col-xxl-6">
+          <div class="section__header text-lg-center">
             <h2 class="section__title section__title--small">
               Концепция
             </h2>
 
-            <p class="section__text mb-5">
+            <p class="section__text mb-0 mb-lg-5">
               Чтобы обновленный парк города отвечал потребностям жителей, мы определили ключевые особенности и создали принципы проектирования
             </p>
           </div>
@@ -642,7 +642,7 @@
 
       <div class="concept">
         <div class="row">
-          <div class="col-6 col-xxl-4 mb-5">
+          <div class="col-12 col-md-6 col-xxl-4 mb-5">
             <div class="concept__item">
               <picture class="concept__picture lazy">
                 <img data-src="img/layout/page/case/svobodniy/concept/1.jpg" src="img/layout/page/case/svobodniy/concept/thumb/1.jpg" alt="" class="concept__image image image--cover lazy__item">
@@ -657,7 +657,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-6 col-xxl-4 mb-5">
+          <div class="col-12 col-md-6 col-xxl-4 mb-5">
             <div class="concept__item">
               <picture class="concept__picture lazy">
                 <img data-src="img/layout/page/case/svobodniy/concept/2.jpg" src="img/layout/page/case/svobodniy/concept/thumb/2.jpg" alt="" class="concept__image image image--cover lazy__item">
@@ -672,7 +672,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-6 col-xxl-4 mb-5">
+          <div class="col-12 col-md-6 col-xxl-4 mb-5">
             <div class="concept__item">
               <picture class="concept__picture lazy">
                 <img data-src="img/layout/page/case/svobodniy/concept/3.jpg" src="img/layout/page/case/svobodniy/concept/thumb/3.jpg" alt="" class="concept__image image image--cover lazy__item">
@@ -687,7 +687,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-6 col-xxl-4">
+          <div class="col-12 col-md-6 col-xxl-4 mb-5 mb-md-0">
             <div class="concept__item">
               <picture class="concept__picture lazy">
                 <img data-src="img/layout/page/case/svobodniy/concept/4.jpg" src="img/layout/page/case/svobodniy/concept/thumb/4.jpg" alt="" class="concept__image image image--cover lazy__item">
@@ -702,7 +702,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-6 col-xxl-4">
+          <div class="col-12 col-md-6 col-xxl-4 mb-5 mb-md-0">
             <div class="concept__item">
               <picture class="concept__picture lazy">
                 <img data-src="img/layout/page/case/svobodniy/concept/5.jpg" src="img/layout/page/case/svobodniy/concept/thumb/5.jpg" alt="" class="concept__image image image--cover lazy__item">
@@ -717,7 +717,7 @@
           </div>
           <!-- /.col-6 -->
 
-          <div class="col-6 col-xxl-4">
+          <div class="col-12 col-md-6 col-xxl-4">
             <div class="concept__item">
               <picture class="concept__picture lazy">
                 <img data-src="img/layout/page/case/svobodniy/concept/6.jpg" src="img/layout/page/case/svobodniy/concept/thumb/6.jpg" alt="" class="concept__image image image--cover lazy__item">
@@ -742,8 +742,8 @@
   <section id="usage" class="section">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-10 col-xl-6 col-xxl-5">
-          <div class="section__header text-center">
+        <div class="col-12 col-lg-10 col-xl-6 col-xxl-5">
+          <div class="section__header text-lg-center">
             <h2 class="section__title section__title--small">
               Всесезонное использование
             </h2>
@@ -759,7 +759,7 @@
       <!-- /.row -->
 
       <div class="row align-items-start">
-        <div class="col-8">
+        <div class="col-12 col-lg-8 mb-5 mb-lg-0 pb-5 pb-lg-0">
           <div class="usage__wrapper">
             <a class="glightbox" href="img/layout/page/case/svobodniy/usage/1.jpg" data-gallery="usage-1">
               <picture class="lazy">
@@ -800,7 +800,7 @@
         </div>
         <!-- /.col-8 -->
 
-        <div class="col-4 sticky">
+        <div class="col-12 col-lg-4 sticky">
           <div class="usage__wrapper usage__wrapper--table">
             <div class="usage__table">
               <div class="usage__help">
@@ -928,8 +928,8 @@
   <section id="solution" class="section">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-10 col-xl-8 col-xxl-6">
-          <div class="section__header text-center">
+        <div class="col-12 col-lg-10 col-xl-8 col-xxl-6">
+          <div class="section__header text-lg-center">
             <h2 class="section__title section__title--small">
               Архитектурные решения
             </h2>
@@ -947,7 +947,7 @@
       <div class="solution">
         <div class="swiper solution__slider">
           <div class="swiper-wrapper row">
-            <div class="swiper-slide col-4 col-xxl-3 mb-5">
+            <div class="swiper-slide col-12 col-sm-6 col-md-5 col-lg-4 col-xxl-3 mb-lg-5">
               <a href="img/layout/page/case/svobodniy/solution/1.jpg" data-gallery="solution" class="glightbox">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/solution/preview/1.jpg" src="img/layout/page/case/svobodniy/solution/thumb/1.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -962,7 +962,7 @@
             </div>
             <!-- /.col-4 col-xxl-3 -->
 
-            <div class="swiper-slide col-4 col-xxl-3 mb-5">
+            <div class="swiper-slide col-12 col-sm-6 col-md-5 col-lg-4 col-xxl-3 mb-lg-5">
               <a href="img/layout/page/case/svobodniy/solution/2.jpg" data-gallery="solution" class="glightbox">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/solution/preview/2.jpg" src="img/layout/page/case/svobodniy/solution/thumb/2.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -977,7 +977,7 @@
             </div>
             <!-- /.col-4 col-xxl-3 -->
 
-            <div class="swiper-slide col-4 col-xxl-3 mb-5">
+            <div class="swiper-slide col-12 col-sm-6 col-md-5 col-lg-4 col-xxl-3 mb-lg-5">
               <a href="img/layout/page/case/svobodniy/solution/3.jpg" data-gallery="solution" class="glightbox">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/solution/preview/3.jpg" src="img/layout/page/case/svobodniy/solution/thumb/3.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -992,7 +992,7 @@
             </div>
             <!-- /.col-4 col-xxl-3 -->
 
-            <div class="swiper-slide col-4 col-xxl-3 mb-5">
+            <div class="swiper-slide col-12 col-sm-6 col-md-5 col-lg-4 col-xxl-3 mb-lg-5">
               <a href="img/layout/page/case/svobodniy/solution/4.jpg" data-gallery="solution" class="glightbox">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/solution/preview/4.jpg" src="img/layout/page/case/svobodniy/solution/thumb/4.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -1007,7 +1007,7 @@
             </div>
             <!-- /.col-4 col-xxl-3 -->
 
-            <div class="swiper-slide col-4 col-xxl-3">
+            <div class="swiper-slide col-12 col-sm-6 col-md-5 col-lg-4 col-xxl-3">
               <a href="img/layout/page/case/svobodniy/solution/5.jpg" data-gallery="solution" class="glightbox">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/solution/preview/5.jpg" src="img/layout/page/case/svobodniy/solution/thumb/5.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -1018,7 +1018,7 @@
             </div>
             <!-- /.col-4 col-xxl-3 -->
 
-            <div class="swiper-slide col-4 col-xxl-3">
+            <div class="swiper-slide col-12 col-sm-6 col-md-5 col-lg-4 col-xxl-3">
               <a href="img/layout/page/case/svobodniy/solution/6.jpg" data-gallery="solution" class="glightbox">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/solution/preview/6.jpg" src="img/layout/page/case/svobodniy/solution/thumb/6.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -1029,7 +1029,7 @@
             </div>
             <!-- /.col-4 col-xxl-3 -->
 
-            <div class="swiper-slide col-4 col-xxl-3">
+            <div class="swiper-slide col-12 col-sm-6 col-md-5 col-lg-4 col-xxl-3">
               <a href="img/layout/page/case/svobodniy/solution/7.jpg" data-gallery="solution" class="glightbox">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/solution/preview/7.jpg" src="img/layout/page/case/svobodniy/solution/thumb/7.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -1042,7 +1042,7 @@
             </div>
             <!-- /.col-4 col-xxl-3 -->
 
-            <div class="swiper-slide col-4 col-xxl-3">
+            <div class="swiper-slide col-12 col-sm-6 col-md-5 col-lg-4 col-xxl-3">
               <a href="img/layout/page/case/svobodniy/solution/8.jpg" data-gallery="solution" class="glightbox">
                 <picture class="project__picture lazy">
                   <img data-src="img/layout/page/case/svobodniy/solution/preview/8.jpg" src="img/layout/page/case/svobodniy/solution/thumb/8.jpg" alt="" class="project__image image image--cover lazy__item">
@@ -1065,7 +1065,7 @@
   <section id="visualization" class="section">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-8">
+        <div class="col-12 col-lg-8">
           <div class="section__header">
             <h2 class="section__title section__title--small">
               Визуализации
@@ -1153,7 +1153,7 @@
   <section id="result" class="section">
     <div class="container">
       <div class="row">
-        <div class="col-8 col-xxl-6 offset-xxl-1">
+        <div class="col-12 col-lg-8 col-xxl-6 offset-xxl-1">
           <div class="section__header">
             <h2 class="section__title section__title--small">
               Результаты
@@ -1170,7 +1170,7 @@
       <!-- /.row -->
 
       <div class="row">
-        <div class="col-4 offset-xxl-1 mb-5">
+        <div class="col-12 col-lg-4 offset-xxl-1 mb-4 mb-lg-5">
           <div class="digit">
             <div data-value="7.49" data-decimal="1" data-suffix=" Га" class="digit__number">0</div>
             <p class="digit__text">
@@ -1181,7 +1181,7 @@
         </div>
         <!-- /.col-4 -->
 
-        <div class="col-8 col-xxl-7 mb-5">
+        <div class="col-12 col-lg-8 col-xxl-7 mb-4 mb-lg-5">
           <div class="digit">
             <div data-value="90" data-suffix=" млн руб." class="digit__number">0</div>
             <p class="digit__text">
@@ -1192,7 +1192,7 @@
         </div>
         <!-- /.col-7 -->
 
-        <div class="col-4 offset-xxl-1 mb-5">
+        <div class="col-12 col-lg-4 offset-xxl-1 mb-4 mb-lg-5">
           <div class="digit">
             <div data-value="4064" class="digit__number">0</div>
             <p class="digit__text">
@@ -1203,7 +1203,7 @@
         </div>
         <!-- /.col-4 -->
 
-        <div class="col-8 col-xxl-7 mb-5">
+        <div class="col-12 col-lg-8 col-xxl-7 mb-4 mb-lg-5">
           <div class="digit">
             <div data-value="47" data-prefix="На " data-suffix="%" class="digit__number">0</div>
             <p class="digit__text">
@@ -1216,7 +1216,7 @@
         </div>
         <!-- /.col-7 -->
 
-        <div class="col-8 col-xxl-7 offset-xxl-1">
+        <div class="col-12 col-lg-8 col-xxl-7 offset-xxl-1">
           <div class="digit">
             <div data-value="10" data-suffix=" рабочих места" class="digit__number">0</div>
             <p class="digit__text">
@@ -1231,8 +1231,8 @@
 
       <div class="result">
         <div class="row justify-content-center">
-          <div class="col-8 col-xxl-6">
-            <img src="img/layout/page/case/svobodniy/result/picture.svg" class="mb-5 mx-auto" alt="">
+          <div class="col-12 col-md-10 col-lg-8 col-xxl-6">
+            <img src="img/layout/page/case/svobodniy/result/picture.svg" class="mb-3 mb-md-5 mx-auto" alt="">
             <p class="section__text text-center">
               Проект стал победителем Всероссийского конкурса лучших проектов создания комфортной городской среды в номинации «Малые города с численностью населения
               <br>

@@ -36,7 +36,7 @@ main#project {
   }
 
   .section__text {
-    @include breakpoint($breakpoint-mobile--large) {
+    @include breakpoint($breakpoint-tablet--large) {
       font-size: $font-size__text--regular;
     }
 

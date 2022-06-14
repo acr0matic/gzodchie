@@ -23,6 +23,10 @@
 }
 
 .sticky {
+  @include breakpoint($breakpoint-tablet) {
+    position: static;
+  }
+
   position: sticky;
   top: 105px;
 }

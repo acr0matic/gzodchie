@@ -45,6 +45,10 @@ section#usage {
     transform: translateX(-50%);
 
     &--bottom {
+      @include breakpoint($breakpoint-tablet) {
+        bottom: -60px;
+      }
+
       bottom: -30px;
     }
   }

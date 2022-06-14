@@ -1,4 +1,11 @@
 section#review {
+  .section__text {
+    @include breakpoint($breakpoint-tablet) {
+      br {
+        display: initial;
+      }
+    }
+  }
 }
 
 .review {
@@ -12,7 +19,28 @@ section#review {
     margin-bottom: 16px;
   }
 
+  &__description {
+    text-align: center;
+  }
+
   &__video {
+    @include breakpoint($breakpoint-laptop--medium) {
+      height: 480px;
+    }
+
+    @include breakpoint($breakpoint-tablet--large) {
+      height: 360px;
+    }
+
+    @include breakpoint($breakpoint-tablet) {
+      height: 300px;
+      margin-top: 40px;
+    }
+
+    // @include breakpoint($breakpoint-mobile--large) {
+    //   height: ;
+    // }
+
     height: 600px;
     margin-top: 80px;
     background-color: $palette-white--pale;

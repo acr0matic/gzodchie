@@ -1,5 +1,9 @@
 section#result {
   .result {
+    @include breakpoint($breakpoint-tablet) {
+      margin-top: 36px;
+    }
+
     margin-top: 96px;
   }
 }
