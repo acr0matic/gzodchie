@@ -15,11 +15,10 @@ section#partner {
   align-items: center;
   justify-content: center;
 
-  &__picture {
-    width: 320px;
+  &__slider {
+    width: 100%;
+  }
 
-    &:not(:last-child) {
-      margin-right: 65px;
-    }
+  &__picture {
   }
 }

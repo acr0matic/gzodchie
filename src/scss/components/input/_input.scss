@@ -11,6 +11,10 @@
 
   &--drop {
     .input__field {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
       padding: 0;
       border: 2px dashed #cfd2dd;
       background-color: transparent;

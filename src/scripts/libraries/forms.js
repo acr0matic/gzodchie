@@ -13,6 +13,8 @@ class Form {
     this.privacy = form.querySelector('.form__privacy input[type=checkbox]');
     this.submit = form.querySelector('button[type=submit]');
     this.fields = form.querySelectorAll('.input__field');
+    this.dropzone = null;
+
     this.required = form.querySelectorAll('[data-required]');
     this.error = form.querySelector('.form__error');
 
@@ -43,14 +45,20 @@ class Form {
     }
 
     if (this.file) {
-      const dropzone = new Dropzone(this.file, {
+      this.dropzone = new Dropzone(this.file, {
         url: this.action,
+        method: 'put',
         addRemoveLinks: true,
+
         dictDefaultMessage: "Перетащите резюме сюда <br> или нажмите, чтобы добавить",
         dictCancelUpload: 'Отменить',
         dictRemoveFile: 'Удалить',
-        uploadMultiple: true,
+        dictMaxFilesExceeded: 'Превышен лимит',
+
+        uploadMultiple: false,
         paramName: 'resume',
+        maxFiles: 1,
+        maxFilesize: 8192,
       });
     }
   }
@@ -194,9 +202,11 @@ class Form {
     if (additional) data.append('additional', additional);
     if (subject) data.append('subject', subject);
 
-    for (var pair of data.entries()) {
-      console.log(pair[0] + ', ' + pair[1]);
-    }
+    if (this.dropzone) this.dropzone.files.forEach(file => data.append('resume[]', file));
+
+    // for (var pair of data.entries()) {
+    //   console.log(pair[0] + ', ' + pair[1]);
+    // }
 
     try {
       let response = await fetch(this.action, {
@@ -207,7 +217,7 @@ class Form {
       if (response.ok) {
         if (this.redirect) window.location.href = this.redirect;
 
-        if (currentModal) MicroModal.close(currentModal);
+        if (currentModal) MicroModal.close(currentModal, modalParams);
         MicroModal.show('modal-success', modalParams);
 
         setTimeout(() => {
@@ -240,5 +250,7 @@ class Form {
       field.value = '';
       field.parentNode.classList.remove('input--focus');
     });
+
+    if (this.dropzone) this.dropzone.removeAllFiles();
   }
 }
