@@ -273,7 +273,7 @@
       <div class="partner">
         <div class="swiper partner__slider">
           <div class="swiper-wrapper row justify-content-center">
-            <div class="swiper-slide col-3">
+            <div class="swiper-slide col-6 col-md-3">
               <div class="partner__picture">
                 <img class="partner__image image image--contain" src="img/layout/page/index/partner/sibur.jpg" alt="">
               </div>
@@ -281,7 +281,7 @@
             </div>
             <!-- /.swiper-slide -->
 
-            <div class="swiper-slide col-3">
+            <div class="swiper-slide col-6 col-md-3">
               <div class="partner__picture">
                 <img class="partner__image image image--contain" src="img/layout/page/index/partner/gorin.jpg" alt="">
               </div>

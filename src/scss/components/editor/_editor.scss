@@ -5,6 +5,10 @@
     }
   }
 
+  img {
+    display: inline-block;
+  }
+
   h2,
   h3 {
     line-height: $line-height--secondary;
