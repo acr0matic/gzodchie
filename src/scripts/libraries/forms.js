@@ -50,14 +50,14 @@ class Form {
         method: 'put',
         addRemoveLinks: true,
 
-        dictDefaultMessage: "Перетащите резюме сюда <br> или нажмите, чтобы добавить",
+        dictDefaultMessage: "Перетащите сюда резюме, портфолио и <br> другие файлы, либо нажмите, чтобы добавить",
         dictCancelUpload: 'Отменить',
         dictRemoveFile: 'Удалить',
         dictMaxFilesExceeded: 'Превышен лимит',
 
-        uploadMultiple: false,
+        uploadMultiple: true,
         paramName: 'resume',
-        maxFiles: 1,
+        maxFiles: 3,
         maxFilesize: 8192,
       });
     }
